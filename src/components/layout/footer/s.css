@@ -1,0 +1,14 @@
+.footer{
+    border-top: solid 1px black;
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+}
+
+.footer div{
+    display: flex;
+}
+
+.footer div p{
+    margin-right: 2rem;
+}

@@ -1,0 +1,37 @@
+.navbar{
+    background-color: red;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.secciones{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+.secciones a{
+    text-decoration: none;
+    color: black;
+    margin: 2rem;
+}
+
+.secciones p{
+    display: flex;
+    align-items: center;
+}
+
+.logo{
+    width: 25%;
+    display: flex;
+    justify-content: center;
+}
+
+.redes{
+    width: 25%;
+    display: flex;
+    justify-content: center;
+}
+
