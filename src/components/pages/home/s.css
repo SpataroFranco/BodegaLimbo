@@ -1,0 +1,27 @@
+.container-home{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 50%;
+    margin: 0 8rem;
+}
+
+.contain{
+    display: flex;
+    width: 100%;
+    justify-content:space-between;
+}
+
+.contain-link{
+    background-color: brown;
+    width: 24rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contain-link a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}

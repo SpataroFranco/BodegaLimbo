@@ -1,0 +1,7 @@
+.hero{
+    background-color: blanchedalmond;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
