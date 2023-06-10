@@ -1,14 +1,24 @@
-.footer{
-    border-top: solid 1px black;
-    display: flex;
-    flex-direction: column;
-    padding: 2rem;
+.footer {
+  border-top: solid 1px black;
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
 }
 
-.footer div{
-    display: flex;
+.footer div {
+  display: flex;
 }
 
-.footer div p{
-    margin-right: 2rem;
+.footer div p {
+  margin-right: 2rem;
+}
+
+.logo-footer {
+  width: 12%;
+  display: flex;
+  justify-content: center;
+}
+
+.logo-whatsapp{
+    width: 2rem;
 }

@@ -1,5 +1,4 @@
 .navbar {
-  background-color: red;
   margin: 0;
   display: flex;
   justify-content: space-between;
@@ -27,7 +26,7 @@
 }
 
 .logo {
-  width: 25%;
+  width: 40%;
   display: flex;
   justify-content: center;
 }
@@ -36,4 +35,16 @@
   width: 25%;
   display: flex;
   justify-content: center;
+}
+
+.logo-img{
+  width: 18rem;
+}
+
+.logo-redes{
+  width: 2rem;
+}
+
+.active{
+  font-weight:bold;
 }

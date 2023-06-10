@@ -1,11 +1,17 @@
 import { Link } from "react-router-dom";
 import Hero from "../hero";
+import Carousel from "../carousel";
+import cava from "../../../assets/cava.jpg"
+import banner from "../../../assets/bannerLimbo.jpg"
+import finca from "../../../assets/finca.jpeg"
 import "./s.css";
 
 const Home = () => {
+
   return (
     <>
       <Hero />
+      {/* <Carousel/> */}
       <div className="container-home">
         <div>
           <h1>Sobre nosotros</h1>
