@@ -15,8 +15,11 @@ const Footer = () => {
         <p>000-000-000</p>
         <p>email@email.com</p>
       </div>
-      <div>
+      <div className="redesFooter">
+        <a href="" target="_blank">
         <img src={logoWhatsapp} alt="" className="logo-whatsapp" />
+        </a>
+        
         <img src={logoIg} alt="" className="logo-whatsapp" />
         <img src={logoFb} alt="" className="logo-whatsapp" />
       </div>
