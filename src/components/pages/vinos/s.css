@@ -1,0 +1,23 @@
+.contenedor{
+    max-width: 50%;
+    padding: 2rem;
+}
+
+.titulo{
+    text-align: start;
+}
+
+.texto{
+    text-align: start;
+}
+
+.subtitulo{
+    margin: 0;
+    padding: 0 2%;
+    font-size: 2rem;
+    
+}
+
+.contenedorVinos{
+    padding: 2rem;
+}

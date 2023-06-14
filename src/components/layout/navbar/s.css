@@ -1,8 +1,12 @@
 .navbar {
+  background-color: white;
   margin: 0;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  position: sticky;
+  top: 0;
+  z-index: 10;
 }
 .logo a {
   text-decoration: none;

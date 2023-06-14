@@ -7,6 +7,7 @@ import Contacto from "../pages/contacto";
 import Proyecto from "../pages/proyecto";
 import Viñedoybodega from "../pages/viñedoYbodega";
 import Sustentabilidad from "../pages/sustentabilidad";
+import ItemDetailContainer from "../pages/itemDetailContainer";
 
 const Router = () => {
     return (
@@ -17,6 +18,7 @@ const Router = () => {
           <Route path="/home/sustentabilidad" element={<Sustentabilidad/>}/>
           <Route path="/enoturismo" element={<Enoturismo />} />
           <Route path="/vinos" element={<Vinos />} />
+          <Route path="/vinos/vino/:Titulo" element={<ItemDetailContainer />} />
           <Route path="/ubicacion" element={<Ubicacion />} />
           <Route path="/contacto" element={<Contacto />} />
         </Routes>

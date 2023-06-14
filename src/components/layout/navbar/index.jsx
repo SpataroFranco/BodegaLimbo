@@ -5,7 +5,7 @@ import logo from "../../../assets/logo.jpg";
 import logoWhatsapp from "../../../assets/whatsapp.svg";
 
 const Navbar = () => {
-  const [activeLink, setActiveLink] = useState('');
+  const [activeLink, setActiveLink] = useState();
 
   const handleLinkClick = (link) => {
     setActiveLink(link);
