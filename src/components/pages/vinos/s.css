@@ -2,22 +2,18 @@
     max-width: 50%;
     padding: 2rem;
 }
-
-.titulo{
+.contenedor h1{
     text-align: start;
 }
-
-.texto{
+.contenedor p{
+    font-family: "Trade Gothic LT Std Light";
     text-align: start;
 }
-
-.subtitulo{
+h2{
     margin: 0;
     padding: 0 2%;
     font-size: 2rem;
-    
 }
-
 .contenedorVinos{
     padding: 2rem;
 }

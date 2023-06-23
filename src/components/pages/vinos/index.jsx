@@ -4,13 +4,12 @@ import "./s.css";
 import listaVinos from "../../../vinosDB/vinos.json";
 import listaVinosBotella from "../../../vinosDB/vinosBotella.json";
 
-
 const Vinos = () => {
   return (
     <div>
       <div className="contenedor">
-        <h1 className="titulo">Vinos</h1>
-        <p className="texto">
+        <h1>Vinos</h1>
+        <p>
           Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis
           earum maiores, ducimus animi eos officia. Fugit odit repudiandae,
           nihil placeat, sunt saepe, cupiditate illo voluptas quos ullam iste.
@@ -20,16 +19,16 @@ const Vinos = () => {
           recusandae laborum, ducimus accusantium delectus.
         </p>
       </div>
-      <h2 className="subtitulo">Limbo Reserva</h2>
+      <h2>Limbo Reserva</h2>
       <div className="contenedorVinos">
-        {listaVinos.map((vino)=>(
-          <ItemList key={vino.Titulo} vino={vino}/>
+        {listaVinos.map((vino) => (
+          <ItemList key={vino.Titulo} vino={vino} />
         ))}
       </div>
-      <h2 className="subtitulo">Limbo Crianza En Botella</h2>
+      <h2>Limbo Crianza En Botella</h2>
       <div className="contenedorVinos">
-        {listaVinosBotella.map((vino)=>(
-          <ItemListBotella key={vino.Titulo} vino={vino}/>
+        {listaVinosBotella.map((vino) => (
+          <ItemListBotella key={vino.Titulo} vino={vino} />
         ))}
       </div>
     </div>

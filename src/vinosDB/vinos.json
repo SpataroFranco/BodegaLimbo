@@ -8,7 +8,7 @@
         "PotencialDeGuarda": "Potencial de guarda 9 años, Puesto en botella en junio 2021, Partida limitada de 1.525 botellas",
         "Alc":"Alc.14,2 % v/v Sin clarificar ni filtrar. Puede presentar sedimentos naturales",
         "NotaDeCata":"Compartimos con Uds. este “Blend Reserva añada 2019”, nacido de uvas propias con condiciones insuperables en cuanto a sanidad, su esmerada vendimia, elaboración y crianza le han aportado grandes cualidades organolépticas. Se destaca la Malbec en la presentación y nariz junto a la Cabernet Sauvignon que aporta complejidad en un mix de frutos maduros con especias, en la boca se unen con la Petit Verdot que termina de redondear y aportar una gran estructura al vino. Sugerimos maridarlo con todo tipo de carnes grilladas, risottos, pastas rellenas acompañadas con salsas intensas, tablas de quesos curados, ahumados y charcutería. Potencial de guarda estimada 9 años.",
-        "img":"/vinos/_DSC1154_Corte Res_300dpi.png"
+        "img":"/vinos/corte-res300dpi.png"
     },
     {
         "Titulo":"VINO TINTO CABERNET SAUVIGNON RESERVA 2020",
@@ -19,7 +19,7 @@
         "PotencialDeGuarda": "Potencial de guarda 10 años, Puesto en botella en diciembre de 2022, Partida limitada de 1.520 botellas",
         "Alc":"Alc.15,1 % v/v Sin clarificar ni filtrar. Puede presentar sedimentos naturales",
         "NotaDeCata":"Color rojo rubí de intensidad media. En nariz aparecen pimientos maduros y mermelada de ciruelas. En boca es voluminoso con entrada dulce y de caudalía media. Este gran vino nacido en nuestros espalderos a metros de donde termina nuestro reconocido oasis Sur y comienza la inmensidad del campo virgen, es un fiel exponente de la variedad más conocida en el mundo, donde consigue desarrollar una gran concentración de color, aromas y sabores, fue criado en cascos de roble francés hasta lograr el tiempo de guarda que lo posiciona como reserva. Sugerimos maridarlo con preparaciones muy condimentadas, carnes asadas, ahumados y charcutería. Potencial de guarda: 10 años",
-        "img":"/vinos/_DSC1160_Cabernet Sauvignon Res_300dpi.png"
+        "img":"/vinos/cabernet-sauvignon-res300dpi.png"
     },
     {
         "Titulo":"VINO TINTO MALBEC RESERVA 2019",
@@ -30,7 +30,7 @@
         "PotencialDeGuarda": "Potencial de guarda 10 años, Puesto en botella en diciembre de 2022, Partida limitada de 1.690 botellas",
         "Alc":"14,2 % v/v Sin clarificar ni filtrar. Puede presentar sedimentos naturales",
         "NotaDeCata":"Este Malbec “crianza” expresa todas las bondades aportadas por el conjunto terroir /viñedo. Su color es muy atractivo e intenso en copa, luego en nariz nos cautiva con notas de mermeladas de ciruelas, humo, y algo de cassis dado a la altura y suelo de nuestra finca. En boca es amable destacando su gran estructura y taninos delicados que lo hacen un representante selecto de los Malbec Argentinos. Sugerimos maridarlo con tablas de quesos, frutos secos, fiambres y carnes grilladas",
-        "img":"/vinos/_DSC1164_Malbec Res 2019_300dpi.png"
+        "img":"/vinos/malbec-res2019-300dpi.png"
     },
     {
         "Titulo":"VINO TINTO PETIT VERDOT RESERVA 2018",
@@ -41,6 +41,6 @@
         "PotencialDeGuarda": "Potencial de guarda 8 años, Puesto en botella en Marzo de 2021, Partida limitada de 746 botellas",
         "Alc":"Alc.15,5 % v/v Sin clarificar ni filtrar. Puede presentar sedimentos naturales",
         "NotaDeCata":"Hemos trabajado mucho en la elección de los vinos del mismo varietal para presentarles a este excelente exponente de la Variedad gala. De color guinda profundo, nariz especiada con fondo de pasas y vainilla aportada por los cascos de nuestra sala de crianza acondicionada, de boca dura, taninos resistentes pero sabrosos y largo final de boca que nos recuerda a comidas de invierno. Sugerimos disfrutarlo acompañando preparaciones complejas como fondue de queso, migas españolas, carbonadas, guisos sazonados, quesos ahumados, de cabra u oveja. Tiempo de guarda estimada: 8 años + georreferencia",
-        "img":"/vinos/_DSC1149_Petit Verdot Res_300dpi.png"
+        "img":"/vinos/petit-verdot-res300dpi.png"
     }
 ]

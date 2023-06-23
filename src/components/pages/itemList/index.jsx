@@ -14,10 +14,10 @@ const ItemList = ({ vino }) => {
         <p>{vino.Alc}</p>
         <p>{vino.NotaDeCata}</p>
         <div className="boton">
-          <Link to={`/vinos/vino/${vino.Titulo}`}> Conocer Mas </Link>
+          <Link to={`/vinos/vino/${vino.Titulo}`}>Conocer más</Link>
         </div>
       </div>
-      <div className="img">
+      <div className="vinoImg">
         <img src={process.env.PUBLIC_URL + vino.img} alt={vino.Titulo} />
       </div>
     </div>

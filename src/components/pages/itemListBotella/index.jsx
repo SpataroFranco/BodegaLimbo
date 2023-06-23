@@ -4,7 +4,7 @@ import "./s.css";
 const ItemListBotella = ({ vino }) => {
   return (
     <div className="list">
-      <div className="img">
+      <div className="vinoImg">
         <img src={process.env.PUBLIC_URL + vino.img} alt={vino.Titulo} />
       </div>
       <div className="data">
@@ -18,7 +18,7 @@ const ItemListBotella = ({ vino }) => {
         <p>{vino.Alc}</p>
         <p>{vino.NotaDeCata}</p>
         <div className="boton">
-          <Link to={`/vino/${vino.Titulo}`}> Conocer Mas </Link>
+          <Link to={`/vino/${vino.Titulo}`}><button>Conocer más</button></Link>
         </div>
       </div>
     </div>

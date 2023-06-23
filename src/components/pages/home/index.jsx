@@ -1,8 +1,7 @@
 import { Link } from "react-router-dom";
-import Hero from "../hero";
 import Carousel from "../carousel";
 import cava from "../../../assets/cava.jpg"
-import banner from "../../../assets/bannerLimbo.jpg"
+import banner from "../../../assets/banner-limbo.jpg"
 import finca from "../../../assets/finca.jpeg"
 import "./s.css";
 
@@ -10,7 +9,9 @@ const Home = () => {
 
   return (
     <>
-      <Hero />
+      <div className="hero">
+        <img src={cava} alt="cava" />
+      </div>
       {/* <Carousel/> */}
       <div className="container-home">
         <div>
@@ -19,7 +20,7 @@ const Home = () => {
         <div className="contain">
           <div className="contain-link">
             <p>IMG</p>
-            <Link to="/home/proyecto"> El proyecto</Link>
+            <Link to="/home/proyecto">Proyecto</Link>
           </div>
           <div className="contain-link">
             <p>IMG</p>

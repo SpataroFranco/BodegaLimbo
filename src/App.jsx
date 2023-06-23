@@ -1,15 +1,15 @@
 import Layout from "./components/layout";
 import Router from "./components/routes";
-import "./app.css";
+import "./App.css";
 
 function App() {
   return (
     <div className="container">
       <Layout>
-        <Router/>
+        <Router />
       </Layout>
     </div>
   );
-}
+};
 
 export default App;

@@ -5,7 +5,6 @@ import "./s.css";
 
 const ItemDetailContainer = () => {
   const { Titulo } = useParams();
-
   const vinoEncontrado = listaVinos.find(vino => vino.Titulo === Titulo);
   //Buscar en los dos archivos el vino 
   //si esta en el archivo 1 return ese sino return al otro

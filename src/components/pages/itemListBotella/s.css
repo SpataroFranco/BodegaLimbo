@@ -2,7 +2,6 @@
     display: flex;
     width: 100%;
 }
-
 .data{
     max-width: 50%;
     display: flex;
@@ -11,14 +10,13 @@
 .data h1{
     padding: 0 2%;
 }
-.img{
+.vinoImg{
     max-width: 40%;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-
-.img img{
+.vinoImg img{
     width: 30%;
 }
 .boton{

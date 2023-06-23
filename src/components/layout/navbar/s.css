@@ -7,48 +7,42 @@
   position: sticky;
   top: 0;
   z-index: 10;
-}
-.logo a {
-  text-decoration: none;
-  color: black;
+  font-family: "Trade Gothic LT Std Light";
+  font-size: 1.1em;
 }
 .secciones {
   width: 50%;
   display: flex;
   justify-content: center;
 }
-
 .secciones a {
-  text-decoration: none;
-  color: black;
-  margin: 2rem;
+  margin: 2em;
+  width: max-content;
 }
-
+.secciones a:hover {
+  transform: scale(1.2, 1.2);
+}
 .secciones p {
   display: flex;
   align-items: center;
 }
-
 .logo {
   width: 40%;
   display: flex;
   justify-content: center;
 }
-
+.logo img {
+  width: 18rem;
+}
 .redes {
   width: 25%;
   display: flex;
   justify-content: center;
 }
-
-.logo-img{
-  width: 18rem;
-}
-
-.logo-redes{
+.redes img {
+  padding-left: 1.5em;
   width: 2rem;
 }
-
-.active{
-  font-weight:bold;
+.redes img:hover {
+  transform: scale(1.2, 1.2);
 }

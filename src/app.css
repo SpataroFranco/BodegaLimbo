@@ -1,3 +1,13 @@
+@import url("//db.onlinewebfonts.com/c/3f668921460e0feff1eb01deb0dd4c68?family=Trade+Gothic+LT+Std");
+@import url("//db.onlinewebfonts.com/c/48598fb3b511f4c4ec8058be4159d72b?family=Trade+Gothic+LT+Std+Light");
+body {
+  font-family: "Trade Gothic LT Std";
+  margin: 0 1em;
+}
+a {
+  color: black;
+  text-decoration: none;
+}
 /* .container {
     display: grid;
     grid-template-rows: 60px 1fr 60px;

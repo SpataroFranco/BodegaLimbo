@@ -1,7 +1,6 @@
 import "./s.css";
 
-const ItemDetail = ({vino}) => {
-
+const ItemDetail = ({ vino }) => {
   return (
     <div className="list">
       <h1>{vino.Titulo}</h1>

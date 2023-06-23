@@ -1,9 +1,9 @@
 const Viñedoybodega = () => {
-    return (
-      <div>
-        Viñedo y Bodega
-      </div>
-    );
-  };
-  
-  export default Viñedoybodega;
+  return (
+    <div>
+      Viñedo y Bodega
+    </div>
+  );
+};
+
+export default Viñedoybodega;

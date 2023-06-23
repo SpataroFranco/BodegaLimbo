@@ -9,7 +9,7 @@
     "EdadDelViñedo":"?",
     "FechaDeEmbotellado":"?",
     "Alc":"SIN CLARIFICAR Y SIN FILTRAR, PUEDE PRESENTAR SEDIMENTOS NATURALES",
-    "img":"/vinos/Corte_300dpi(1).png"
+    "img":"/vinos/corte300dpi.png"
  },
  {
     "Titulo":"VINO TINTO MALBEC 2020",
@@ -21,7 +21,7 @@
     "EdadDelViñedo":"?",
     "FechaDeEmbotellado":"?",
     "Alc":"SIN CLARIFICAR Y SIN FILTRAR, PUEDE PRESENTAR SEDIMENTOS NATURALES",
-    "img":"/vinos/Malbec_300dpi(1).png"
+    "img":"/vinos/malbec300dpi.png"
  },
  {
     "Titulo":"VINO TINTO CABERNET SAUVIGNON 2020",
@@ -33,6 +33,6 @@
     "EdadDelViñedo":"?",
     "FechaDeEmbotellado":"?",
     "Alc":"SIN CLARIFICAR Y SIN FILTRAR, PUEDE PRESENTAR SEDIMENTOS NATURALES",
-    "img":"/vinos/Cabernet Sauvignon_300dpi(1).png"
+    "img":"/vinos/cabernet-sauvignon300dpi.png"
  }
 ]

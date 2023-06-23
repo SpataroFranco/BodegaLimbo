@@ -1,10 +1,9 @@
 const Proyecto = () => {
-    return (
-      <div>
-        EL PROYECTO
-      </div>
-    );
-  };
-  
-  export default Proyecto;
-  
+  return (
+    <div>
+      Proyecto
+    </div>
+  );
+};
+
+export default Proyecto;
