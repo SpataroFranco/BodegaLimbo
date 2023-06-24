@@ -1,0 +1,14 @@
+.contenedor{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.mapa{
+    display: flex;
+    justify-content: center;
+}
+
+.mapa img{
+    width: 80%;
+}

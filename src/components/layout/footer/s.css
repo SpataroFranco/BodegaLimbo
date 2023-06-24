@@ -19,10 +19,10 @@
   justify-content: center;
 }
 
-.logo-whatsapp{
+.logo-redes{
     width: 2rem;
 }
 
-.redesFooter{
-  
+.redesFooter a{
+  padding: 0 1%;
 }
