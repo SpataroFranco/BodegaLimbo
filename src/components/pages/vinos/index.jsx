@@ -7,25 +7,12 @@ import listaVinosBotella from "../../../vinosDB/vinosBotella.json";
 const Vinos = () => {
   return (
     <div>
-      <div className="contenedor">
-        <h1>Vinos</h1>
-        <p>
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis
-          earum maiores, ducimus animi eos officia. Fugit odit repudiandae,
-          nihil placeat, sunt saepe, cupiditate illo voluptas quos ullam iste.
-          Possimus, numquam? Lorem, ipsum dolor sit amet consectetur adipisicing
-          elit. Culpa molestiae nisi tenetur tempora repellendus rerum dolore
-          aperiam cupiditate? Aut voluptate earum unde? Libero iste iure
-          recusandae laborum, ducimus accusantium delectus.
-        </p>
-      </div>
-      <h2>Limbo Reserva</h2>
       <div className="contenedorVinos">
         {listaVinos.map((vino) => (
           <ItemList key={vino.Titulo} vino={vino} />
         ))}
       </div>
-      <h2>Limbo Crianza En Botella</h2>
+      <h2>Vinos criados en botella</h2>
       <div className="contenedorVinos">
         {listaVinosBotella.map((vino) => (
           <ItemListBotella key={vino.Titulo} vino={vino} />
