@@ -1,4 +1,17 @@
-.hero-img{
-    width: 100%;
-    height: 60rem;
+.fondo {
+  background-image: url("../../../assets/cava.jpg");
+  height: 36rem;
+  background-size: cover;
+  background-position: center;
+  color: white;
+  font-size: larger;
+}
+
+.fondo h1{
+    padding-top: 2rem;
+    margin-left: 6rem;
+}
+
+.fondo p{
+    margin-left: 6rem;
 }

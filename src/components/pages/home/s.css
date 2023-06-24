@@ -1,27 +1,89 @@
-.container-home{
+.home {
+  margin-left: 6rem;
+}
+
+.sobre-nosotros {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.sobre-nosotros h2 {
+  margin: 2rem 0 0 0;
+}
+
+.opciones {
+  display: flex;
+}
+
+.opciones a {
+  margin: 2rem;
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+.opciones a p {
+  background-color: aqua;
+  width: 20rem;
+  height: 12rem;
+}
+
+.nuestra-cosecha {
+  display: flex;
+  flex-direction: column;
+}
+
+.tit {
+  display: flex;
+  flex-direction: row;
+  flex-direction: column;
+}
+
+.vino img {
+  width: 8rem;
+  padding-right: 3rem;
+  border-right: 3px black solid;
+}
+
+.vinos {
     display: flex;
-    flex-direction: column;
+    justify-content: space-around;
+}
+
+.vinos p {
+  margin: 0;
+  text-align: start;
+}
+
+.titulo {
+    margin: 6rem 0 2rem 0;
+    display: flex;
     justify-content: center;
-    height: 50%;
-    margin:0 8rem 10rem;
 }
 
-.contain{
-    display: flex;
-    width: 100%;
-    justify-content:space-between;
-}
+/* Media queries para estilos responsive */
+@media (max-width: 768px) {
+    .home {
+      margin-left: 2rem;
+    }
+  
+    .opciones .opcion {
+      width: 100%;
+    }
 
-.contain-link{
-    background-color: brown;
-    width: 24rem;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.contain-link a{
-    text-decoration: none;
-    color: black;
-    font-weight: bold;
-}
+    .opciones{
+        flex-direction: column;
+        align-items: center;
+    }
+  
+    .vinos {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .vino {
+      margin-bottom: 1rem;
+    }
+  }
+  

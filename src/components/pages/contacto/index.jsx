@@ -3,7 +3,7 @@ import "./s.css"
 
 const Contacto = () => {
   return (
-    <div>
+    <div className="fondo">
       <div className="data">
         <h1>Tienes alguna duda?</h1>
         <p>Nos complace darle la bienvenida a la empresa para una degustación de nuestros vinos.</p>
