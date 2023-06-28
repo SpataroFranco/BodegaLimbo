@@ -6,15 +6,12 @@ const ItemList = ({ vino }) => {
     <div className="list">
       <div className="data">
         <h1>{vino.Titulo}</h1>
-        <p>{vino.TipoVino}</p>
-        <p>{vino.IndicacionDeProcedencia}</p>
-        <p>{vino.GeorreferenciaDelViñedo}</p>
-        <p>{vino.Crianza}</p>
-        <p>{vino.PotencialDeGuarda}</p>
-        <p>{vino.Alc}</p>
-        <p>{vino.NotaDeCata}</p>
+        <p>VINO TINTO</p>
+        <p className="descripcion">{vino.Descripcion}</p>
         <div className="boton">
-          <Link to={`/vinos/vino/${vino.Titulo}`}>Conocer más</Link>
+          <Link to={`/vinos/${vino.Titulo}`}>
+            <button>Conocer más</button>
+          </Link>
         </div>
       </div>
       <div className="vinoImg">

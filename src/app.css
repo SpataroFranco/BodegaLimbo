@@ -3,6 +3,7 @@
 body {
   font-family: "Trade Gothic LT Std";
   margin: 0 1em;
+  overflow-x: hidden;
 }
 a {
   color: black;

@@ -1,9 +1,21 @@
-h2{
-    margin: 0;
-    padding: 0 2%;
-    font-size: 2rem;
-}
 .contenedorVinos{
     width: 100%;
-    padding: 2rem;
+    margin: 3em;
+}
+.contenedorVinos h2{
+    font-size: 2rem;
+}
+.vinoBotellaImg{
+    background-image: url("../../../assets/fondo-criadosenbotella.png");
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+.cabernet, .corte{
+    width: 15%;
+}
+.malbec{
+    width: 18%;
 }
