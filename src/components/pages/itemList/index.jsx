@@ -5,7 +5,7 @@ const ItemList = ({ vino }) => {
   return (
     <div className="list">
       <div className="data">
-        <h1>{vino.Titulo}</h1>
+        <h1 key={vino.Titulo}>{vino.Titulo}</h1>
         <p>VINO TINTO</p>
         <p className="descripcion">{vino.Descripcion}</p>
         <div className="boton">

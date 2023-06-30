@@ -1,0 +1,22 @@
+.detail{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin: 0 3em 3em 3em;
+}
+.detailImg{
+    width: 40%;
+}
+.detailImg img{
+    width: 100%;
+}
+.detailText{
+    width: 60%;
+}
+.detail p{
+    font-family: "Trade Gothic LT Std Light";
+}
+.botones{
+    width: 70%;
+    display: flex;
+}

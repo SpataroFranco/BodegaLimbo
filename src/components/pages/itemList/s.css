@@ -33,6 +33,7 @@
     margin: 1.5em auto;
 }
 .boton button{
+    font-family: "Trade Gothic LT Std Light";
     background-color: black;
     color: white;
     border-radius: 8px;
