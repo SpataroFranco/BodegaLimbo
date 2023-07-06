@@ -1,13 +1,16 @@
+import "./app.css";
 import Layout from "./components/layout";
 import Router from "./components/routes";
-import "./app.css";
+import CartContextProvider from "./contexts/CartContext";
 
 function App() {
   return (
     <div className="container">
-      <Layout>
-        <Router />
-      </Layout>
+      <CartContextProvider>
+        <Layout>
+          <Router />
+        </Layout>
+      </CartContextProvider>
     </div>
   );
 };

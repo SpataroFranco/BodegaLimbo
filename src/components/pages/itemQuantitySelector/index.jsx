@@ -17,7 +17,7 @@ export default function ItemQuantitySelector({ initial, onAdd }) {
                 <button className="addButton" onClick={() => increment()} >+</button>
             </div>
             <div className="itemCountButton">
-                <button onClick={() => onAdd(count)}>Agregar al carrito</button>   
+                <button onClick={() => onAdd(count)}>Comprar</button>   
             </div>
         </div>
     );

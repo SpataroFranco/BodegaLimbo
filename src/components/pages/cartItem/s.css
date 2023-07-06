@@ -1,0 +1,17 @@
+.card{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    font-family: "Trade Gothic LT Std Light";
+}
+.card h2{
+    width: 66%;
+    margin: 0;
+}
+.cardImg img{
+    padding-left: 3em;
+    width: 35%;
+}
+.trash{
+    width: 7%;
+}

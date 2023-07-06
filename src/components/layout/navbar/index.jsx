@@ -5,7 +5,7 @@ import logo from "../../../assets/logo.jpg";
 import logoWhatsapp from "../../../assets/whatsapp.svg";
 import logoInstagram from "../../../assets/instagram.svg";
 import logoFacebook from "../../../assets/facebook.svg";
-import cartWidget from "../../../assets/cart.png";
+import CartWidget from "../../pages/cartWidget";
 
 const Navbar = () => {
   let activeStyle = {
@@ -31,10 +31,6 @@ const Navbar = () => {
           Vinos
         </NavLink>
         <p>|</p>
-        <NavLink to="/la-obra" style={({ isActive }) => (isActive ? activeStyle : undefined)}>
-          La Obra
-        </NavLink>
-        <p>|</p>
         <NavLink to="/contacto" style={({ isActive }) => (isActive ? activeStyle : undefined)}>
           Contacto
         </NavLink>
@@ -50,7 +46,7 @@ const Navbar = () => {
           <img src={logoFacebook} alt="facebook" />
         </Link>
         <Link to="/cart">
-          <img src={cartWidget} alt="cart" />
+          <CartWidget />
         </Link>
       </div>
     </div>

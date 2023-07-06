@@ -1,12 +1,17 @@
 import "./s.css";
-import { useState } from "react";
+import { useState, useContext } from "react";
+import { CartContext } from "../../../contexts/CartContext";
 import { Link } from "react-router-dom";
 import ItemQuantitySelector from "../itemQuantitySelector";
 
 const ItemDetail = ({ vino }) => {
   const [quantity, setQuantity] = useState();
+  const { addItem } = useContext(CartContext);
   function onAdd(count) {
     setQuantity(count);
+  };
+  function purchase(vino, quantity) {
+    addItem(vino, quantity);
   };
   return (
     <div className="detail">
@@ -26,16 +31,16 @@ const ItemDetail = ({ vino }) => {
         <p>{vino.PartidaLimitada}</p>
         <p>{vino.Alc}</p>
         <p>{vino.Nota}</p>
-        {quantity === undefined && <ItemQuantitySelector initial={1} onAdd={onAdd} />}
+        {quantity === undefined && <ItemQuantitySelector key={"agregarAlCarrito"} initial={1} onAdd={onAdd} />}
         {quantity >= 1 && <div className="botones">
           <div className="boton">
             <Link to="/vinos">
-              <button>Agregar más productos al carrito</button>  
+              <button onClick={() => purchase(vino, quantity)}>Seguir comprando</button>  
             </Link>
           </div>
           <div className="boton">
-            <Link>
-              <button>Finalizar compra</button>
+            <Link to="/cart">
+              <button onClick={() => purchase(vino, quantity)}>Finalizar compra</button>
             </Link>
           </div>
         </div>}
