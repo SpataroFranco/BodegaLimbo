@@ -1,9 +1,14 @@
+import "./s.css";
+import Form from "../form";
+import Location from "../location";
+
 const Contacto = () => {
-    return (
-      <div>
-        <div>Contacto</div>
-      </div>
-    );
-  };
-  
-  export default Contacto;
+  return (
+    <div className="contacto">
+      <Form />
+      <Location />
+    </div>
+  );
+};
+
+export default Contacto;

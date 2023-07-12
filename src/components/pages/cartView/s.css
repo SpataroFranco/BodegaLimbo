@@ -6,14 +6,8 @@
     margin-bottom: 1.5em;
     text-align: center;
 }
-.cartList{
-    width: 115%;
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: center;
-}
 .buttonContainer{
     width: 40%;
     display: flex;
-    margin: 2em auto;
+    margin: 0 auto 2em auto;
 }
