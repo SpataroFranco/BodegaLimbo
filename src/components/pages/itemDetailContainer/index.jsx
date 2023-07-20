@@ -1,13 +1,12 @@
 import { useParams } from "react-router-dom";
-import listaVinos from "../../../vinosDB/vinos.json";
 import ItemDetail from "../itemDetail";
 
-const ItemDetailContainer = () => {
+const ItemDetailContainer = ({ products }) => {
   const { Titulo } = useParams();
-  const vinoEncontrado = listaVinos.find(vino => vino.Titulo === Titulo);
+  const product = products.find((product) => product.Titulo == Titulo);
   return (
     <div>
-      <ItemDetail vino={vinoEncontrado} />
+      <ItemDetail product={product} />
     </div>
   );
 };

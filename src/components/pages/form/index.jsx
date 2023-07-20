@@ -1,7 +1,6 @@
 import "./s.css";
 import { useState } from "react";
 import { Formik } from "formik";
-import * as Yup from "yup";
 import TextField from "@material-ui/core/TextField";
 import { styled } from "@mui/styles";
 import emailjs from "@emailjs/browser";
@@ -10,23 +9,6 @@ const initialValues = ({
   nombre: "",
   email: "",
   mensaje: ""
-});
-
-const schema = Yup.object().shape({
-  nombre: Yup
-      .string()
-      .required("Se debe ingresar un nombre y apellido")
-      .min(5, "El nombre es demasiado corto")
-      .max(25, "El nombre es demasiado largo"),
-  email: Yup
-      .string()
-      .required("Se debe ingresar un email")
-      .email("Email inválido"),
-  mensaje: Yup
-      .string()
-      .required("Se debe escribir un mensaje")
-      .min(10, "El mensaje es demasiado corto")
-      .max(300, "El mensaje es demasiado largo"),
 });
 
 const CssTextField = styled(TextField)({
@@ -117,7 +99,7 @@ const Form = () => {
         <p>¡Tu mensaje fue enviado con éxito!</p>
       </div>
     :
-      <Formik initialValues={initialValues} validationSchema={schema} onSubmit={handleSubmit}>
+      <Formik initialValues={initialValues} onSubmit={handleSubmit}>
         {(formik) => (
           <form onSubmit={handleSubmit} className="form">
             <div>
@@ -128,10 +110,9 @@ const Form = () => {
                 type="text"
                 value={formik.values.nombre}
                 onChange={formik.handleChange}
-                error={formik.touched.nombre && Boolean(formik.errors.nombre)}
-                helperText={formik.touched.nombre && formik.errors.nombre}
                 variant="outlined"
-                style={{ marginBottom: 30 }} />
+                style={{ marginBottom: 30 }}
+                required />
             </div>
             <div>
               <CssTextField
@@ -141,10 +122,9 @@ const Form = () => {
                 type="email"
                 value={formik.values.email}
                 onChange={formik.handleChange}
-                error={formik.touched.email && Boolean(formik.errors.email)}
-                helperText={formik.touched.email && formik.errors.email}
                 variant="outlined"
-                style={{ marginBottom: 30 }} />
+                style={{ marginBottom: 30 }}
+                required />
             </div>
             <div>
             <CssTextFieldMensaje
@@ -154,9 +134,8 @@ const Form = () => {
                 type="text"
                 value={formik.values.mensaje}
                 onChange={formik.handleChange}
-                error={formik.touched.mensaje && Boolean(formik.errors.mensaje)}
-                helperText={formik.touched.mensaje && formik.errors.mensaje}
-                variant="outlined" />
+                variant="outlined"
+                required />
             </div>
             <div className="boton">
               <button type="submit">Enviar</button>
