@@ -28,7 +28,7 @@ const Navbar = () => {
         </NavLink>
         <p>|</p>
         <NavLink to="/vinos" style={({ isActive }) => (isActive ? activeStyle : undefined)}>
-          Vinos
+          Tienda de Vinos
         </NavLink>
         <p>|</p>
         <NavLink to="/contacto" style={({ isActive }) => (isActive ? activeStyle : undefined)}>

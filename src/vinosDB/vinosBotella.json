@@ -1,38 +1,35 @@
 [
- {
-    "Titulo":"VINO TINTO corte 2020",
-    "TipoVino":"Cabernet Sauvignon 35%",
-    "NotaDeCata":"Este Corte decidimos sacarlo a la venta cuando el vino mostró el perfil deseado por nosotros.  Rojo violáceo, vivaz y con gran lágrima en la copa. En Nariz es potente con notas especiadas aportadas por nuestro suelo con gran drenaje, le imprime una delicada sensación en boca, marcando taninos robustos y jugosos, además de un largo y agradable final de boca. Sugerimos maridarlo con empatía y disfrutarlo en compañía de un buen plato para tintos",
-    "CantidadDeBotellas":"?",
-    "TemperaturaDelServicio":"?",
-    "GeorreferenciaDelViñedo":"34º41’40,7’’S / 68º24’49,5’’W",
-    "EdadDelViñedo":"?",
-    "FechaDeEmbotellado":"?",
-    "Alc":"SIN CLARIFICAR Y SIN FILTRAR, PUEDE PRESENTAR SEDIMENTOS NATURALES",
-    "img":"/vinos/corte300dpi.png"
- },
- {
-    "Titulo":"VINO TINTO MALBEC 2020",
-    "TipoVino":"?",
-    "NotaDeCata":"Este vino fue logrado a partir de nuestras uvas cosechadas en su punto justo, dando como resultado un Malbec distinto, de muy buena presentación en copa con rojos profundos y destellos violáceos, posee una nariz elegante, floral. En boca ingresa dulce, muy equilibrado con taninos sedosos que han logrado cautivar a nuestros amigos enófilos. Sugerimos maridarlo en familia o con amigos, disfrutándolo con preparaciones caseras tradicionales o lo que tengas ganas de comer",
-    "CantidadDeBotellas":"?",
-    "TemperaturaDelServicio":"?",
-    "GeorreferenciaDelViñedo":"34º41’40,7’’S / 68º24’49,5’’W",
-    "EdadDelViñedo":"?",
-    "FechaDeEmbotellado":"?",
-    "Alc":"SIN CLARIFICAR Y SIN FILTRAR, PUEDE PRESENTAR SEDIMENTOS NATURALES",
-    "img":"/vinos/malbec300dpi.png"
- },
- {
-    "Titulo":"VINO TINTO CABERNET SAUVIGNON 2020",
-    "TipoVino":"?",
-    "NotaDeCata":"Dejamos en tus manos el vino que nos enorgullece producir en nuestra bodega, un Cabernet Sauvignon equilibrado desde su origen, el viñedo. A la vista muestra un atractivo color rojo granate, límpido y brillante. En nariz es armónico limpio, recuerda a frutos maduros con algo de humo y pimienta, de boca dulce, amable pero de taninos resistentes que lo hacen carnoso e importante. Sugerimos maridarlo con comidas típicas Argentinas y beberlo en compañía o disfrutarlo solo, con nosotros mismos en copa adecuada y a temperatura confortable, potencial de guarda 8 años.",
-    "CantidadDeBotellas":"?",
-    "TemperaturaDelServicio":"?",
-    "GeorreferenciaDelViñedo":"34º41’40,7’’S / 68º24’49,5’’W",
-    "EdadDelViñedo":"?",
-    "FechaDeEmbotellado":"?",
-    "Alc":"SIN CLARIFICAR Y SIN FILTRAR, PUEDE PRESENTAR SEDIMENTOS NATURALES",
-    "img":"/vinos/cabernet-sauvignon300dpi.png"
- }
+   {
+       "Titulo": "CORTE 2021",
+       "Descripcion": "Este Blend es una combinación equilibrada de nuestros Malbec y Cabernet Sauvignon. Clarificado naturalmente y criado en tanques de acero y botella. 65% Malbec - 35% Cabernet Sauvignon.",
+       "IndicacionDeProcedencia": "San Rafael. Cuadrante sur de Cuadro Benegas",
+       "Georreferencia": "30°41'40,7” S / 68°24'49,5” O",
+       "PartidaLimitada": "Partida limitada de 1.298 botellas",
+       "Alc": "Alc.15,1 % v/v",
+       "Nota": "Sin clarificar ni filtrar. Puede presentar sedimentos naturales",
+       "img": "/vinos/corte300dpi-fondo.png",
+       "imagen": "/vinos/corte300dpi.png"
+   },
+   {
+       "Titulo": "MALBEC 2021",
+       "Descripcion": "Un noble exponente de nuestro singular Malbec, de notable concentración y carácter. Criado en tanques de acero y botella, es afrutado y agradable.",
+       "IndicacionDeProcedencia": "San Rafael. Cuadrante sur de Cuadro Benegas",
+       "Georreferencia": "30°41'40,7” S / 68°24'49,5” O",
+       "PartidaLimitada": "Partida limitada de 1.536 botellas",
+       "Alc": "Alc.14,5 % v/v",
+       "Nota": "Sin clarificar ni filtrar. Puede presentar sedimentos naturales",
+       "img": "/vinos/malbec300dpi-fondo.png",
+       "imagen": "/vinos/malbec300dpi.png"
+   },
+   {
+       "Titulo": "CABERNET SAUVIGNON 2021",
+       "Descripcion": "Nuestro Cabernet Sauvignon presenta la tipicidad de la zona, la altura y el clima de San Rafael. En boca, se expresan las especias en equilibrio con frutos rojos, taninos suaves de gran estructura y buen volumen. Criado en tanques de acero y botella.",
+       "IndicacionDeProcedencia": "San Rafael. Cuadrante sur de Cuadro Benegas",
+       "Georreferencia": "30°41'40,7” S / 68°24'49,5” O",
+       "PartidaLimitada": "Partida limitada de 1.690 botellas",
+       "Alc": "Alc.15,7 % v/v",
+       "Nota": "Sin clarificar ni filtrar. Puede presentar sedimentos naturales",
+       "img": "/vinos/cabernet-sauvignon300dpi-fondo.png",
+       "imagen": "/vinos/cabernet-sauvignon300dpi.png"
+   }
 ]

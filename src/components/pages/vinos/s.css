@@ -1,21 +1,12 @@
-.contenedorVinos{
+.intro, .contenedorVinos{
     width: 100%;
     margin: 3em;
 }
+.intro p{
+    font-size: 1.1em;
+    font-family: "Trade Gothic LT Std Light"
+}
 .contenedorVinos h2{
     font-size: 2rem;
-}
-.vinoBotellaImg{
-    background-image: url("../../../assets/fondo-criadosenbotella.png");
-    width: 80%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 0 auto;
-}
-.cabernet, .corte{
-    width: 15%;
-}
-.malbec{
-    width: 18%;
+    margin: 0;
 }

@@ -1,12 +1,21 @@
-//import { Link } from "react-router-dom";
-import "./itemlistbotella.module.css";
+import { Link } from "react-router-dom";
 
-const ItemListBotella = () => {
+const ItemListBotella = ({ item }) => {
   return (
-    <div className="vinoBotellaImg">
-      <img src="/vinos/cabernet-sauvignon300dpi.png" alt="cabernetSauvignon" />
-      <img src="/vinos/malbec300dpi.png" alt="malbec" />
-      <img src="/vinos/corte300dpi.png" alt="corte" />
+    <div className="list">
+      <div className="vinoImg">
+        <img src={process.env.PUBLIC_URL + item.img} alt={item.Titulo} />
+      </div>
+      <div className="data">
+        <h1 key={item.Titulo}>{item.Titulo}</h1>
+        <p>VINO TINTO</p>
+        <p className="descripcion">{item.Descripcion}</p>
+        <div className="boton">
+          <Link to={`/vinos/${item.Titulo}`}>
+            <button>Conocer más</button>
+          </Link>
+        </div>
+      </div>
     </div>
   );
 };
