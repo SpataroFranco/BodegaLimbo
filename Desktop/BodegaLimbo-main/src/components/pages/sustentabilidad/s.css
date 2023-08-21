@@ -1,0 +1,45 @@
+.contenedor-sostenibilidad {
+  padding: 0 6%;
+}
+
+.intro {
+  display: flex;
+  justify-content: space-between;
+}
+
+.intro p {
+  width: 50%;
+  margin: 2% 0;
+}
+
+.img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 2rem;
+}
+
+.img img {
+  border-right: 3px solid black;
+}
+
+.item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.lista {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 3rem;
+    padding: 0;
+    margin: 0;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.cont{
+    margin: 4rem 0;
+}

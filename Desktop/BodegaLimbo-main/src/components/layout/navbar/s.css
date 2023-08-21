@@ -1,0 +1,48 @@
+.navbar {
+  background-color: white;
+  margin: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  font-family: "Trade Gothic LT Std Light";
+  font-size: 1.1em;
+}
+.secciones {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+}
+.secciones a {
+  margin: 2em;
+  width: max-content;
+}
+.secciones a:hover {
+  transform: scale(1.2, 1.2);
+}
+.secciones p {
+  display: flex;
+  align-items: center;
+}
+.logo {
+  width: 40%;
+  display: flex;
+  justify-content: center;
+}
+.logo img {
+  width: 18rem;
+}
+.redes {
+  width: 25%;
+  display: flex;
+  justify-content: center;
+}
+.redes img {
+  padding-left: 1.5em;
+  width: 2rem;
+}
+.redes img:hover {
+  transform: scale(1.2, 1.2);
+}

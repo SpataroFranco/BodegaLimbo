@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Edu+TAS+Beginner:wght@500&family=Edu+VIC+WA+NT+Beginner&family=Josefin+Sans&family=Pacifico&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="shortcut icon" href="../img/favicon.jpg" />
+    <link rel="stylesheet" href="../css/estilos.css" />
+
+    <title>Encuesta</title>
+  </head>
+  <body class="bodyContacto">
+    <!-- INICIO HEADER -->
+    <header class="header">
+      <img class="logo" src="../img/locoTrans.png" alt="logoBurGrill" />
+      <nav class="links">
+        <ul>
+          <li><a href="../index.html">Home</a></li>
+          <li><a href="takeAway.html">Take Away</a></li>
+          <li><a href="ubicacion.html">Ubicacion</a></li>
+          <li><a href="encuesta.html">Encuesta</a></li>
+          <li><a href="contacto.html">Contacto</a></li>
+        </ul>
+      </nav>
+      <div class="social">
+        <img src="../img/cart.svg" alt="imagen carrito" />
+        <img src="../img/instagram.svg" alt="imagen ig" />
+        <img src="../img/Whatsapp.svg" alt="imagen whatsapp" />
+      </div>
+    </header>
+    <!-- FINAL HEADER -->
+
+    <!-- INICIO CONTENIDO PRINCIPAL -->
+    <div class="tituloPrincipal">
+      <h1>Comunicate con nosotros!</h1>
+    </div>
+
+    <div class="parrafos">
+      <h2>Completa el formulario y te responderemos a la brevedad!</h2>
+    </div>
+
+    <section class="nosotros">
+      <div>
+        <form action="#">
+          <p>Nombre:</p>
+          <input type="text" placeholder="ej. Juan" id="nombre" size="40" />
+          <p>Apellido:</p>
+          <input type="text" placeholder="ej. Perez" id="apellido" size="40" />
+          <p>Email:</p>
+          <input
+            type="email"
+            placeholder="ej. juanPerez@gmail.com"
+            id="email"
+            size="40"
+          />
+          <label for="estadoCivil">Estado civil</label>
+          <select id="estadoCivil">
+            <option value="soltero">Soltero</option>
+            <option value="casado">Casado</option>
+            <option value="otro">Otro</option>
+          </select>
+
+          <div>
+            Queres recibir nuestras novedades?
+            <input type="checkbox" name="acepta" value="1" />
+          </div>
+
+          <label for="Mensaje">
+            <textarea placeholder="Mensaje..." cols="120" rows="10"></textarea>
+          </label>
+          <div>
+            <input class="boton" type="submit" value="ENVIAR" />
+            <input class="boton" type="reset" value="BORRAR" />
+          </div>
+        </form>
+      </div>
+    </section>
+    <section class="fotoNosotros">
+      <img src="../img/atencionAlCliente.jpg" alt="" />
+    </section>
+    <!-- FINAL CONTENIDO PRINCIPAL -->
+
+    <!-- INICIO FOOTER -->
+    <footer>
+      <div>
+        <img class="logo" src="../img/locoTrans.png" alt="logo" />
+      </div>
+      <h4>
+        ©Sitio web creado por Franco Spataro - Todos los derechos reservados
+      </h4>
+      <div class="social">
+        <img src="../img/cart.svg" alt="imagen carrito" />
+        <img src="../img/instagram.svg" alt="imagen ig" />
+        <img src="../img/Whatsapp.svg" alt="imagen whatsapp" />
+      </div>
+    </footer>
+    <!-- FINAL FOOTER -->
+  </body>
+</html>

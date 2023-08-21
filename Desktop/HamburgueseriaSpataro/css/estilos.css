@@ -1,0 +1,579 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Edu TAS Beginner', cursive;
+  list-style-type: none;
+  text-decoration: none;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 2rem;
+}
+
+.header .links ul li a {
+  color: white;
+  font-size: 1.2rem;
+  margin-right: 20px;
+}
+
+li {
+  display: inline-block;
+}
+
+.social {
+  margin-right: 20px;
+  color: white;
+}
+
+.botonAsociar {
+  color: white;
+}
+
+.header {
+  grid-area: header;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #432818;
+  border-bottom: #2b0404 solid 2px;
+  position: sticky;
+  top: 0;
+}
+
+.logo {
+  height: 6rem;
+  margin-left: 20px;
+}
+
+.tituloPrincipal {
+  grid-area: tituloPrincipal;
+  text-align: center;
+  margin: 48px;
+  color: white;
+}
+
+footer {
+  background-color: #432818;
+  border-top: #2b0404 solid 2px;
+  grid-area: footer;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/********************** Index ***************************/
+.videoInicio {
+  grid-area: videoInicio;
+  text-align: center;
+}
+
+.historia {
+  grid-area: historia;
+}
+
+.fotoHistoria {
+  grid-area: fotoHistoria;
+  width: 90%;
+}
+
+.bodyIndex {
+  display: grid;
+  grid-template-areas: "header header header header" "tituloPrincipal tituloPrincipal tituloPrincipal tituloPrincipal" "videoInicio videoInicio videoInicio videoInicio" "historia historia fotoHistoria fotoHistoria" "footer footer footer footer";
+  background-image: url("../img/fondoMadera.jpg");
+  background-repeat: no-repeat;
+}
+
+.videoInicio iframe {
+  border-radius: 4px;
+  box-shadow: 3px 3px 5px;
+  width: 99%;
+}
+
+/********************** Take Away ***************************/
+.imgProducto {
+  width: 16rem;
+  border-radius: 4px;
+}
+
+section {
+  margin: 2rem;
+  padding: 0.5rem;
+  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #432818;
+  opacity: 90%;
+  color: white;
+}
+
+.dataProducto {
+  margin: 20px;
+}
+
+.dataProducto p {
+  text-align: justify;
+}
+
+.dataProducto h4 {
+  text-align: center;
+}
+
+.boton {
+  border-radius: 5px;
+  background-color: #5b331c;
+  width: 9rem;
+  height: 3rem;
+  cursor: pointer;
+  margin-bottom: 1rem;
+}
+
+.bodyTakeAway {
+  display: grid;
+  grid-template-areas: "header header header" "tituloPrincipal tituloPrincipal tituloPrincipal" "videoInicio videoInicio videoInicio" "tituloBurger tituloBurger tituloBurger" "tituloClasicas tituloClasicas tituloClasicas" "clasica1 clasica2 clasica3" "clasica4 clasica5 clasica6" "tituloEspeciales tituloEspeciales tituloEspeciales" "especial1 especial2 especial3" "veggies veggies veggies" "tituloBebidas tituloBebidas tituloBebidas" "bebida1 bebida2 bebida3" "footer footer footer";
+  background-image: url("../img/fondoMadera.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.tituloBurger {
+  grid-area: tituloBurger;
+  color: white;
+  background-color: #432818;
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.tituloClasicas {
+  grid-area: tituloClasicas;
+  background-color: #432818;
+  color: white;
+  text-align: center;
+}
+
+.clasica1 {
+  grid-area: clasica1;
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.clasica2 {
+  grid-area: clasica2;
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.clasica3 {
+  grid-area: clasica3;
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.clasica4 {
+  grid-area: clasica4;
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.clasica5 {
+  grid-area: clasica5;
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.clasica6 {
+  grid-area: clasica6;
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.tituloEspeciales {
+  grid-area: tituloEspeciales;
+  background-color: #432818;
+  color: white;
+  text-align: center;
+}
+
+.especial1 {
+  grid-area: especial1;
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.especial2 {
+  grid-area: especial2;
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.especial3 {
+  grid-area: especial3;
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.veggies {
+  grid-area: veggies;
+  display: flex;
+  justify-content: space-around;
+  border: solid black 2px;
+  background-color: #432818;
+  margin: 10px;
+}
+
+.tituloBebidas {
+  grid-area: tituloBebidas;
+  background-color: #432818;
+  text-align: center;
+  color: white;
+  margin: 20px;
+}
+
+.bebida1 {
+  grid-area: bebida1;
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.bebida2 {
+  grid-area: bebida2;
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.bebida3 {
+  grid-area: bebida3;
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+/********************** Ubicacion ***************************/
+.bodyUbicacion {
+  display: grid;
+  grid-template-areas: "header header" "tituloPrincipal tituloPrincipal" "fotoBarrio fotoBarrio" "datosBurgrill mapa" "footer footer";
+  background-image: url("../img/fondoMadera.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.tituloUbi {
+  grid-area: tituloPrincipal;
+  text-align: center;
+  margin: 48px;
+  color: white;
+}
+
+.fotoBarrio {
+  grid-area: fotoBarrio;
+  text-align: center;
+}
+
+.fotoBarrio img {
+  width: 60%;
+}
+
+.datosBurgrill {
+  grid-area: datosBurgrill;
+  background-color: #3a1803;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-left: 20%;
+}
+
+.datosBurgrill div {
+  margin: 20px;
+}
+
+.mapa {
+  grid-area: mapa;
+}
+
+/********************** Encuesta ***************************/
+.parrafos {
+  grid-area: parrafos;
+  text-align: center;
+  color: white;
+}
+
+.tituloEncuesta{
+  grid-area: tituloPrincipal;
+  text-align: center;
+  margin: 48px;
+  color: white;
+}
+
+.main {
+  grid-area: main;
+  align-items: center;
+  display: flex;
+  width: 100%;
+  height: 100%;
+  flex-direction: column;
+  margin: 40px;
+}
+
+.parrafos p {
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-left: 64px;
+  margin-right: 64px;
+}
+.encuesta {
+  height: auto;
+  align-items: center;
+  width: 94%;
+}
+.encuesta form {
+  background-color: #3a1803;
+  opacity: 90%;
+  width: 100%;
+  min-height: 500px;
+  height: auto;
+}
+#suggest {
+  width: 100%;
+}
+.encuesta li {
+  display: block;
+  margin-top: 40px;
+  margin-bottom: 10px;
+}
+
+.fotoSorteo {
+  grid-area: fotoSorteo;
+  display: flex;
+  justify-content: center;
+}
+
+.fotoSorteo img {
+  width: 100%;
+  margin-bottom: 20px;
+  margin-right: 200px;
+}
+
+.sorteo {
+  grid-area: sorteo;
+  height: 90%;
+  width: 70%;
+  margin-left: 80px;
+}
+
+.sorteo div p{
+  margin-bottom: 3rem;
+  margin-top: 3rem;
+}
+
+#nombreS {
+  display: block;
+  height: 40px;
+  margin-bottom: 100px;
+}
+
+#apellidoS {
+  display: block;
+  height: 40px;
+  margin-bottom: 100px;
+}
+
+#mailS {
+  display: block;
+  height: 40px;
+  margin-bottom: 50px;
+}
+
+.bodyEncuesta {
+  display: grid;
+  grid-template-areas: "header header" "tituloPrincipal tituloPrincipal" "parrafos parrafos" "main main" "sorteo fotoSorteo" "footer footer";
+  background-image: url("../img/fondoMadera.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/********************** Contacto ***************************/
+.bodyContacto {
+  width: 100%;
+  display: grid;
+  grid-template-areas: "header header" "tituloPrincipal tituloPrincipal" "parrafos parrafos" "fotoNosotros nosotros" "footer footer";
+  background-image: url("../img/fondoMadera.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.nosotros form textarea {
+    width: 100%;
+}
+.nosotros {
+  grid-area: nosotros;
+}
+
+.fotoNosotros {
+  grid-area: fotoNosotros;
+}
+
+#nombre {
+  display: block;
+  margin-bottom: 2rem;
+}
+
+#apellido {
+  display: block;
+  margin-bottom: 2rem;
+}
+
+#email {
+  display: block;
+  margin-bottom: 2rem;
+}
+
+#estadoCivil {
+  display: block;
+  margin-bottom: 2rem;
+}
+
+#mensaje {
+  margin-bottom: 2rem;
+}
+
+.nosotros p {
+  margin: 0;
+  text-align: left;
+}
+
+.fotoNosotros img {
+  width: 40rem;
+}
+
+
+
+/********************** QUERIES ***************************/
+@media (min-width: 320px) and (max-width: 417px) {
+
+  /* Querie index */
+  .fotoHistoria {
+    display: none;
+  }
+
+  .historia {
+    margin-left: 60px;
+  }
+
+  .historia div {
+    margin-top: 10px;
+  }
+
+  .historia p {
+    margin: 8px;
+  }
+
+  .historia h2 {
+    margin: 20px;
+  }
+
+  .header {
+    justify-content: space-around;
+    position: static;
+  }
+
+  footer h4 {
+    display: none;
+  }
+
+  footer {
+    justify-content: space-around;
+  }
+
+  /* Querie takeAway */
+  .videoInicio {
+    display: none;
+  }
+
+  .bodyTakeAway {
+    display: grid;
+    grid-template-areas: "header" "tituloPrincipal" "tituloBurger" "tituloClasicas" "clasica1" "clasica2" "clasica3" "clasica4" "clasica5" "clasica6" "tituloEspeciales" "especial1" "especial2" "especial3" "veggies" "tituloBebidas" "bebida1" "bebida2" "bebida3" "footer";
+  }
+
+  section {
+    text-align: center;
+  }
+
+  /* Querie ubicacion */
+  .bodyUbicacion {
+    display: grid;
+    grid-template-areas: "header" "tituloPrincipal" "fotoBarrio" "datosBurgrill" "mapa" "footer";
+  }
+
+  .tituloUbi {
+    max-width: max-content;
+  }
+
+  .datosBurgrill {
+    max-width: max-content;
+    max-height: max-content;
+    margin: 20px;
+  }
+
+  .mapa {
+    display: none;
+  }
+
+
+  /* Querie encuesta */
+  .bodyEncuesta {
+    display: grid;
+    grid-template-areas: "header" "tituloPrincipal" "parrafos" "main" "sorteo" "footer";
+  }
+  .parrafos {
+    display: none;
+  }
+
+  .sorteo{
+    max-width: max-content;
+    margin: 10px;
+    height: 96%;
+    margin-left: 5rem;
+  }
+
+  .fotoSorteo {
+    display: none;
+  }
+
+  .main {
+    margin: 10px;
+    max-width: max-content;
+  }
+
+  .tituloEncuesta{
+    max-width: max-content;
+  }
+  
+  #nombreS{
+    width: 97%;
+  }
+  #apellidoS{
+    width: 97%;
+  }
+  #mailS{
+    width: 97%;
+  }
+  #suggest{
+    width: 97%;
+  }
+
+  /* Querie contacto */
+  .bodyContacto {
+    grid-template-areas: "header" "tituloPrincipal" "parrafos" "nosotros" "footer";
+  }
+
+  .fotoNosotros {
+    display: none;
+  }
+}

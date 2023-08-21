@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Edu+TAS+Beginner:wght@500&family=Edu+VIC+WA+NT+Beginner&family=Josefin+Sans&family=Pacifico&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="shortcut icon" href="../img/favicon.jpg" />
+    <link rel="stylesheet" href="../css/estilos.css" />
+
+    <title>Encuesta</title>
+  </head>
+
+  <body class="bodyEncuesta">
+    <!-- INICIO HEADER -->
+    <header class="header">
+      <img class="logo" src="../img/locoTrans.png" alt="logoBurGrill" />
+      <nav class="links">
+        <ul>
+          <li><a href="../index.html">Home</a></li>
+          <li><a href="takeAway.html">Take Away</a></li>
+          <li><a href="ubicacion.html">Ubicacion</a></li>
+          <li><a href="encuesta.html">Encuesta</a></li>
+          <li><a href="contacto.html">Contacto</a></li>
+        </ul>
+      </nav>
+      <div class="social">
+        <img src="../img/cart.svg" alt="imagen carrito" />
+        <img src="../img/instagram.svg" alt="imagen ig" />
+        <img src="../img/Whatsapp.svg" alt="imagen whatsapp" />
+      </div>
+    </header>
+    <!-- FINAL HEADER -->
+
+    <!-- INICIO CONTENIDO PRINCIPAL -->
+    <div class="tituloEncuesta">
+      <h1>¡Contanos! Queremos saber tu experiencia en Burgrill</h1>
+    </div>
+
+    <div class="parrafos">
+      <p>
+        Tus respuestas serán tratadas de forma confdencial y utilizadas
+        únicamente para mejorar el servicio que te ofrecemos día a día.
+      </p>
+      <p>¡Dejanos tus datos y participá en nuestros próximos sorteos!</p>
+    </div>
+
+    <div class="main encuesta">
+      <form action="#">
+        <ol>
+          <li>
+            <label for="genero">Sexo:</label>
+            <select id="genero">
+              <option value="Masculino">Masculino</option>
+              <option value="Femenino">Femenino</option>
+              <option value="Otro">Otro</option>
+            </select>
+          </li>
+          <li>
+            Edad:
+            <input type="radio" name="edad" value="1" />Menor de 18 años
+            <input type="radio" name="edad" value="2" />Entre 19-29 años
+            <input type="radio" name="edad" value="3" />Entre 30-45 años
+            <input type="radio" name="edad" value="4" />Mas de años
+          </li>
+          <li>
+            ¿Cómo nos conociste?
+            <input
+              type="radio"
+              name="descubrimiento"
+              value="1"
+            />Recomendaciones de conocidos
+            <input type="radio" name="descubrimiento" value="2" />Redes sociales
+            <input
+              type="radio"
+              name="descubrimiento"
+              value="3"
+            />Folletos/publicidad
+            <input type="radio" name="descubrimiento" value="4" />Otros
+          </li>
+          <li>
+            ¿Cuál es tu hamburguesa favorita?
+            <input type="radio" name="burgerFav" value="1" />burger1
+            <input type="radio" name="burgerFav" value="2" />burger2
+            <input type="radio" name="burgerFav" value="3" />burger3
+            <input type="radio" name="burgerFav" value="4" />burger4
+            <input type="radio" name="burgerFav" value="5" />burger5
+            <input type="radio" name="burgerFav" value="6" />burger6
+          </li>
+          <li>
+            ¿Cómo califcarías la relación calidad/precio de nuestros productos?
+            Muy malo
+            <input type="radio" name="calificacion" value="1" />1
+            <input type="radio" name="calificacion" value="2" />2
+            <input type="radio" name="calificacion" value="3" />3
+            <input type="radio" name="calificacion" value="4" />4
+            <input type="radio" name="calificacion" value="5" />5 Excelente
+          </li>
+          <li>
+            ¿Con qué frecuencia consumis en Burgrill?
+            <input type="radio" name="frecuencia" value="1" />Diariamente
+            <input type="radio" name="frecuencia" value="2" />Varias veces en la
+            semana <input type="radio" name="frecuencia" value="3" />Una vez al
+            mes <input type="radio" name="frecuencia" value="4" />Varias veces
+            al mes
+            <input type="radio" name="frecuencia" value="5" />Ocasionalmente
+            durante el año
+          </li>
+
+          <li>
+            Dejanos tu opinión o sugerencias para nuevos productos
+            <input type="text" id="suggest" />
+          </li>
+        </ol>
+        <input class="boton" type="submit" value="ENVIAR" />
+        <input class="boton" type="reset" value="RESTABLECER" />
+      </form>
+    </div>
+    <section class="sorteo">
+      <div>
+        <h3>¡Dejanos tus datos y participá por combos de regalo</h3>
+      </div>
+      <div>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis
+          aspernatur dignissimos vitae! Ad ratione odit sunt quas asperiores
+          illum enim amet error! Vel nulla officia eveniet! Dolore, sapiente
+          qui. Mollitia!
+        </p>
+      </div>
+      <div>
+        <form>
+          <input type="text" placeholder="Nombre" id="nombreS" size="80" />
+          <input type="text" placeholder="Apellido" id="apellidoS" size="80" />
+          <input type="email" placeholder="Mail" id="mailS" size="80" />
+          <div>
+            <button class="boton">Enviar</button>
+          </div>
+        </form>
+      </div>
+    </section>
+    <div class="fotoSorteo">
+      <img src="../img/hamburguesa.jpg" alt="" />
+    </div>
+    <!-- FINAL CONTENIDO PRINCIPAL -->
+
+    <!-- INICIO FOOTER -->
+    <footer>
+      <div>
+        <img class="logo" src="../img/locoTrans.png" alt="logo" />
+      </div>
+      <h4>
+        ©Sitio web creado por Franco Spataro - Todos los derechos reservados
+      </h4>
+      <div class="social">
+        <img src="../img/cart.svg" alt="imagen carrito" />
+        <img src="../img/instagram.svg" alt="imagen ig" />
+        <img src="../img/Whatsapp.svg" alt="imagen whatsapp" />
+      </div>
+    </footer>
+    <!-- FINAL FOOTER -->
+  </body>
+</html>

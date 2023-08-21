@@ -1,0 +1,14 @@
+.form {
+    width: 40%;
+    padding: 2em 4em;
+    font-family: "Trade Gothic LT Std Light";
+}
+.sent {
+    width: max-content;
+    font-family: "Trade Gothic LT Std Light";
+    margin: auto;
+    padding: 1em;
+    background-color: rgb(218, 218, 218);
+    opacity: 0.8;
+    border-radius: 10px;
+}

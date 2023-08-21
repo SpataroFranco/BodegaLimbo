@@ -1,0 +1,13 @@
+.emptyCart{
+    text-align: center;
+    margin-bottom: 3em;
+}
+.cartTitle{
+    margin-bottom: 1.5em;
+    text-align: center;
+}
+.buttonContainer{
+    width: 40%;
+    display: flex;
+    margin: 0 auto 2em auto;
+}
