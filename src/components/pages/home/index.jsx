@@ -1,34 +1,89 @@
 import { Link } from "react-router-dom";
-import Carousel from "../carousel";
-import cava from "../../../assets/cava.jpg"
-import banner from "../../../assets/banner-limbo.jpg"
-import finca from "../../../assets/finca.jpeg"
+import proyecto from "../../../assets/proyecto.png";
+import viñedoybodega from "../../../assets/vinedo-y-bodega.png";
+import sostenibilidad from "../../../assets/sostenibilidad.png";
+import corteReserva2019 from "../../../assets/corteReserva2019.png";
+import petitVerdotReserva2018 from "../../../assets/petitVerdotReserva2018.png";
+import cabernetSauReserva2020 from "../../../assets/cabernetSauReserva2020.png";
+import malbecReserva2019 from "../../../assets/malbecReserva2019.png";
+import cabernetSauvignon2020 from "../../../assets/cabernetSauvignon2020.png";
+import cabernetSauvignon2020CORTE from "../../../assets/cabernetSauvignonCORTE2020.png";
+
 import "./s.css";
 
 const Home = () => {
-
   return (
     <>
-      <div className="hero">
-        <img src={cava} alt="cava" />
-      </div>
-      {/* <Carousel/> */}
       <div className="container-home">
-        <div>
-          <h1>Sobre nosotros</h1>
+        <div className="home-top">
+          <h1>Nuestra filosofia</h1>
+          <p>
+            Buscamos preservar lo más fielmente posible la característica del
+            terruño, para que cada añada refleje lo que nos entregó la cosecha
+            con sus variables climáticas.
+          </p>
+        </div>
+        <div className="titulo">
+          <h1>SOBRE NOSOTROS</h1>
         </div>
         <div className="contain">
           <div className="contain-link">
-            <p>IMG</p>
-            <Link to="/home/proyecto">Proyecto</Link>
+            <Link to="/home/proyecto">
+              <img src={proyecto} alt="imgProyecto" />
+              <h3>EL PROYECTO</h3>
+            </Link>
           </div>
           <div className="contain-link">
-            <p>IMG</p>
-            <Link to="/home/viñedo-y-bodega">Viñedo y Bodega</Link>
+            <Link to="/home/viñedo-y-bodega">
+              <img src={viñedoybodega} alt="imgProyecto" />
+              <h3>VIÑEDO Y BODEGA</h3>
+            </Link>
           </div>
           <div className="contain-link">
-            <p>IMG</p>
-            <Link to="/home/sustentabilidad">Sustentabilidad</Link>
+            <Link to="/home/sustentabilidad">
+              <img src={sostenibilidad} alt="imgProyecto" />
+              <h3>SOSTENIBILIDAD</h3>
+            </Link>
+          </div>
+        </div>
+        <div className="home-bottom">
+          <div>
+            <h2>NUESTRA COSECHA</h2>
+          </div>
+          <div className="nuestra-cosecha">
+            <div>
+              <p>Corte </p>
+              <p>Reserva 2019</p>
+              <img src={corteReserva2019} alt="corteReserva2019" />
+            </div>
+            <div>
+              <p>Petit Verdot </p>
+              <p>Reserva 2018</p>
+              <img src={petitVerdotReserva2018} alt="petitVerdotReserva2018" />
+            </div>
+            <div>
+              <p>Cabernet Sauvignon</p>
+              <p>Reserva 2020</p>
+              <img src={cabernetSauReserva2020} alt="cabernetSauReserva2020" />
+            </div>
+            <div>
+              <p>Malbec </p>
+              <p>Reserva 2019</p>
+              <img src={malbecReserva2019} alt="malbecReserva2019" />
+            </div>
+            <div>
+              <p>Cabernet Sauvignon </p>
+              <p>2020</p>
+              <img src={cabernetSauvignon2020} alt="corteReserva2019" />
+            </div>
+            <div>
+              <p>Cabernet Sauvignon</p>
+              <p>2020 CORTE</p>
+              <img
+                src={cabernetSauvignon2020CORTE}
+                alt="cabernetSauvignon2020CORTE"
+              />
+            </div>
           </div>
         </div>
       </div>
