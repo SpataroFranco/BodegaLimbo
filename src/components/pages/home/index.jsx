@@ -28,9 +28,9 @@ const Home = () => {
         </div>
         <div className="contain">
           <div className="contain-link">
-            <Link to="/home/proyecto">
+            <Link to="/home/quienes-somos">
               <img src={proyecto} alt="imgProyecto" />
-              <h3>EL PROYECTO</h3>
+              <h3>QUIENES SOMOS</h3>
             </Link>
           </div>
           <div className="contain-link">

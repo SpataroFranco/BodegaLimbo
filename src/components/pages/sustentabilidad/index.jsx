@@ -32,22 +32,19 @@ const Sustentabilidad = () => {
           <div className="item">
             <img src={sostenibilidad2} alt="sostenibilidad2" />
             <p>
-              Generamos parte de la energia que necesitamos mediante paneles
-              solares.
+              Utilizamos hidrolavadoras con ozono para limpieza y desinfección, minimizando el consumo de agua potable
             </p>
           </div>
           <div className="item">
             <img src={sostenibilidad3} alt="sostenibilidad3" />
             <p>
-              Generamos parte de la energia que necesitamos mediante paneles
-              solares.
+              Preservamos la flora y fauna en diversas areas de la finca, fomentando de este modo el cuidado de la biodiversidad
             </p>
           </div>
           <div className="item">
             <img src={sostenibilidad4} alt="sostenibilidad4" />
             <p>
-              Generamos parte de la energia que necesitamos mediante paneles
-              solares.
+              Integramos a nuestros vecinos en tareas de producción y en capacitaciones
             </p>
           </div>
         </div>

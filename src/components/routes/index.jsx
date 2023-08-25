@@ -1,7 +1,7 @@
 import { Navigate, Routes, Route } from "react-router-dom";
 import { useState, useEffect } from "react";
 import Home from "../pages/home";
-import Proyecto from "../pages/proyecto";
+import QuienesSomos from "../pages/quienesSomos";
 import Viñedoybodega from "../pages/viñedoYbodega";
 import Sustentabilidad from "../pages/sustentabilidad";
 import Enoturismo from "../pages/enoturismo";
@@ -31,7 +31,7 @@ const Router = () => {
     <Routes>
       <Route path="/" element={<Navigate to="/home" />} />
       <Route path="/home" element={<Home />} />
-      <Route path="/home/proyecto" element={<Proyecto/>}/>
+      <Route path="/home/quienes-somos" element={<QuienesSomos/>}/>
       <Route path="/home/viñedo-y-bodega" element={<Viñedoybodega/>}/>
       <Route path="/home/sustentabilidad" element={<Sustentabilidad/>}/>
       <Route path="/enoturismo" element={<Enoturismo />} />

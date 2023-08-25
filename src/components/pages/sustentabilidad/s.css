@@ -9,7 +9,7 @@
 
 .intro p {
   width: 50%;
-  margin: 2% 0;
+  margin: 2rem;
 }
 
 .img {
@@ -28,6 +28,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  padding: 2rem;
 }
 
 .lista {

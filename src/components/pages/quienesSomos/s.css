@@ -1,0 +1,80 @@
+.quienes-somos-top {
+  display: flex;
+  height: 50rem;
+  width: 100%;
+  justify-content: center;
+}
+
+.contenido {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  justify-content: space-evenly;
+}
+
+.contenido p {
+  width: 60%;
+}
+
+.img-osvaldo {
+  width: 100%;
+  height: 100%;
+}
+
+.quienes-somos-center {
+  background-image: url("../../../assets/fondo-sierras.png");
+  background-size: contain;
+  background-position: center center; /* Centra la imagen horizontal y verticalmente */
+  display: flex;
+  width: 100%;
+  align-items: center;
+  min-height: 50vh;
+  text-align: justify;
+  justify-content: center;
+}
+
+.quienes-somos-center div {
+  padding: 2rem;
+  width: 30rem;
+}
+
+.quienes-somos-buttom {
+  padding: 0 8%;
+}
+
+.etiquetas {
+  display: flex;
+}
+
+.img-etiquetas {
+  width: 100%;
+  height: 100%;
+}
+
+.etiquetas-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  width: 100%;
+}
+
+.etiquetas-text div {
+  width: 80%;
+  text-align: center;
+}
+
+.etiquetasImg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center; /* Para centrar el contenido de los elementos */
+}
+
+.etiquetasImg div {
+  margin: 0 10px; /* Ajusta el margen entre los elementos según tus preferencias */
+}
+
+.etiquetasBotellas{
+  margin: 4rem 0;
+  text-align: center;
+}
