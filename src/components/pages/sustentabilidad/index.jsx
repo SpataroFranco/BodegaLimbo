@@ -9,7 +9,7 @@ const Sustentabilidad = () => {
     <div className="cont">
       <div className="contenedor-sostenibilidad">
         <h1>SOSTENIBILIDAD</h1>
-        <div className="intro">
+        <div className="introSust">
           <p>
             Ser sostenible es generar valor económico, social, ambiental y
             ético-cultural. Esto genera impacto positivo en el medioambiente, el

@@ -1,0 +1,22 @@
+[
+    {
+        "titulo": "turistas 1",
+        "contenido": "/gallery/turistas.jpeg"
+      },
+      {
+        "titulo": "turistas 2",
+        "contenido": "/gallery/turistas2.jpeg"
+      },
+      {
+        "titulo": "turistas 3",
+        "contenido": "/gallery/turistas3.jpeg"
+      },
+      {
+        "titulo": "turistas 4",
+        "contenido": "/gallery/turistas4.jpg"
+      },
+      {
+        "titulo": "turistas 5",
+        "contenido": "/gallery/turistas5.jpeg"
+      }
+]

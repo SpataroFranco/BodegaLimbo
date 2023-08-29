@@ -1,0 +1,62 @@
+[
+  {
+    "titulo": "frente de la finca",
+    "contenido": "/gallery/finca1.jpeg"
+  },
+  {
+    "titulo": "bodega familiar",
+    "contenido": "/gallery/bodega.jpeg"
+  },
+  {
+    "titulo": "corchos",
+    "contenido": "/gallery/corchos.jpeg"
+  },
+  {
+    "titulo": "finca entrada",
+    "contenido": "/gallery/frenteConRosas.jpg"
+  },
+  {
+    "titulo": "paneles solares",
+    "contenido": "/gallery/paneles.jpg"
+  },
+  {
+    "titulo": "nuestras botellas",
+    "contenido": "/gallery/botellas.jpg"
+  },
+  {
+    "titulo": "maria",
+    "contenido": "/gallery/maria2.jpeg"
+  },
+  {
+    "titulo": "osvaldo",
+    "contenido": "/gallery/osvalCosecha.jpeg"
+  },
+  {
+    "titulo": "proceso",
+    "contenido": "/gallery/proceso.jpeg"
+  },
+  {
+    "titulo": "proceso 2",
+    "contenido": "/gallery/proceso2.jpeg"
+  },
+  {
+    "titulo": "sala etiquetado",
+    "contenido": "/gallery/salaEtiquetado.jpg"
+  },
+  {
+    "titulo": "fraccionamiento",
+    "contenido": "/gallery/fraccionamientoLIMBO.jpg"
+  },
+  {
+    "titulo": "osvaldo",
+    "contenido": "/gallery/osvalTrabaja.jpeg"
+  },
+  {
+    "titulo": "maria",
+    "contenido": "/gallery/maria.jpg"
+  },
+  {
+    "titulo": "osvaldo",
+    "contenido": "/gallery/Osvalenviña.jpeg"
+  }
+]

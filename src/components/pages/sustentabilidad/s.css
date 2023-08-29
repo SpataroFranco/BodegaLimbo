@@ -1,13 +1,20 @@
 .contenedor-sostenibilidad {
   padding: 0 6%;
+  background-image: url("../../../assets/fondo-sierras.png");
+  background-size: contain;
+  background-position: center center; /* Centra la imagen horizontal y verticalmente */
 }
 
-.intro {
+.contenedor-sostenibilidad h1{
+  text-align: center;
+}
+
+.introSust {
   display: flex;
   justify-content: space-between;
 }
 
-.intro p {
+.introSust p {
   width: 50%;
   margin: 2rem;
 }

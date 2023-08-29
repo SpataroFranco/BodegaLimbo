@@ -41,3 +41,7 @@
 .nuestra-cosecha div p {
   margin: 0;
 }
+
+ .contain-link a img:hover {
+    transform: scale(1.05);
+  }

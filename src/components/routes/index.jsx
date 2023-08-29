@@ -23,6 +23,7 @@ const Router = () => {
   const getItems = () => {
     setItems(vinosBotella);
   };
+
   useEffect(() => {
     getProducts();
     getItems();
@@ -31,16 +32,22 @@ const Router = () => {
     <Routes>
       <Route path="/" element={<Navigate to="/home" />} />
       <Route path="/home" element={<Home />} />
-      <Route path="/home/quienes-somos" element={<QuienesSomos/>}/>
-      <Route path="/home/viñedo-y-bodega" element={<Viñedoybodega/>}/>
-      <Route path="/home/sustentabilidad" element={<Sustentabilidad/>}/>
+      <Route path="/home/quienes-somos" element={<QuienesSomos />} />
+      <Route path="/home/viñedo-y-bodega" element={<Viñedoybodega />} />
+      <Route path="/home/sustentabilidad" element={<Sustentabilidad />} />
       <Route path="/enoturismo" element={<Enoturismo />} />
-      <Route path="/vinos" element={<Vinos products={products} items={items} />} />
-      <Route path="/vinos/:Titulo" element={<ItemDetailContainer products={products} items={items} />} />
+      <Route
+        path="/vinos"
+        element={<Vinos products={products} items={items} />}
+      />
+      <Route
+        path="/vinos/:Titulo"
+        element={<ItemDetailContainer products={products} items={items} />}
+      />
       <Route path="/contacto" element={<Contacto />} />
       <Route path="/cart" element={<CartView />} />
       <Route path="/checkout" element={<Checkout />} />
-      <Route path="*" element={<Error />} /> 
+      <Route path="*" element={<Error />} />
     </Routes>
   );
 };

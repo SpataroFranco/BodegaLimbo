@@ -1,6 +1,18 @@
-.intro, .contenedorVinos{
+.contenedorVinos{
     width: 100%;
     margin: 3em;
+}
+
+.contenedorVinos h2{
+    text-align: center;
+}
+
+.intro {
+    width: 100%;
+    padding: 3em;
+    background-image: url("../../../assets/fondo-sierras.png");
+    background-size: contain;
+    background-position: center center;
 }
 .intro p{
     font-size: 1.1em;
