@@ -1,4 +1,4 @@
-import osvaldo from "../../../assets/osvaldo.jpeg";
+import osvaldoMaria from "../../../assets/Osvaldo-Maria.jpg";
 import etiquetas from "../../../assets/Malbec-Reserva2019.jpg";
 import malbecEtiqueta from "../../../assets/malbecReservaEtiqueta.png";
 import CabernetEtiqueta from "../../../assets/cabernetEtiqueta.png";
@@ -42,7 +42,7 @@ const QuienesSomos = () => {
           </p>
         </div>
         <div>
-          <img src={osvaldo} alt="imgProyecto" className="img-osvaldo" />
+          <img src={osvaldoMaria} alt="imgProyecto" className="img-osvaldoMaria" />
         </div>
       </div>
       <div className="quienes-somos-center">

@@ -2,6 +2,12 @@ import sostenibilidad1 from "../../../assets/sostenibilidad1.png";
 import sostenibilidad2 from "../../../assets/sostenibilidad2.png";
 import sostenibilidad3 from "../../../assets/sostenibilidad3.png";
 import sostenibilidad4 from "../../../assets/sostenibilidad4.png";
+import vecino from "../../../assets/vecino.jpeg";
+import vivero from "../../../assets/viverodemalbec.jpeg";
+import panel from "../../../assets/sostenibilidad.png";
+import arboles from "../../../assets/proyecto-img.png"
+import turista from "../../../assets/vinedo-y-bodega3.png"
+import producto from "../../../assets/img9300.jpeg"
 import "./s.css";
 
 const Sustentabilidad = () => {
@@ -32,19 +38,22 @@ const Sustentabilidad = () => {
           <div className="item">
             <img src={sostenibilidad2} alt="sostenibilidad2" />
             <p>
-              Utilizamos hidrolavadoras con ozono para limpieza y desinfección, minimizando el consumo de agua potable
+              Utilizamos hidrolavadoras con ozono para limpieza y desinfección,
+              minimizando el consumo de agua potable
             </p>
           </div>
           <div className="item">
             <img src={sostenibilidad3} alt="sostenibilidad3" />
             <p>
-              Preservamos la flora y fauna en diversas areas de la finca, fomentando de este modo el cuidado de la biodiversidad
+              Preservamos la flora y fauna en diversas areas de la finca,
+              fomentando de este modo el cuidado de la biodiversidad
             </p>
           </div>
           <div className="item">
             <img src={sostenibilidad4} alt="sostenibilidad4" />
             <p>
-              Integramos a nuestros vecinos en tareas de producción y en capacitaciones
+              Integramos a nuestros vecinos en tareas de producción y en
+              capacitaciones
             </p>
           </div>
         </div>
@@ -93,6 +102,14 @@ const Sustentabilidad = () => {
             territorialidad y buena precisión técnica.
           </li>
         </ul>
+      </div>
+      <div className="galeria">
+        <img src={panel} className="imagen-galeria" />
+        <img src={vecino} className="imagen-galeria" />
+        <img src={vivero} className="imagen-galeria" />
+        <img src={arboles} className="imagen-galeria" />
+        <img src={turista} className="imagen-galeria" />
+        <img src={producto} className="imagen-galeria" />
       </div>
     </div>
   );

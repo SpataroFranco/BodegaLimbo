@@ -1,0 +1,37 @@
+.contenedor-img {
+  display: flex;
+  justify-content: space-around;
+}
+
+.imgVyB {
+  height: 50vh;
+  width: 30vw;
+  border-radius: 8px;
+}
+
+.container-vyb h1 {
+  text-align: center;
+  margin-bottom: 4rem;
+}
+
+.container-vyb{
+  margin: 4rem 0;
+}
+
+.contenidoVyB {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.text {
+  width: 30vw;
+  margin: 0 4rem;
+  background-image: url("../../../assets/fondo-cuervo.png");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.text p {
+  text-align: justify;
+}

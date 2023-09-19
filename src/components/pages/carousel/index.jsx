@@ -1,34 +1,36 @@
-// import 'mdb-react-ui-kit/dist/css/mdb.min.css';
-import "@fortawesome/fontawesome-free/css/all.min.css";
-import React from "react";
-import { MDBCarousel, MDBCarouselItem } from "mdb-react-ui-kit";
-import "./s.css";
-import cava from "../../../assets/cava.jpg"
-import finca from "../../../assets/finca.jpeg"
+import React from 'react';
+import { useSnapCarousel } from 'react-snap-carousel';
 
-const Carousel = () => {
+const BasicCarousel = () => {
+  const { scrollRef } = useSnapCarousel();
   return (
-    <MDBCarousel showIndicators showControls fade>
-      <MDBCarouselItem
-        className="w-100 d-block"
-        itemId={1}
-        src={cava}
-        alt="..."
-      >
-        <h5>First slide label</h5>
-        <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-      </MDBCarouselItem>
-      <MDBCarouselItem
-        className="w-100 d-block"
-        itemId={3}
-        src={finca}
-        alt="..."
-      >
-        <h5>Third slide label</h5>
-        <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
-      </MDBCarouselItem>
-    </MDBCarousel>
+    <ul
+      ref={scrollRef}
+      style={{
+        display: 'flex',
+        overflow: 'auto',
+        scrollSnapType: 'x mandatory'
+      }}
+    >
+      {Array.from({ length: 100 }).map((_, i) => (
+        <li
+          style={{
+            backgroundColor: 'aqua',
+            fontSize: '50px',
+            width: '250px',
+            height: '250px',
+            flexShrink: 0,
+            color: '#fff',
+            display: 'flex',
+            justifyContent: 'center',
+            alignItems: 'center'
+          }}
+        >
+          Item {i}
+        </li>
+      ))}
+    </ul>
   );
 };
 
-export default Carousel;
+export default BasicCarousel;

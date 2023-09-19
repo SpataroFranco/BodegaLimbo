@@ -1,6 +1,6 @@
 .container-home {
   background-image: url("../../../assets/fondo-finca.png");
-  background-size: 100% 50%;
+  background-size: 100vw 70vh;
   background-repeat: no-repeat;
 }
 .contain {
@@ -35,13 +35,14 @@
 
 .nuestra-cosecha {
   display: flex;
-  justify-content:space-between;
+  justify-content: space-between;
+  text-align: center;
 }
 
 .nuestra-cosecha div p {
   margin: 0;
 }
 
- .contain-link a img:hover {
-    transform: scale(1.05);
-  }
+.contain-link a img:hover {
+  transform: scale(1.05);
+}

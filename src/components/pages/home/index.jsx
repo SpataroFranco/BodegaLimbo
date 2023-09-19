@@ -8,7 +8,6 @@ import cabernetSauReserva2020 from "../../../assets/cabernetSauReserva2020.png";
 import malbecReserva2019 from "../../../assets/malbecReserva2019.png";
 import cabernetSauvignon2020 from "../../../assets/cabernetSauvignon2020.png";
 import cabernetSauvignon2020CORTE from "../../../assets/cabernetSauvignonCORTE2020.png";
-
 import "./s.css";
 
 const Home = () => {

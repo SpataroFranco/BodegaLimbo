@@ -98,6 +98,19 @@
     cursor: pointer;
     transition: transform 0.2s;
   }
+
+  .turistas img{
+    border-radius: 8px;
+  }
+
+  .cosecha img{
+    border-radius: 8px;
+  }
+  
+
+  .finca img{
+    border-radius: 6px;
+  }
   
   .turistas div img:hover {
     transform: scale(1.05);

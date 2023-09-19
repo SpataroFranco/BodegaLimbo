@@ -38,6 +38,10 @@
   padding: 2rem;
 }
 
+.item p{
+  text-align: center;
+}
+
 .lista {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -50,4 +54,22 @@
 
 .cont{
     margin: 4rem 0;
+}
+
+.galeria {
+  display: flex; /* Utilizamos flexbox para alinear las imágenes horizontalmente */
+}
+
+.imagen-galeria {
+  flex: 1; /* Hace que todas las imágenes tengan el mismo ancho y se expandan para llenar el espacio disponible */
+  height: auto; /* Permite que la altura se ajuste automáticamente para mantener la proporción original */
+  width: auto;
+  max-width:16vw;
+  margin: 5px; /* Agrega margen entre las imágenes (opcional) */
+  border-radius: 8px;
+  margin-top: 8rem;
+}
+
+.imagen-galeria:hover{
+  transform: scale(1.05);
 }

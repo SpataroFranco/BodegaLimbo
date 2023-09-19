@@ -1,7 +1,7 @@
 [
   {
-    "titulo": "frente de la finca",
-    "contenido": "/gallery/finca1.jpeg"
+    "titulo": "nuestra galeria en verano",
+    "contenido": "/gallery/galeria-y-parral.jpg"
   },
   {
     "titulo": "bodega familiar",
@@ -12,15 +12,15 @@
     "contenido": "/gallery/corchos.jpeg"
   },
   {
-    "titulo": "finca entrada",
+    "titulo": "nuestra galeria en verano",
     "contenido": "/gallery/frenteConRosas.jpg"
   },
   {
-    "titulo": "paneles solares",
+    "titulo": "generamos parte de la energía",
     "contenido": "/gallery/paneles.jpg"
   },
   {
-    "titulo": "nuestras botellas",
+    "titulo": "línea de vinos",
     "contenido": "/gallery/botellas.jpg"
   },
   {
@@ -32,19 +32,19 @@
     "contenido": "/gallery/osvalCosecha.jpeg"
   },
   {
-    "titulo": "proceso",
+    "titulo": "orujo prensado",
     "contenido": "/gallery/proceso.jpeg"
   },
   {
-    "titulo": "proceso 2",
+    "titulo": "prensando los orujos",
     "contenido": "/gallery/proceso2.jpeg"
   },
   {
-    "titulo": "sala etiquetado",
+    "titulo": "sala de etiquetado",
     "contenido": "/gallery/salaEtiquetado.jpg"
   },
   {
-    "titulo": "fraccionamiento",
+    "titulo": "sala de fraccionamiento",
     "contenido": "/gallery/fraccionamientoLIMBO.jpg"
   },
   {
@@ -52,7 +52,7 @@
     "contenido": "/gallery/osvalTrabaja.jpeg"
   },
   {
-    "titulo": "maria",
+    "titulo": "colocación de etiquetas",
     "contenido": "/gallery/maria.jpg"
   },
   {
