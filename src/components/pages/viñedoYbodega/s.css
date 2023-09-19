@@ -1,6 +1,6 @@
 .contenedor-img {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
 }
 
 .imgVyB {
@@ -20,18 +20,20 @@
 
 .contenidoVyB {
   display: flex;
-  justify-content: center;
+  margin: 0 12rem;
   align-items: center;
+  justify-content:space-between;
 }
 
 .text {
   width: 30vw;
-  margin: 0 4rem;
   background-image: url("../../../assets/fondo-cuervo.png");
   background-repeat: no-repeat;
   background-position: center;
+  font-size:x-large;
 }
 
 .text p {
   text-align: justify;
+  font-family: "Trade Gothic LT Std Light";
 }

@@ -6,17 +6,20 @@
 }
 
 .contenedor-sostenibilidad h1{
-  text-align: center;
+  margin-left: 4rem;
 }
 
 .introSust {
-  display: flex;
   justify-content: space-between;
+
 }
 
 .introSust p {
-  width: 50%;
+  width: 38vw;
   margin: 2rem;
+  font-size: 1.4em;
+  font-family: "Trade Gothic LT Std Light";
+  margin-left: 4rem;
 }
 
 .img {
@@ -50,6 +53,12 @@
     margin: 0;
     width: 80%;
     margin: 0 auto;
+}
+
+.lista li{
+  width: 38vw;
+  font-size: 1.4em;
+  font-family: "Trade Gothic LT Std Light";
 }
 
 .cont{
