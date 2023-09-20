@@ -29,10 +29,6 @@
   margin: 2rem;
 }
 
-.img img {
-  border-right: 3px solid black;
-}
-
 .item {
   display: flex;
   flex-direction: column;
@@ -41,14 +37,16 @@
   padding: 2rem;
 }
 
+.item img{
+  width: 10vw;
+}
+
 .item p{
   text-align: center;
+  font-weight: bold;
 }
 
 .lista {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 3rem;
     padding: 0;
     margin: 0;
     width: 80%;
@@ -56,9 +54,10 @@
 }
 
 .lista li{
-  width: 38vw;
+  padding: 12px 0;
   font-size: 1.4em;
   font-family: "Trade Gothic LT Std Light";
+  text-align: justify;
 }
 
 .cont{
@@ -73,7 +72,7 @@
   flex: 1; /* Hace que todas las imágenes tengan el mismo ancho y se expandan para llenar el espacio disponible */
   height: auto; /* Permite que la altura se ajuste automáticamente para mantener la proporción original */
   width: auto;
-  max-width:16vw;
+  max-width:20vw;
   margin: 5px; /* Agrega margen entre las imágenes (opcional) */
   border-radius: 8px;
   margin-top: 8rem;

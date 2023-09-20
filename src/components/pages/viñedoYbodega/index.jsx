@@ -13,7 +13,7 @@ const Viñedoybodega = () => {
       </div> */}
       <div className="contenidoVyB">
         <div className="text">
-          <h1>Viñedo & Bodega</h1>
+          <h1>VIÑEDO & BODEGA</h1>
           <p>
             El limbo es un límite que une y separa, el campo virgen del oasis
             cultivado. Allí, en esa línea geográfica a 800 msnm, están ubicados

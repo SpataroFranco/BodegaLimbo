@@ -1,12 +1,19 @@
-.container-home {
-  background-image: url("../../../assets/fondo-finca.png");
-  background-size: 100vw 70vh;
-  background-repeat: no-repeat;
+.container-home{
+  padding: 0 10vw;
+  margin-bottom: 6rem;
 }
+
 .contain {
   display: flex;
+  flex-direction: column;
   width: 100%;
   justify-content: space-evenly;
+}
+
+.contain-l{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
 
 .contain-link a img {
@@ -28,9 +35,9 @@
 }
 
 .home-bottom {
-  padding: 6rem 12%;
   display: flex;
   flex-direction: column;
+  margin-top: 4rem;
 }
 
 .nuestra-cosecha {

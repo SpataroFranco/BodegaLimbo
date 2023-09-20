@@ -12,11 +12,17 @@ const QuienesSomos = () => {
     <div className="contenedor-quienes-somos">
       <div className="quienes-somos-top">
         <div className="contenido">
-          <h1>Quienes Somos</h1>
+          <h1>QUIENES SOMOS</h1>
           <p>
-            Somos Osvaldo, María y Andrés, una familia de viticultores. Tenemos
-            la determinación de compartir la excelencia de una zona vitícola sin
-            par, a través de un trabajo creativo y artesanal.
+            Somos Osvaldo y María, una familia de viticultores con la
+            determinación de compartir vinos de una zona vitícola sin par.
+          </p>
+          <p>
+            En Cuadro Benegas, San Rafael, Mendoza, rodeada de monte nativo y de
+            pequeñas parcelas de viñas y frutales está Finca y Bodega LIMBO, en
+            un “Limbo”, al borde de un barranco que separa el oasis del
+            desierto. Esta difícil geografía y una laboriosa obstinación nos
+            lleva a producir vinos expresivos y de gran personalidad.
           </p>
           <p>
             El emprendimiento comienza en el año 2001 cuando luego de un largo
@@ -33,16 +39,13 @@ const QuienesSomos = () => {
             del mejor vino que este suelo nos pueda dar. Siempre utilizando
             prácticas enológicas artesanales con precisión técnica.
           </p>
-          <p>
-            La finca está ubicada en Cuadro Benegas, San Rafael, al borde de un
-            barranco que separa el oasis del desierto. Esta difícil geografía
-            junto a una laboriosa obstinación nos permite producir vinos
-            típicos, diferentes y de gran personalidad. Esto fue lo que nos
-            llevó a definir el nombre de la bodega como LIMBO.
-          </p>
         </div>
         <div>
-          <img src={osvaldoMaria} alt="imgProyecto" className="img-osvaldoMaria" />
+          <img
+            src={osvaldoMaria}
+            alt="imgProyecto"
+            className="img-osvaldoMaria"
+          />
         </div>
       </div>
       <div className="quienes-somos-center">
@@ -97,10 +100,17 @@ const QuienesSomos = () => {
                 nuestro diálogo con el arte, un enfoque que nos hace únicos.
               </p>
               <p>
-                Es un honor presentar el diseño de nuestras nuevas etiquetas con
-                obra del artista mendocino Cristian Delhez, quien nos compartió
-                generosamente sus obras. Junto a su hijo Iván, seleccionamos
-                algunos fragmentos de ellas para identificar nuestros vinos.
+                Los vinos de Osvaldo revelan el paisaje y la cultura típica de
+                esta región. Nuestras etiquetas interpretan este paisaje y su
+                cultura, son fragmentos de obras del artista mendocino Cristian
+                Delhez. Incansable relator de historias dibujadas, Cristian fue
+                un artista plástico, grabador, dibujante y pintor que dejó una
+                huella imborrable en el patrimonio cultural mendocino.
+              </p>
+              <p>
+                Cristian Delhez nos compartió generosamente sus obras. Junto a
+                su hijo Iván, seleccionamos algunos fragmentos de ellas para
+                identificar nuestros vinos.
               </p>
             </div>
           </div>

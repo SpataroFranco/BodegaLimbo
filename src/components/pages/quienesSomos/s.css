@@ -13,12 +13,14 @@
   background-image: url("../../../assets/fondo-espantapajaros.png");
   background-repeat: no-repeat;
   background-position: center;
+  background-size: contain;
 }
 
 .contenido p {
-  width: 60%;
+  width: 90%;
   justify-content: center;
   text-align: justify;
+  font-size: 1.4em;
 }
 
 .img-osvaldoMaria {
@@ -35,7 +37,6 @@
   width: 100%;
   align-items: center;
   min-height: 50vh;
-  text-align: justify;
   justify-content: center;
 }
 
@@ -45,9 +46,17 @@
   text-align: center;
 }
 
+.quienes-somos-center div p{
+  text-align: justify;
+  font-weight: bold;
+}
+
 .quienes-somos-buttom {
   padding: 0 8%;
+  
 }
+
+
 
 .etiquetas {
   display: flex;
@@ -63,6 +72,11 @@
   flex-direction: column;
   justify-content: space-evenly;
   width: 100%;
+}
+
+.etiquetas-text div p{
+  text-align: justify;
+  font-size: 1.4em;
 }
 
 .etiquetas-text div {
