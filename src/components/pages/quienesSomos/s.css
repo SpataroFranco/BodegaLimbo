@@ -1,24 +1,37 @@
+.contenedor-quienes-somos{
+  margin-top: 4rem;
+}
+
 .quienes-somos-top {
   display: flex;
-  height: 50rem;
-  width: 100%;
-  justify-content: center;
+  justify-content: space-evenly;
 }
 
 .contenido {
   display: flex;
   flex-direction: column;
-  width: 50%;
-  justify-content: space-evenly;
+  width: 40vw;
+  background-image: url("../../../assets/fondo-espantapajaros.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
 }
 
 .contenido p {
-  width: 60%;
+  width: 90%;
+  justify-content: center;
+  text-align: justify;
+  font-size: 1.4em;
 }
 
-.img-osvaldo {
+.contenedor-img{
+  width: 30vw;
+}
+
+.img-osvaldoMaria {
   width: 100%;
   height: 100%;
+  border-radius: 12px;
 }
 
 .quienes-somos-center {
@@ -26,20 +39,24 @@
   background-size: contain;
   background-position: center center; /* Centra la imagen horizontal y verticalmente */
   display: flex;
-  width: 100%;
   align-items: center;
   min-height: 50vh;
-  text-align: justify;
-  justify-content: center;
+  justify-content: space-evenly;
 }
 
 .quienes-somos-center div {
-  padding: 2rem;
-  width: 30rem;
+  width: 21vw;
+  text-align: center;
+}
+
+.quienes-somos-center div p{
+  text-align: justify;
+  font-weight: bold;
 }
 
 .quienes-somos-buttom {
-  padding: 0 8%;
+  padding: 0 9vw;
+  
 }
 
 .etiquetas {
@@ -56,6 +73,11 @@
   flex-direction: column;
   justify-content: space-evenly;
   width: 100%;
+}
+
+.etiquetas-text div p{
+  text-align: justify;
+  font-size: 1.4em;
 }
 
 .etiquetas-text div {

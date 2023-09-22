@@ -1,12 +1,8 @@
 import { useState } from "react";
-import viñedo from "../../../BD/viniedo.json";
-import finca from "../../../BD/finca.json";
-import cosecha from "../../../BD/cosecha.json";
-import turistas from "../../../BD/turistas.json";
+import enoturismo from "../../../BD/enoturismo.json";
 import "./s.css";
 
 const Enoturismo = () => {
-
   const [selectedImage, setSelectedImage] = useState(null);
 
   const openImage = (image) => {
@@ -26,20 +22,21 @@ const Enoturismo = () => {
       <div>
         <div className="text-up">
           <p>
-            A través de visitas guiadas y catas profesionales te llevaremos a
-            descubrir los viñedos y nuestros vinos de pequeñas producciones en
-            un territorio único, en ambientes reciclados y auténticos, para
-            disfrutar de una experiencia en completa tranquilidad.
+            Los invitamos a que se sientan como en casa para vivir una
+            experiencia personalizada acompañados por una charla con Osvaldo. En
+            el paseo entre viejos y nuevos viñedos, compartiremos las labranzas
+            y conoceremos a hombres y mujeres que día a día hacen posible esta
+            aventura, los guiaremos para descubrir “al viñatero”.
           </p>
           <p>
-            En un marco sugerente y relajante, lo guiaremos para descubrir “el
-            Vino como se hacía antes”. En el paseo entre viñedos compartiremos
-            las labranzas y conoceremos a la gente que hace posible esta
-            aventura...
+            En la bodega artesanal compartiremos catas de vinos de pequeñas
+            producciones de distintos años y crianza; de tanques y barricas.
+            Para finalmente ver cómo se etiquetan las botellas a mano. Del
+            viñedo a la botella.
           </p>
         </div>
         <div className="text-down">
-          <h3>LA BIENVENIDA</h3>
+          <h3>Bienvenido a San Rafael, bienvenido a Finca y Bodega Limbo</h3>
           <p>
             En Limbo mantenemos la calidez de la más auténtica hospitalidad
             sanrafaelina, aquella que busca que sus huéspedes se sientan como en
@@ -50,47 +47,20 @@ const Enoturismo = () => {
             experiencia única, ofreciendo viajes sensoriales que combinan vinos
             de pequeñas producciones auténticas del territorio sanrafaelino.
           </p>
-          <p> Bienvenido a San Rafael, bienvenido a Finca y Bodega Limbo</p>
-          <p>Tiempo del recorrido: 2:30hs aproximadamente</p>
-          <p>Reserva previa: +54 9 (2604) 417126</p>
+          <p><strong>Tiempo del recorrido:</strong> 2:30hs aproximadamente</p>
+          <p><strong>Reserva previa:</strong> +54 9 (2604) 417126</p>
         </div>
       </div>
       <div className="gallery">
         <h1>LIMBO nuestro lugar</h1>
-        <div className="viñedo">
-          {viñedo.map((item) => (
-            <div>
-              <video controls width="400" height="300">
-                <source src={item.contenido} type="video/mp4" />
-                Tu navegador no admite el elemento de video.
-              </video>
-              <p>{item.titulo}</p>
-            </div>
-          ))}
-        </div>
-        <h2>Un poco de lo que somos</h2>
         <div className="finca">
-          {finca.map((item) => (
+          {enoturismo.map((item) => (
             <div onClick={() => openImage(item.contenido)}>
-              <img src={item.contenido} alt={item.titulo} width="500" className="f"/>
-              <p>{item.titulo}</p>
-            </div>
-          ))}
-        </div>
-        <h2>Algunas de nuestras cosechas</h2>
-        <div className="cosecha">
-        {cosecha.map((item) => (
-            <div onClick={() => openImage(item.contenido)}>
-              <img src={item.contenido} alt={item.titulo} width="400"/>
-              <p>{item.titulo}</p>
-            </div>
-          ))}
-        </div>
-        <h2>Algunos de nuestros visitantes</h2>
-        <div className="turistas">
-        {turistas.map((item) => (
-            <div onClick={() => openImage(item.contenido)}>
-              <img src={item.contenido} alt={item.titulo} width="500"/>
+              <img
+                src={item.contenido}
+                alt={item.titulo}
+                className="f"
+              />
               <p>{item.titulo}</p>
             </div>
           ))}

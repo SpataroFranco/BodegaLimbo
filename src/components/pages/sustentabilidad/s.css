@@ -6,17 +6,24 @@
 }
 
 .contenedor-sostenibilidad h1{
-  text-align: center;
+  margin-left: 4rem;
 }
 
 .introSust {
-  display: flex;
   justify-content: space-between;
+
+}
+
+.negrita{
+  font-weight: bold;
 }
 
 .introSust p {
-  width: 50%;
+  width: 38vw;
   margin: 2rem;
+  font-size: 1.4em;
+  font-family: "Trade Gothic LT Std Light";
+  margin-left: 4rem;
 }
 
 .img {
@@ -24,10 +31,6 @@
   justify-content: center;
   align-items: center;
   margin: 2rem;
-}
-
-.img img {
-  border-right: 3px solid black;
 }
 
 .item {
@@ -38,16 +41,47 @@
   padding: 2rem;
 }
 
+.item img{
+  width: 10vw;
+}
+
+.item p{
+  text-align: justify;
+  font-weight: bold;
+}
+
 .lista {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 3rem;
     padding: 0;
     margin: 0;
     width: 80%;
     margin: 0 auto;
 }
 
+.lista li{
+  padding: 12px 0;
+  font-size: 1.4em;
+  font-family: "Trade Gothic LT Std Light";
+  text-align: justify;
+}
+
 .cont{
     margin: 4rem 0;
+}
+
+.galeria {
+  display: flex; /* Utilizamos flexbox para alinear las imágenes horizontalmente */
+}
+
+.imagen-galeria {
+  flex: 1; /* Hace que todas las imágenes tengan el mismo ancho y se expandan para llenar el espacio disponible */
+  height: auto; /* Permite que la altura se ajuste automáticamente para mantener la proporción original */
+  width: auto;
+  max-width:20vw;
+  margin: 5px; /* Agrega margen entre las imágenes (opcional) */
+  border-radius: 8px;
+  margin-top: 8rem;
+}
+
+.imagen-galeria:hover{
+  transform: scale(1.05);
 }

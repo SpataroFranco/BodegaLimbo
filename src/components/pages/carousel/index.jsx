@@ -1,34 +1,96 @@
-// import 'mdb-react-ui-kit/dist/css/mdb.min.css';
-import "@fortawesome/fontawesome-free/css/all.min.css";
-import React from "react";
-import { MDBCarousel, MDBCarouselItem } from "mdb-react-ui-kit";
+import { Carousel } from "react-carousel-minimal";
 import "./s.css";
-import cava from "../../../assets/cava.jpg"
-import finca from "../../../assets/finca.jpeg"
 
-const Carousel = () => {
+function App() {
+  const data = [
+    {
+      image: "/carousel/images.jpeg",
+      caption: "none",
+    },
+    {
+      image: "/carousel/B.jpg",
+      caption: "campo",
+    },
+
+    {
+      image:
+        "/carousel/C.jpg",
+      caption: "cartel limbo",
+    },
+    {
+      image:
+        "/carousel/images.jpg",
+      caption: "none",
+    },
+    {
+      image:
+        "/carousel/E.jpg",
+      caption: "invierno",
+    },
+    {
+      image:
+        "/carousel/F.jpg",
+      caption: "uvas desde adentro",
+    },
+    {
+      image:
+      "/carousel/G.jpg",
+      caption: "nieve",
+    },
+    {
+      image:
+      "/carousel/H.jpg",
+      caption: "cultivo",
+    },
+    {
+      image:"/carousel/I.jpg",
+      caption: "finca"
+    },
+    {
+      image:"/carousel/J.jpg",
+      caption: "mano"
+    }
+  ];
+
+  const captionStyle = {
+    fontSize: "1em",
+    fontWeight: "bold",
+  };
+  const slideNumberStyle = {
+    fontSize: "0px",
+    fontWeight: "bold",
+  };
   return (
-    <MDBCarousel showIndicators showControls fade>
-      <MDBCarouselItem
-        className="w-100 d-block"
-        itemId={1}
-        src={cava}
-        alt="..."
-      >
-        <h5>First slide label</h5>
-        <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-      </MDBCarouselItem>
-      <MDBCarouselItem
-        className="w-100 d-block"
-        itemId={3}
-        src={finca}
-        alt="..."
-      >
-        <h5>Third slide label</h5>
-        <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
-      </MDBCarouselItem>
-    </MDBCarousel>
+    <div className="App">
+      <div>
+        <div>
+          <Carousel
+            data={data}
+            time={5000}
+            width="100vw"
+            height="80vh"
+            captionStyle={captionStyle}
+            radius="10px"
+            slideNumber={true}
+            slideNumberStyle={slideNumberStyle}
+            captionPosition="bottom"
+            automatic={false}
+            dots={true}
+            pauseIconColor="white"
+            pauseIconSize="40px"
+            slideBackgroundColor="transparent"
+            slideImageFit="cover"
+            thumbnails={true}
+            thumbnailWidth="60px"
+            style={{
+              maxWidth: "100vw",
+              maxHeight: "100vh"
+            }}
+          />
+        </div>
+      </div>
+    </div>
   );
-};
+}
 
-export default Carousel;
+export default App;

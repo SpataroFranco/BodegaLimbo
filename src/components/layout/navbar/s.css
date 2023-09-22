@@ -18,6 +18,7 @@
 .secciones a {
   margin: 2em;
   width: max-content;
+  background-color: white;
 }
 .secciones a:hover {
   transform: scale(1.2, 1.2);

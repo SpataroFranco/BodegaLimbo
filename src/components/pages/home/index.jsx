@@ -8,42 +8,38 @@ import cabernetSauReserva2020 from "../../../assets/cabernetSauReserva2020.png";
 import malbecReserva2019 from "../../../assets/malbecReserva2019.png";
 import cabernetSauvignon2020 from "../../../assets/cabernetSauvignon2020.png";
 import cabernetSauvignon2020CORTE from "../../../assets/cabernetSauvignonCORTE2020.png";
-
+import Carousel from "../carousel";
 import "./s.css";
 
 const Home = () => {
   return (
     <>
+      <Carousel />
       <div className="container-home">
-        <div className="home-top">
-          <h1>Nuestra filosofia</h1>
-          <p>
-            Buscamos preservar lo más fielmente posible la característica del
-            terruño, para que cada añada refleje lo que nos entregó la cosecha
-            con sus variables climáticas.
-          </p>
-        </div>
-        <div className="titulo">
-          <h1>SOBRE NOSOTROS</h1>
-        </div>
+        <div className="home-top"></div>
         <div className="contain">
-          <div className="contain-link">
-            <Link to="/home/quienes-somos">
-              <img src={proyecto} alt="imgProyecto" />
-              <h3>QUIENES SOMOS</h3>
-            </Link>
+          <div>
+            <h1>SOBRE NOSOTROS</h1>
           </div>
-          <div className="contain-link">
-            <Link to="/home/viñedo-y-bodega">
-              <img src={viñedoybodega} alt="imgProyecto" />
-              <h3>VIÑEDO Y BODEGA</h3>
-            </Link>
-          </div>
-          <div className="contain-link">
-            <Link to="/home/sustentabilidad">
-              <img src={sostenibilidad} alt="imgProyecto" />
-              <h3>SOSTENIBILIDAD</h3>
-            </Link>
+          <div className="contain-l">
+            <div className="contain-link">
+              <Link to="/home/quienes-somos">
+                <img src={proyecto} alt="imgProyecto" />
+                <h3>QUIENES SOMOS</h3>
+              </Link>
+            </div>
+            <div className="contain-link">
+              <Link to="/home/viñedo-y-bodega">
+                <img src={viñedoybodega} alt="imgProyecto" />
+                <h3>VIÑEDO Y BODEGA</h3>
+              </Link>
+            </div>
+            <div className="contain-link">
+              <Link to="/home/sustentabilidad">
+                <img src={sostenibilidad} alt="imgProyecto" />
+                <h3>SOSTENIBILIDAD</h3>
+              </Link>
+            </div>
           </div>
         </div>
         <div className="home-bottom">
