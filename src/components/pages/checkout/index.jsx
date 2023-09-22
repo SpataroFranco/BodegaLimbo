@@ -7,6 +7,7 @@ const Checkout = () => {
   function finalizarCompra(){
     let productosParaWsp = cart.map((producto, cantidad) => producto.Titulo + " x " + producto.cantidad);
     window.open("https://api.whatsapp.com/send?phone=%2B5492604417126&text=Hola,%20me%20gustaría%20comprar%20los%20siguientes%20productos%3A" + " " + JSON.stringify(productosParaWsp));
+    vaciarCarrito();
   };
   return (
     <div className="checkout">
