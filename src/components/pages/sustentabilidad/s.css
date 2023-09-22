@@ -14,6 +14,10 @@
 
 }
 
+.negrita{
+  font-weight: bold;
+}
+
 .introSust p {
   width: 38vw;
   margin: 2rem;
@@ -42,7 +46,7 @@
 }
 
 .item p{
-  text-align: center;
+  text-align: justify;
   font-weight: bold;
 }
 

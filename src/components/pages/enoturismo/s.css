@@ -1,28 +1,36 @@
 .titles {
-  background-image: url("../../../assets/fondo-sierras.png");
   background-size: contain;
   background-position: center center;
   text-align: center;
+  font-family: "Trade Gothic LT Std Light";
 }
 
 .titles h1 {
   margin: 4rem;
 }
 
+.titles p{
+  font-weight: bold;
+}
+
+
 .text-up {
-  margin: 2rem 4rem;
   display: flex;
-  text-align: justify;
+  justify-content: space-evenly;
 }
 
 .text-up p {
-  padding-right: 6rem;
   font-size: 1.4em;
   font-family: "Trade Gothic LT Std Light";
+  width: 40vw;
+  text-align: justify;
 }
 
 .text-down {
-  margin: 2rem 4rem;
+  padding: 2rem 6vw;
+  background-image: url("../../../assets/fondo-sierras.png");
+  background-position: center;
+  background-size: contain;
 }
 
 .text-down p{
@@ -31,9 +39,7 @@
 }
 
 .gallery {
-  margin: 2rem 4rem;
-  display: flex;
-  flex-direction: column;
+  padding: 2rem 6vw;
 }
 
 .viñedo {
@@ -43,8 +49,16 @@
 
 .finca {
   display: flex;
-  justify-content: space-around;
+  justify-content: flex-start;
   flex-wrap: wrap;
+}
+
+.finca div{
+  margin-bottom: 4rem;
+}
+
+.finca p{
+  margin: 0 1.5vw;
 }
 
 .cosecha {
@@ -60,8 +74,12 @@
 }
 
 .f {
-  width: 24rem;
-  height: 80%;
+  width: 25vw; /* El ancho deseado para cada imagen */
+  height: 60vh; /* La altura deseada para cada imagen */
+  display: flex;
+  justify-content: center;
+  margin: 0 1.5vw;
+  border-radius: 6px;
 }
 
 /* Estilo para el modal de la imagen */
@@ -100,29 +118,6 @@
 }
 
 /* Estilo para las imágenes en la galería */
-.turistas div {
-  cursor: pointer;
-  transition: transform 0.2s;
-}
-
-.turistas img {
-  border-radius: 8px;
-}
-
-.cosecha img {
-  border-radius: 8px;
-}
-
-.finca img {
-  border-radius: 6px;
-}
-
-.turistas div img:hover {
-  transform: scale(1.05);
-}
-.cosecha div img:hover {
-  transform: scale(1.05);
-}
 .finca div img:hover {
   transform: scale(1.05);
 }

@@ -1,5 +1,5 @@
 import osvaldoMaria from "../../../assets/Osvaldo-Maria.jpg";
-import etiquetas from "../../../assets/Malbec-Reserva2019.jpg";
+import etiquetas from "../../../assets/fondo-pajaro.png";
 import malbecEtiqueta from "../../../assets/malbecReservaEtiqueta.png";
 import CabernetEtiqueta from "../../../assets/cabernetEtiqueta.png";
 import corteEtiqueta from "../../../assets/corteReserva.png";
@@ -14,7 +14,7 @@ const QuienesSomos = () => {
         <div className="contenido">
           <h1>QUIENES SOMOS</h1>
           <p>
-            Somos Osvaldo y María, una familia de viticultores con la
+            Somos <strong>Osvaldo y María</strong>, una familia de viticultores con la
             determinación de compartir vinos de una zona vitícola sin par.
           </p>
           <p>
@@ -35,12 +35,12 @@ const QuienesSomos = () => {
           <p>
             En el año 2007 elaboramos una pequeña cantidad de vino, desde
             entonces vamos aumentando la producción año a año hasta los actuales
-            9.000 litros. Nuestro objetivo es elaborar no más de12.000 litros
-            del mejor vino que este suelo nos pueda dar. Siempre utilizando
+            9.000 litros. <strong>Nuestro objetivo es elaborar no más de 12.000 litros
+            del mejor vino que este suelo nos pueda dar.</strong> Siempre utilizando
             prácticas enológicas artesanales con precisión técnica.
           </p>
         </div>
-        <div>
+        <div className="contenedor-img">
           <img
             src={osvaldoMaria}
             alt="imgProyecto"
@@ -96,14 +96,14 @@ const QuienesSomos = () => {
             <div>
               <h2>LAS ETIQUETAS</h2>
               <p>
-                Cuando ARTE Y VINO SE HACEN UNO: nuestras raíces están en
+                Cuando <strong>ARTE Y VINO SE HACEN UNO:</strong> nuestras raíces están en
                 nuestro diálogo con el arte, un enfoque que nos hace únicos.
               </p>
               <p>
                 Los vinos de Osvaldo revelan el paisaje y la cultura típica de
                 esta región. Nuestras etiquetas interpretan este paisaje y su
-                cultura, son fragmentos de obras del artista mendocino Cristian
-                Delhez. Incansable relator de historias dibujadas, Cristian fue
+                cultura, son fragmentos de obras del <strong>artista mendocino Cristian
+                Delhez.</strong> Incansable relator de historias dibujadas, Cristian fue
                 un artista plástico, grabador, dibujante y pintor que dejó una
                 huella imborrable en el patrimonio cultural mendocino.
               </p>

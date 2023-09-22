@@ -8,13 +8,13 @@ function App() {
       caption: "none",
     },
     {
-      image: "/carousel/campo.jpeg",
+      image: "/carousel/B.jpg",
       caption: "campo",
     },
 
     {
       image:
-        "/carousel/cartelLIMBO.jpeg",
+        "/carousel/C.jpg",
       caption: "cartel limbo",
     },
     {
@@ -24,30 +24,30 @@ function App() {
     },
     {
       image:
-        "/carousel/invierno.jpg",
+        "/carousel/E.jpg",
       caption: "invierno",
     },
     {
       image:
-        "/carousel/uvadesdeadentro.jpg",
+        "/carousel/F.jpg",
       caption: "uvas desde adentro",
     },
     {
       image:
-      "/carousel/nieve.jpeg",
+      "/carousel/G.jpg",
       caption: "nieve",
     },
     {
       image:
-      "/carousel/vinedo-y-bodega1.jpeg",
+      "/carousel/H.jpg",
       caption: "cultivo",
     },
     {
-      image:"/carousel/fondo-finca.png",
+      image:"/carousel/I.jpg",
       caption: "finca"
     },
     {
-      image:"/carousel/mano.jpg",
+      image:"/carousel/J.jpg",
       caption: "mano"
     }
   ];
