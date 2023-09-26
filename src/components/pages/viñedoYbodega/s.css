@@ -1,37 +1,59 @@
-.contenedor-img {
-  display: flex;
-  justify-content: center;
-}
-
-.imgVyB {
-  height: 50vh;
-  width: 30vw;
-  border-radius: 8px;
-}
-
-.container-vyb h1 {
-  text-align: center;
-  margin-bottom: 4rem;
-}
-
-.container-vyb{
-  margin: 4rem 0;
-}
-
-.contenidoVyB {
-  display: flex;
-  align-items: center;
-  justify-content:space-evenly;
+.container-vyb {
+  padding: 0 10vw;
 }
 
 .text {
-  width: 30vw;
-  background-image: url("../../../assets/fondo-cuervo.png");
-  background-repeat: no-repeat;
-  background-position: center;
   font-size: 1.4em;
+  text-align: justify;
 }
 
-.text p {
-  text-align: justify;
+.portada-viñedo {
+  display: flex;
+}
+
+.portada-viñedo div {
+  margin-right: 12px;
+}
+
+.imgProyecto {
+  width: 39vw;
+  height: 40vh;
+  border-radius: 8px;
+}
+
+.bodega-cont div img {
+  height: 80vh;
+}
+
+.bodega-img {
+  display: flex;
+}
+
+.bodega-img div {
+  margin-right: 12px;
+}
+
+.cava-img {
+  display: flex;
+}
+
+.cava-img div {
+  padding-right: 12px;
+}
+
+.cava-img div img {
+  width: 19vw;
+}
+
+.viñedo-gallery {
+  display: flex;
+}
+
+.viñedo-gallery div {
+  padding-right: 12px;
+}
+
+.viñedo-gallery div img {
+  width: 19vw;
+  border-radius: 8px;
 }

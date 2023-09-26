@@ -1,57 +1,9 @@
 import { Carousel } from "react-carousel-minimal";
-import "./s.css";
 
-function App() {
-  const data = [
-    {
-      image: "/carousel/images.jpeg",
-      caption: "none",
-    },
-    {
-      image: "/carousel/B.jpg",
-      caption: "campo",
-    },
+function App(props) {
 
-    {
-      image:
-        "/carousel/C.jpg",
-      caption: "cartel limbo",
-    },
-    {
-      image:
-        "/carousel/images.jpg",
-      caption: "none",
-    },
-    {
-      image:
-        "/carousel/E.jpg",
-      caption: "invierno",
-    },
-    {
-      image:
-        "/carousel/F.jpg",
-      caption: "uvas desde adentro",
-    },
-    {
-      image:
-      "/carousel/G.jpg",
-      caption: "nieve",
-    },
-    {
-      image:
-      "/carousel/H.jpg",
-      caption: "cultivo",
-    },
-    {
-      image:"/carousel/I.jpg",
-      caption: "finca"
-    },
-    {
-      image:"/carousel/J.jpg",
-      caption: "mano"
-    }
-  ];
-
+  const {data} = props;
+  
   const captionStyle = {
     fontSize: "1em",
     fontWeight: "bold",
