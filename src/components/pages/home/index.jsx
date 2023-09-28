@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import proyecto from "../../../assets/proyecto.png";
-import viñedoybodega from "../../../assets/vinedo-y-bodega.png";
+import viñedoybodega from "../../../assets/Viñedo-y-Bodega.jpg";
 import sostenibilidad from "../../../assets/sostenibilidad.png";
 import corteReserva2019 from "../../../assets/corteReserva2019.png";
 import petitVerdotReserva2018 from "../../../assets/petitVerdotReserva2018.png";

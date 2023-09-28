@@ -39,8 +39,9 @@
   background-size: contain;
   background-position: center center; /* Centra la imagen horizontal y verticalmente */
   display: flex;
-  align-items: center;
-  min-height: 50vh;
+  margin-top: 5rem;
+  align-items:top;
+  min-height: 30vh;
   justify-content: space-evenly;
 }
 
@@ -50,8 +51,9 @@
 }
 
 .quienes-somos-center div p{
-  text-align: justify;
+  text-align: center;
   font-weight: bold;
+  font-size: 1.2em;
 }
 
 .quienes-somos-buttom {
