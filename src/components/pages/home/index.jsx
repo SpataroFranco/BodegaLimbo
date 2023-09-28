@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import proyecto from "../../../assets/proyecto.png";
-import viñedoybodega from "../../../assets/vinedo-y-bodega.png";
+import viñedoybodega from "../../../assets/Viñedo-y-Bodega.jpg";
 import sostenibilidad from "../../../assets/sostenibilidad.png";
 import corteReserva2019 from "../../../assets/corteReserva2019.png";
 import petitVerdotReserva2018 from "../../../assets/petitVerdotReserva2018.png";
@@ -12,9 +12,58 @@ import Carousel from "../carousel";
 import "./s.css";
 
 const Home = () => {
+   const galeria = [
+    {
+      image: "/carousel/yuyo.jpeg",
+      caption: "yuyos",
+    },
+    {
+      image: "/carousel/B.jpg",
+      caption: "campo",
+    },
+
+    {
+      image:
+        "/carousel/C.jpg",
+      caption: "cartel limbo",
+    },
+    {
+      image:
+        "/carousel/otoño.jpg",
+      caption: "otoño",
+    },
+    {
+      image:
+        "/carousel/E.jpg",
+      caption: "invierno",
+    },
+    {
+      image:
+        "/carousel/F.jpg",
+      caption: "uvas desde adentro",
+    },
+    {
+      image:
+      "/carousel/G.jpg",
+      caption: "nieve",
+    },
+    {
+      image:
+      "/carousel/H.jpg",
+      caption: "cultivo",
+    },
+    {
+      image:"/carousel/I.jpg",
+      caption: "finca"
+    },
+    {
+      image:"/carousel/J.jpg",
+      caption: "uvas"
+    }
+  ];
   return (
     <>
-      <Carousel />
+      <Carousel data={galeria}/>
       <div className="container-home">
         <div className="home-top"></div>
         <div className="contain">

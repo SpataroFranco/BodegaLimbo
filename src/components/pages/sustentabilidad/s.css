@@ -46,8 +46,9 @@
 }
 
 .item p{
-  text-align: justify;
+  text-align: center;
   font-weight: bold;
+  font-size: 1.4em;
 }
 
 .lista {
