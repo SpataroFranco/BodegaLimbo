@@ -168,11 +168,11 @@ const Viñedoybodega = () => {
                   alt="imgProyecto"
                   className="imgProyecto"
                 />
-                <p>Nuestros vinos</p>
+                <p>Nuestros vinos criados en botella</p>
               </div>
               <div>
                 <img src={reserva} alt="imgProyecto" className="imgProyecto" />
-                <p>Nuestros vinos</p>
+                <p>Nuestros vinos criados en barrica</p>
               </div>
             </div>
             <div className="text">
