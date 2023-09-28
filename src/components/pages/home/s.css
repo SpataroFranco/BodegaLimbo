@@ -21,6 +21,10 @@
   border-radius: 8px;
 }
 
+.contain-link h3 {
+  font-size: 1.3em;
+}
+
 .home-top {
   width: 20%;
   color: white;

@@ -1,7 +1,7 @@
 import "./s.css";
 import React from "react";
 import { Link } from "react-router-dom";
-import logo from "../../../assets/logo.png";
+import logo from "../../../assets/logo-solo.png";
 import logoWhatsapp from "../../../assets/whatsapp.svg";
 import logoInstagram from "../../../assets/instagram.svg";
 import logoFacebook from "../../../assets/facebook.svg";

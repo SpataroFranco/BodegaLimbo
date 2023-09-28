@@ -7,7 +7,11 @@
   margin: 0 2em;
 }
 .footer img {
+  margin-top: 1em;
   width: 30%;
+}
+.footer p {
+  margin-left: 1em;
 }
 .redes img {
   width: 2rem;

@@ -14,10 +14,6 @@
 
 }
 
-.negrita{
-  font-weight: bold;
-}
-
 .introSust p {
   width: 38vw;
   margin: 2rem;
@@ -62,7 +58,7 @@
   padding: 12px 0;
   font-size: 1.4em;
   font-family: "Trade Gothic LT Std Light";
-  text-align: justify;
+  text-align: left;
 }
 
 .cont{
@@ -70,15 +66,15 @@
 }
 
 .galeria {
-  display: flex; /* Utilizamos flexbox para alinear las imágenes horizontalmente */
+  display: flex;
 }
 
 .imagen-galeria {
-  flex: 1; /* Hace que todas las imágenes tengan el mismo ancho y se expandan para llenar el espacio disponible */
-  height: auto; /* Permite que la altura se ajuste automáticamente para mantener la proporción original */
+  flex: 1;
+  height: auto;
   width: auto;
   max-width:20vw;
-  margin: 5px; /* Agrega margen entre las imágenes (opcional) */
+  margin: 5px;
   border-radius: 8px;
   margin-top: 8rem;
 }

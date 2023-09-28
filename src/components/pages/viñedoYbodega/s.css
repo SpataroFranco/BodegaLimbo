@@ -2,7 +2,11 @@
   padding: 2vh 10vw 10vh 10vw;
 }
 
-.text {
+.container-vyb h2, .bodega h2, .cava h2 {
+  font-size: 2em;
+}
+
+.text p {
   font-size: 1.4em;
   text-align: justify;
 }

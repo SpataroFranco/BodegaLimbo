@@ -15,55 +15,55 @@ const Home = () => {
    const galeria = [
     {
       image: "/carousel/yuyo.jpeg",
-      caption: "yuyos",
+      caption: "Yuyos",
     },
     {
       image: "/carousel/B.jpg",
-      caption: "campo",
+      caption: "Campo",
     },
 
     {
       image:
         "/carousel/C.jpg",
-      caption: "cartel limbo",
+      caption: "Cartel Limbo",
     },
     {
       image:
         "/carousel/otoño.jpg",
-      caption: "otoño",
+      caption: "Otoño",
     },
     {
       image:
         "/carousel/E.jpg",
-      caption: "invierno",
+      caption: "Invierno",
     },
     {
       image:
         "/carousel/F.jpg",
-      caption: "uvas desde adentro",
+      caption: "Uvas desde adentro",
     },
     {
       image:
       "/carousel/G.jpg",
-      caption: "nieve",
+      caption: "Nieve",
     },
     {
       image:
       "/carousel/H.jpg",
-      caption: "cultivo",
+      caption: "Cultivo",
     },
     {
       image:"/carousel/I.jpg",
-      caption: "finca"
+      caption: "Finca"
     },
     {
       image:"/carousel/J.jpg",
-      caption: "uvas"
+      caption: "Uvas"
     }
   ];
   return (
     <>
-      <Carousel data={galeria}/>
+      <Carousel data={galeria} />
       <div className="container-home">
         <div className="home-top"></div>
         <div className="contain">
@@ -74,19 +74,19 @@ const Home = () => {
             <div className="contain-link">
               <Link to="/home/quienes-somos">
                 <img src={proyecto} alt="imgProyecto" />
-                <h3>QUIENES SOMOS</h3>
+                <h3>Quiénes Somos</h3>
               </Link>
             </div>
             <div className="contain-link">
               <Link to="/home/viñedo-y-bodega">
                 <img src={viñedoybodega} alt="imgProyecto" />
-                <h3>VIÑEDO Y BODEGA</h3>
+                <h3>Viñedo y Bodega</h3>
               </Link>
             </div>
             <div className="contain-link">
               <Link to="/home/sustentabilidad">
                 <img src={sostenibilidad} alt="imgProyecto" />
-                <h3>SOSTENIBILIDAD</h3>
+                <h3>Sostenibilidad</h3>
               </Link>
             </div>
           </div>
@@ -97,12 +97,12 @@ const Home = () => {
           </div>
           <div className="nuestra-cosecha">
             <div>
-              <p>Corte </p>
-              <p>Reserva 2019</p>
+              <p>Blend Reserva</p>
+              <p>2019</p>
               <img src={corteReserva2019} alt="corteReserva2019" />
             </div>
             <div>
-              <p>Petit Verdot </p>
+              <p>Petit Verdot</p>
               <p>Reserva 2018</p>
               <img src={petitVerdotReserva2018} alt="petitVerdotReserva2018" />
             </div>
@@ -112,18 +112,18 @@ const Home = () => {
               <img src={cabernetSauReserva2020} alt="cabernetSauReserva2020" />
             </div>
             <div>
-              <p>Malbec </p>
-              <p>Reserva 2019</p>
+              <p>Malbec Reserva</p>
+              <p>2019</p>
               <img src={malbecReserva2019} alt="malbecReserva2019" />
             </div>
             <div>
-              <p>Cabernet Sauvignon </p>
-              <p>2020</p>
+              <p>Cabernet Sauvignon</p>
+              <p>2021</p>
               <img src={cabernetSauvignon2020} alt="corteReserva2019" />
             </div>
             <div>
-              <p>Cabernet Sauvignon</p>
-              <p>2020 CORTE</p>
+              <p>Corte</p>
+              <p>2021</p>
               <img
                 src={cabernetSauvignon2020CORTE}
                 alt="cabernetSauvignon2020CORTE"

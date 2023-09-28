@@ -21,17 +21,17 @@ const Sustentabilidad = () => {
             entorno, la gente y su comunidad, asegurando la viabilidad
             económica.
           </p>
-          <p className="negrita">
+          <p><strong>
             Nuestro “modo de hacer” desde Limbo refleja nuestra convicción y
-            compromiso por alcanzar un desarrollo sostenible hoy y a futuro.
+            compromiso por alcanzar un desarrollo sostenible hoy y a futuro.</strong>
           </p>
         </div>
         <div className="img">
           <div className="item">
             <img src={logo1} alt="sostenibilidad1" />
             <p>
-              Generamos parte de la energia que necesitamos mediante paneles
-              solares.
+              Generamos parte de la energía que necesitamos mediante paneles
+              solares
             </p>
           </div>
           <div className="item">
@@ -68,18 +68,6 @@ const Sustentabilidad = () => {
             de producción y en capacitaciones.
           </li>
           <li>
-            Generamos parte de la energía que necesitamos mediante paneles
-            solares.
-          </li>
-          <li>
-            Utilizamos hidrolavadora con ozono para limpieza y desinfección,
-            minimizando el consumo de agua potable.
-          </li>
-          <li>
-            Preservamos la flora y fauna en diversas áreas de la finca,
-            fomentando de este modo el cuidado de la biodiversidad.
-          </li>
-          <li>
             Realizamos riegos por surcos. Toda el agua utilizada para la gestión
             de las actividades agropecuarias proviene de acequias con agua de
             deshielo del Río Diamante.
@@ -94,7 +82,7 @@ const Sustentabilidad = () => {
           </li>
           <li>
             Los sarmientos, residuos de la poda, quedan en el campo y son
-            incorporados al suelo
+            incorporados al suelo.
           </li>
           <li>
             Hemos minimizado el uso de productos fitosanitarios gracias a las
@@ -106,7 +94,7 @@ const Sustentabilidad = () => {
             más sostenible, resiliente y de calidad.
           </li>
           <li>
-            Cortamos el pasto, pero no trabajamos el suelo, para evitar la
+            Cortamos el pasto pero no trabajamos el suelo para evitar la
             erosión y el empobrecimiento del mismo.
           </li>
           <li>

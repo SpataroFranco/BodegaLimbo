@@ -4,20 +4,17 @@ import "./s.css";
 
 const Enoturismo = () => {
   const [selectedImage, setSelectedImage] = useState(null);
-
   const openImage = (image) => {
     setSelectedImage(image);
   };
-
   const closeImage = () => {
     setSelectedImage(null);
   };
-
   return (
     <div>
       <div className="titles">
         <h1>De las hileras de la vid a la copa</h1>
-        <p>Propuesta pensada para curioso y exigentes amantes del vino.</p>
+        <p>Propuesta pensada para curiosos y exigentes amantes del vino.</p>
       </div>
       <div>
         <div className="text-up">
@@ -30,8 +27,7 @@ const Enoturismo = () => {
           </p>
           <p>
             En la bodega artesanal compartiremos catas de vinos de pequeñas
-            producciones de distintos años y crianza; de tanques y barricas.
-            Para finalmente ver cómo se etiquetan las botellas a mano. Del
+            producciones de distintos años y crianza; de tanques y barricas, para finalmente ver cómo se etiquetan las botellas a mano. Del
             viñedo a la botella.
           </p>
         </div>
@@ -47,12 +43,12 @@ const Enoturismo = () => {
             experiencia única, ofreciendo viajes sensoriales que combinan vinos
             de pequeñas producciones auténticas del territorio sanrafaelino.
           </p>
-          <p><strong>Tiempo del recorrido:</strong> 2:30hs aproximadamente</p>
+          <p><strong>Tiempo del recorrido:</strong> 2:30 hs aproximadamente</p>
           <p><strong>Reserva previa:</strong> +54 9 (2604) 417126</p>
         </div>
       </div>
       <div className="gallery">
-        <h1>LIMBO nuestro lugar</h1>
+        <h1>LIMBO, nuestro lugar</h1>
         <div className="finca">
           {enoturismo.map((item) => (
             <div onClick={() => openImage(item.contenido)}>
@@ -66,14 +62,13 @@ const Enoturismo = () => {
           ))}
         </div>
       </div>
-      {/* Modal para mostrar la imagen */}
       {selectedImage && (
         <div className="modal">
           <div className="modal-content">
             <span className="close" onClick={closeImage}>
               &times;
             </span>
-            <img src={selectedImage} alt="Imagen en pantalla completa" />
+            <img src={selectedImage} alt="imagenEnPantallaCompleta" />
           </div>
         </div>
       )}

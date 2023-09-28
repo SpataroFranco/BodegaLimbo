@@ -1,9 +1,10 @@
 import "./s.css";
 import { useContext } from "react";
 import { CartContext } from "../../../contexts/CartContext";
+import { Link } from "react-router-dom";
 
 const Checkout = () => {
-  const { cart } = useContext(CartContext);
+  const { cart, vaciarCarrito } = useContext(CartContext);
   function finalizarCompra(){
     let productosParaWsp = cart.map((producto, cantidad) => producto.Titulo + " x " + producto.cantidad);
     window.open("https://api.whatsapp.com/send?phone=%2B5492604417126&text=Hola,%20me%20gustaría%20comprar%20los%20siguientes%20productos%3A" + " " + JSON.stringify(productosParaWsp));
@@ -22,7 +23,9 @@ const Checkout = () => {
         }
       </div>
       <div className="boton">
-        <button onClick={() => finalizarCompra()}>Finalizar compra</button>
+        <Link to="/cart">
+          <button onClick={() => finalizarCompra()}>Finalizar compra</button>
+        </Link>
       </div>
     </div>
   );
