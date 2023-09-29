@@ -10,7 +10,7 @@
 .contenido {
   display: flex;
   flex-direction: column;
-  width: 40vw;
+  width: 35vw;
   background-image: url("../../../assets/fondo-espantapajaros.png");
   background-repeat: no-repeat;
   background-position: center;
@@ -25,7 +25,8 @@
 }
 
 .contenedor-img{
-  width: 30vw;
+  width: 35vw;
+  min-height: max-content;
 }
 
 .img-osvaldoMaria {
