@@ -1,24 +1,60 @@
-.contenedorVinos{
-    width: 100%;
-    margin: 3em;
+.contenedorVinos {
+  width: 100%;
+  margin: 3em;
 }
 
-.contenedorVinos h2{
-    text-align: center;
+.contenedorVinos h2 {
+  text-align: center;
 }
 
 .intro {
-    width: 100%;
-    padding: 3em;
-    background-image: url("../../../assets/fondo-sierras.png");
-    background-size: contain;
-    background-position: center center;
+  width: 100%;
+  padding: 3em;
+  background-image: url("../../../assets/fondo-sierras.png");
+  background-size: contain;
+  background-position: center center;
 }
-.intro p{
-    font-size: 1.1em;
-    font-family: "Trade Gothic LT Std Light"
+.intro p {
+  font-size: 1.1em;
+  font-family: "Trade Gothic LT Std Light";
 }
-.contenedorVinos h2{
-    font-size: 2rem;
+.contenedorVinos h2 {
+  font-size: 2rem;
+  margin: 0;
+}
+
+@media screen and (max-width: 1346px) {
+  .contenedor-vinos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .intro {
+    padding: 0;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .intro p{
+    width: 80vw;
+    font-size: xx-small;
+  }
+  .contenedorVinos {
     margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .contenedorVinos h2 {
+    width: 80vw;
+    margin: 20px 0;
+    font-size: small;
+  }
+  .list {
+    margin: 0;
+  }
+  .data {
+    width: 100vw;
+  }
 }

@@ -40,3 +40,36 @@
     width: 14rem;
     height: 2rem;
 }
+
+@media screen and (max-width: 1346px) {
+    .data{
+        align-items: center;
+    }
+    .data h1{
+        font-size: small;
+    }
+    .data p{
+        font-size: xx-small;
+    }
+    .list{
+        flex-direction: column;
+    }
+    .descripcion{
+        width: 80vw;
+    }
+    .boton{
+        margin: 20px 0;
+        padding: 0;
+        width: 30vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .vinoImg{
+        width: 80vw;
+    }
+    .vinoImg img{
+        padding: 0;
+        width: 100%;
+    }
+}

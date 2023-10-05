@@ -126,3 +126,53 @@
 .finca div img:hover {
   transform: scale(1.05);
 }
+
+@media screen and (max-width: 1346px) {
+  .titles{
+    width: 100vw;
+  }
+  .titles h1{
+    margin: 0;
+    font-size: small;
+  }
+  .titles p{
+    font-size: xx-small;
+  }
+  .text-up{
+    flex-direction: column;
+    align-items: center;
+  }
+  .text-up p{
+    width: 80vw;
+    font-size: xx-small;
+  }
+  .text-down{
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    align-items: center;
+  }
+
+  .text-down h3{
+    font-size: small;
+    margin: 20px 0;
+    width: 80vw;
+  }
+  .text-down p{
+    font-size: xx-small;
+    width: 80%;
+  }
+  .gallery .finca{
+    display: flex;
+    flex-direction: column;
+  }
+  .f{
+    width: 80vw;
+  }
+  .finca div img:hover {
+    transform: none;
+  }
+  .modal-content img {
+    width: 100%;
+  }
+}

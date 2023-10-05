@@ -1,4 +1,4 @@
-.contenedor-quienes-somos{
+.contenedor-quienes-somos {
   margin-top: 4rem;
 }
 
@@ -24,7 +24,7 @@
   font-size: 1.4em;
 }
 
-.contenedor-img{
+.contenedor-img {
   width: 35vw;
   min-height: max-content;
 }
@@ -41,7 +41,7 @@
   background-position: center center; /* Centra la imagen horizontal y verticalmente */
   display: flex;
   margin-top: 5rem;
-  align-items:top;
+  align-items: top;
   min-height: 30vh;
   justify-content: space-evenly;
 }
@@ -51,7 +51,7 @@
   text-align: center;
 }
 
-.quienes-somos-center div p{
+.quienes-somos-center div p {
   text-align: center;
   font-weight: bold;
   font-size: 1.2em;
@@ -77,7 +77,7 @@
   width: 120%;
 }
 
-.etiquetas-text div p{
+.etiquetas-text div p {
   text-align: left;
   font-size: 1.4em;
 }
@@ -99,7 +99,58 @@
   margin: 0 10px; /* Ajusta el margen entre los elementos según tus preferencias */
 }
 
-.etiquetasBotellas{
+.etiquetasBotellas {
   margin: 4rem 0;
   text-align: center;
+}
+
+@media screen and (max-width: 1346px) {
+  .contenedor-img {
+    display: none;
+  }
+  .contenido {
+    width: 90vw;
+    font-size: xx-small;
+    align-items: center;
+  }
+  h1 {
+    font-size: small;
+  }
+  .quienes-somos-center {
+    flex-direction: column;
+    margin: 0;
+    align-items: center;
+  }
+  .quienes-somos-center div{
+    width: 90vw;
+    font-size: xx-small;
+  }
+  .quienes-somos-buttom{
+    width: 90vw;
+    font-size: xx-small;
+    padding: 0;
+  }
+  .img-etiquetas{
+    display: none;
+  }
+  .etiquetasImg{
+    flex-direction: column;
+    margin: 0;
+  }
+  .etiquetasImg div{
+    margin: 0;
+  }
+  .etiquetasImg div div img{
+    width: 60vw;;
+  }
+  .etiquetas-text{
+    align-items: center;
+  }
+  .etiquetasBotellas{
+    margin: 10px 0;
+    width: 100vw;
+  }
+  .etiquetasBotellas img{
+    width: 80vw;
+  }
 }

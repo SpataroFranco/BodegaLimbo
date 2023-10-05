@@ -2,3 +2,10 @@
     display: flex;
     background-image: url("../../../assets/fondo-contacto.png");
 }
+
+
+@media screen and (max-width: 1346px) {
+    .contacto{
+        margin: 20px 0;
+    }
+}

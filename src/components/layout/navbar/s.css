@@ -47,3 +47,59 @@
 .redes img:hover {
   transform: scale(1.2, 1.2);
 }
+
+@media screen and (max-width: 1346px) {
+  .menu-img{
+    width: 6vw;
+  }
+  .secciones p{
+    display: none;
+  }
+  .navbar.menu-open{
+    display: flex;
+    flex-direction: column;
+  }
+  .navbar.menu-open .logo{
+    display:flex;
+  }
+ 
+  .navbar.menu-open .secciones {
+    display: flex;
+    flex-direction: column;
+    font-size: small;
+    justify-content: space-between;
+    align-items:center;
+  }
+
+  .navbar.menu-open .redes {
+    display: flex;
+    margin: 12px 0;
+  }
+
+  .navbar .redes {
+    display: none;
+  }
+  .navbar .secciones {
+    display: none;
+  }
+
+  .navbar .menu-button {
+    display: block;
+    position: static;
+  }
+  .logo {
+    display: none;
+  }
+}
+
+/* Estilos para el botón de hamburguesa */
+.menu-button {
+  background: none;
+  cursor: pointer;
+  padding: 10px;
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  display: none;
+  margin-bottom: 20px;
+}

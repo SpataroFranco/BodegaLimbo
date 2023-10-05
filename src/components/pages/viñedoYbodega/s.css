@@ -85,3 +85,37 @@
   width: 19vw;
   border-radius: 8px;
 }
+
+@media screen and (max-width: 1346px) {
+  .container-vyb h2{
+    font-size: small;
+  }
+  .portada-viñedo{
+    flex-direction: column;
+    align-items: center;
+  }
+  .portada-viñedo div{
+    margin: 0;
+  }
+  .imgProyecto{
+    width: 80vw;
+  }
+  .text{
+    font-size: xx-small;
+  }
+  .viñedo-gallery{
+    flex-direction: column;
+  }
+  .viñedo-gallery div img{
+    width: 80vw;
+  }
+  .bodega-img{
+    flex-direction: column;
+  }
+  .cava-img{
+    flex-direction: column;
+  }
+  .cava-img div img{
+    width: 80vw;
+  }
+}

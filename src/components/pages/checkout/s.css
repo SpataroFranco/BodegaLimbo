@@ -5,3 +5,15 @@
 .checkout .boton{
     margin: 0;
 }
+
+@media screen and (max-width: 1346px) {
+    .checkout{
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .boton a{
+        margin-top: 20px;
+    }
+}

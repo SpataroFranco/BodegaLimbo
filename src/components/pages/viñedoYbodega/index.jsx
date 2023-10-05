@@ -19,22 +19,6 @@ import cajas from "../../../assets/elaboracionVestidoEmbalaje/cajas.jpeg"
 import "./s.css";
 
 const Viñedoybodega = () => {
-  const galeria = [
-    {
-      image: "../assets/elaboracionVestidoEmbalaje/fraccionando.jpeg",
-      caption: "yuyos",
-    },
-    {
-      image: "/carousel/B.jpg",
-      caption: "campo",
-    },
-
-    {
-      image: "/carousel/C.jpg",
-      caption: "cartel limbo",
-    },
-  ];
-
   return (
     <>
       <div className="container-vyb">

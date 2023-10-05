@@ -20,3 +20,21 @@
     width: 70%;
     display: flex;
 }
+
+
+@media screen and (max-width: 1346px) {
+    .detail{
+        margin: 0;
+    }
+    .botones{
+        width: 100%;
+        flex-direction: column;
+    }
+    .boton{
+        width: 50%;
+        margin: 0;
+    }
+    .boton a{
+        margin-bottom: 20px;
+    }
+}

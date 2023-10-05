@@ -57,3 +57,30 @@
 .contain-link a img:hover {
   transform: scale(1.05);
 }
+
+
+@media (max-width: 1346px) {
+  h1{
+    font-size: smaller;
+  }
+  .contain-link h3 {
+     font-size:x-small; 
+}
+  p{
+    font-size: x-small;
+  }
+  .contain{
+    align-items: center;
+  }
+  .contain-l{
+    flex-direction: column;
+    text-align: center;
+  }
+  .contain-link a img{
+    width: 40vw;
+  }
+  .nuestra-cosecha{
+    display: flex;
+    flex-direction: column;
+  }
+}  

@@ -4,7 +4,7 @@ import "./s.css";
 
 const Vinos = ({ products, items }) => {
   return (
-      <div>
+      <div className="contenedor-vinos">
         <div className="intro">
           <p>Nos concentramos en pequeñas producciones de vino de parcelas propias y únicas.</p>
         </div>

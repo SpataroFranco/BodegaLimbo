@@ -20,3 +20,15 @@
   text-align: center;
   font-family: "Trade Gothic LT Std Light";
 }
+
+
+
+@media screen and (max-width: 1346px) {
+  .footer{
+    flex-direction: column;
+  }
+
+  .redes{
+    display: none;
+  }
+}
