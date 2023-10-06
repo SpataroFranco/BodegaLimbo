@@ -118,4 +118,10 @@
   .cava-img div img{
     width: 80vw;
   }
+  .embalaje{
+    flex-direction: column;
+  }
+  .embalaje div img{
+    width: 80vw;
+  }
 }

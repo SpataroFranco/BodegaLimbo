@@ -41,3 +41,9 @@
     width: 14rem;
     height: 2rem;
 }
+
+@media screen and (max-width: 1346px) {
+    .itemCountButton button{
+        width: 100%;
+    }
+}

@@ -87,8 +87,8 @@
     display: block;
     position: static;
   }
-  .logo {
-    display: none;
+  .logo{
+    width: 100%;
   }
 }
 
