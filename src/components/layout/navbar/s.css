@@ -86,9 +86,11 @@
   .navbar .menu-button {
     display: block;
     position: static;
+    border: none;
   }
   .logo{
     width: 100%;
+    justify-content: left;
   }
 }
 

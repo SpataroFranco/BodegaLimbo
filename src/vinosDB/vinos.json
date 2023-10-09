@@ -11,8 +11,7 @@
         "PartidaLimitada": "Partida limitada de 1.525 botellas",
         "Alc": "Alc.14,2 % v/v",
         "Nota": "Sin clarificar ni filtrar",
-        "img": "/vinos/corte-res-fondo.png",
-        "imagen": "/vinos/corte-res300dpi.png"
+        "img": "/vinos/corte-res300dpi.png"
     },
     {
         "Titulo": "CABERNET SAUVIGNON RESERVA 2020",
@@ -26,8 +25,7 @@
         "PartidaLimitada": "Partida limitada de 1.520 botellas",
         "Alc": "Alc.15,1 % v/v",
         "Nota": "Sin clarificar ni filtrar",
-        "img": "/vinos/cabernet-sauvignon-res-fondo.png",
-        "imagen": "/vinos/cabernet-sauvignon-res300dpi.png"
+        "img": "/vinos/cabernet-sauvignon-res300dpi.png"
     },
     {
         "Titulo": "PETIT VERDOT RESERVA 2018",
@@ -41,8 +39,7 @@
         "PartidaLimitada": "Partida limitada de 746 botellas",
         "Alc": "Alc.15,5 % v/v",
         "Nota": "Sin clarificar ni filtrar",
-        "img": "/vinos/petit-verdot-res-fondo.png",
-        "imagen": "/vinos/petit-verdot-res300dpi.png"
+        "img": "/vinos/petit-verdot-res300dpi.png"
     },
     {
         "Titulo": "MALBEC RESERVA 2019",
@@ -56,7 +53,6 @@
         "PartidaLimitada": "Partida limitada de 1.690 botellas",
         "Alc": "Alc.14,1 % v/v",
         "Nota": "Sin clarificar ni filtrar",
-        "img": "/vinos/malbec-res-fondo.png",
-        "imagen": "/vinos/malbec-res2019-300dpi.png"
+        "img": "/vinos/malbec-res2019-300dpi.png"
     }
 ]

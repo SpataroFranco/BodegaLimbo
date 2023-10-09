@@ -14,18 +14,17 @@ import "./s.css";
 const Home = () => {
    const galeria = [
     {
+      image:
+        "/carousel/C.jpg",
+      caption: "Cartel Limbo",
+    },
+    {
       image: "/carousel/yuyo.jpeg",
       caption: "Yuyos",
     },
     {
       image: "/carousel/B.jpg",
       caption: "Campo",
-    },
-
-    {
-      image:
-        "/carousel/C.jpg",
-      caption: "Cartel Limbo",
     },
     {
       image:

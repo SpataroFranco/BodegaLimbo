@@ -48,6 +48,7 @@
   display: flex;
   justify-content: space-between;
   text-align: center;
+  flex-wrap: wrap;
 }
 
 .nuestra-cosecha div p {
@@ -58,7 +59,7 @@
   transform: scale(1.05);
 }
 
-@media (max-width: 1346px) {
+@media (max-width: 768px) {
   h1 {
     font-size: smaller;
   }
@@ -77,10 +78,6 @@
   }
   .contain-link a img {
     width: 40vw;
-  }
-  .nuestra-cosecha {
-    display: flex;
-    flex-direction: column;
   }
   .home-bottom div {
     text-align: center;

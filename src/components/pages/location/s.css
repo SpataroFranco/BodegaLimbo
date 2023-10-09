@@ -3,7 +3,7 @@
 }
 
 
-@media screen and (max-width: 1346px) {
+@media screen and (max-width: 768px) {
     .location iframe{
         width: 80vw;
     }

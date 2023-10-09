@@ -1,75 +1,75 @@
-.list{
-    display: flex;
-    align-items: center;
-    width: 100%;
-    margin: 1em 3em 3em 3em;
+.list {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  margin: 1em 3em 3em 3em;
 }
-.data{
-    width: 50%;
-    display: flex;
-    flex-direction: column;
+.data {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
 }
-.data h1{
-    margin: 0;
+.data h1 {
+  margin: 0;
 }
-.data p{
-    font-size: 1.1em;
-    font-family: "Trade Gothic LT Std Light";
+.data p {
+  font-size: 1.1em;
+  font-family: "Trade Gothic LT Std Light";
 }
-.descripcion{
-    width: 90%;
-    margin-top: 1em;
+.descripcion {
+  width: 90%;
+  margin-top: 1em;
 }
-.vinoImg{
-    width: 40%;
+.vinoImg {
+  width: 40%;
+  display: flex;
+  justify-content: center;
 }
-.vinoImg img{
-    padding-left: 4em;
-    width: 80%;
+.vinoImg img {
+  width: 10vw;
 }
-.boton{
-    width: 50%;
-    padding-top: 1em;
-    margin: 1.5em auto;
+.boton {
+  width: 50%;
+  padding-top: 1em;
+  margin: 1.5em auto;
 }
-.boton button{
-    font-family: "Trade Gothic LT Std Light";
-    background-color: black;
-    color: white;
-    border-radius: 8px;
-    width: 14rem;
-    height: 2rem;
+.boton button {
+  font-family: "Trade Gothic LT Std Light";
+  background-color: black;
+  color: white;
+  border-radius: 8px;
+  width: 14rem;
+  height: 2rem;
 }
 
-@media screen and (max-width: 1346px) {
-    .data{
-        align-items: center;
-    }
-    .data h1{
-        font-size: small;
-    }
-    .data p{
-        font-size: xx-small;
-    }
-    .list{
-        flex-direction: column;
-    }
-    .descripcion{
-        width: 80vw;
-    }
-    .boton{
-        margin: 20px 0;
-        padding: 0;
-        width: 30vw;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-    .vinoImg{
-        width: 80vw;
-    }
-    .vinoImg img{
-        padding: 0;
-        width: 100%;
-    }
+@media screen and (max-width: 768px) {
+  .data {
+    align-items: center;
+  }
+  .data h1 {
+    font-size: small;
+  }
+  .data p {
+    font-size: xx-small;
+  }
+  .list {
+    flex-direction: column;
+  }
+  .descripcion {
+    width: 80vw;
+  }
+  .boton {
+    margin: 20px 0;
+    padding: 0;
+    width: 30vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .vinoImg {
+    width: 80vw;
+  }
+  .vinoImg img {
+    padding: 0;
+  }
 }

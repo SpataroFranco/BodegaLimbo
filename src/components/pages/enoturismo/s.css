@@ -127,7 +127,7 @@
   transform: scale(1.05);
 }
 
-@media screen and (max-width: 1346px) {
+@media screen and (max-width: 768px) {
   .titles{
     width: 100vw;
   }

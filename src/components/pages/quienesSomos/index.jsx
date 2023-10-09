@@ -48,35 +48,6 @@ const QuienesSomos = () => {
           />
         </div>
       </div>
-      <div className="quienes-somos-center">
-        <div>
-          <h2>NUESTROS VALORES</h2>
-          <p>
-            Como empresa familiar en continua evolución, nuestro deseo es
-            representar la excelencia de los vinos artesanales. Un ejemplo
-            destacado de vinificación auténtica y sostenible en San Rafael.
-          </p>
-        </div>
-        <div>
-          <h2>LO QUE HACEMOS</h2>
-          <p>
-            Producimos vinos a medida:
-            <br />
-            nuestro enfoque está en pequeñas producciones de un territorio y
-            viñedos únicos. Producimos vinos ecológicos que atraen a admiradores
-            de las prácticas enológicas artesanales.
-          </p>
-        </div>
-        <div>
-          <h2>NUESTRA IDENTIDAD</h2>
-          <p>
-            Limbo es un espacio habitado por texturas y valores atemporales,
-            vinos agradables y elegantes con un estilo único. Nuestras etiquetas
-            cuentan con representaciones distintivas, obras del artista
-            mendocino Cris Delhez.
-          </p>
-        </div>
-      </div>
       <div className="quienes-somos-buttom">
         <div className="etiquetas">
           <div className="etiquetas-text">

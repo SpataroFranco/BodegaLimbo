@@ -86,9 +86,12 @@
   border-radius: 8px;
 }
 
-@media screen and (max-width: 1346px) {
+@media screen and (max-width: 768px) {
   .container-vyb h2{
     font-size: small;
+  }
+  .text{
+    font-size: xx-small;
   }
   .portada-viñedo{
     flex-direction: column;

@@ -1,4 +1,5 @@
 import { Carousel } from "react-carousel-minimal";
+import "./s.css";
 
 function App(props) {
 
@@ -32,7 +33,7 @@ function App(props) {
             pauseIconSize="40px"
             slideBackgroundColor="transparent"
             slideImageFit="cover"
-            thumbnails={true}
+            thumbnails={false}
             thumbnailWidth="60px"
             style={{
               maxWidth: "100vw",

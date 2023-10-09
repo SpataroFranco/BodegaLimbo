@@ -23,7 +23,7 @@
   margin: 0;
 }
 
-@media screen and (max-width: 1346px) {
+@media screen and (max-width: 768px) {
   .contenedor-vinos {
     display: flex;
     flex-direction: column;
