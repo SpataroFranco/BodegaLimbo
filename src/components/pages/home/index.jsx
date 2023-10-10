@@ -92,7 +92,7 @@ const Home = () => {
         </div>
         <div className="home-bottom">
           <div>
-            <h2>NUESTRA COSECHA</h2>
+            <h2>VINOS</h2>
           </div>
           <div className="nuestra-cosecha">
             <div>

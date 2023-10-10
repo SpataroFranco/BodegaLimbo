@@ -13,8 +13,8 @@ const Enoturismo = () => {
   return (
     <div>
       <div className="titles">
-        <h1>De las hileras de la vid a la copa</h1>
-        <p>Propuesta pensada para curiosos y exigentes amantes del vino.</p>
+        <h1>Propuesta pensada para amantes del vino</h1>
+        <p>Bienvenidos a Limbo!</p>
       </div>
       <div>
         <div className="text-up">
@@ -32,17 +32,6 @@ const Enoturismo = () => {
           </p>
         </div>
         <div className="text-down">
-          <h3>Bienvenido a San Rafael, bienvenido a Finca y Bodega Limbo</h3>
-          <p>
-            En Limbo mantenemos la calidez de la más auténtica hospitalidad
-            sanrafaelina, aquella que busca que sus huéspedes se sientan como en
-            casa.
-          </p>
-          <p>
-            Nuestra filosofía es simple: hacer vivir a nuestros visitantes una
-            experiencia única, ofreciendo viajes sensoriales que combinan vinos
-            de pequeñas producciones auténticas del territorio sanrafaelino.
-          </p>
           <p><strong>Tiempo del recorrido:</strong> 2:30 hs aproximadamente</p>
           <p><strong>Reserva previa:</strong> +54 9 (2604) 417126</p>
         </div>

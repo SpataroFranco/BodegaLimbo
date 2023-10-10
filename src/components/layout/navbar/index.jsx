@@ -5,6 +5,7 @@ import logo from "../../../assets/logo.png";
 import logoWhatsapp from "../../../assets/whatsapp.svg";
 import logoInstagram from "../../../assets/instagram.svg";
 import logoFacebook from "../../../assets/facebook.svg";
+import logoTrip from "../../../assets/tripadvisor.png";
 import CartWidget from "../../pages/cartWidget";
 import menu from "../../../assets/menu.png";
 
@@ -65,6 +66,9 @@ const Navbar = () => {
         </Link>
         <Link to="https://www.facebook.com/bodegalimbo" target="_blank">
           <img src={logoFacebook} alt="facebook" />
+        </Link>
+        <Link to="https://www.tripadvisor.com.ar/Attraction_Review-g312782-d23842904-Reviews-Limbo_Finca_And_Bodega-San_Rafael_Province_of_Mendoza_Cuyo.html" target="_blank">
+          <img src={logoTrip} alt="tripadvisor" />
         </Link>
         <Link to="/cart">
           <CartWidget />
