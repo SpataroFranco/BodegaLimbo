@@ -2,9 +2,13 @@ import osvaldoMaria from "../../../assets/Osvaldo-Maria.jpg";
 import etiquetas from "../../../assets/fondo-pajaro.png";
 import malbecEtiqueta from "../../../assets/malbecReservaEtiqueta.png";
 import CabernetEtiqueta from "../../../assets/cabernetEtiqueta.png";
-import corteEtiqueta from "../../../assets/corteReserva.png";
+import corteEtiqueta from "../../../assets/corte2019reserva.jpg";
 import partidaEspecialEtiqueta from "../../../assets/partidaEspecialEtiqueta.png";
 import etiquetasBotellas from "../../../assets/etiquetasBotellas.png";
+import s1 from "../../../assets/osvaldoviniedo.jpeg";
+import s2 from "../../../assets/uvasMalbec.jpeg";
+import s3 from "../../../assets/viñedocaber.jpeg";
+import s4 from "../../../assets/botellasFoto.jpeg";
 import "./s.css";
 
 const QuienesSomos = () => {
@@ -14,15 +18,17 @@ const QuienesSomos = () => {
         <div className="contenido">
           <h1>QUIÉNES SOMOS</h1>
           <p>
-            Somos <strong>Osvaldo y María</strong>, una familia de viticultores con la
-            determinación de compartir vinos de una zona vitícola sin par.
+            Somos <strong>Osvaldo y María</strong>, una familia de viticultores
+            con la determinación de compartir vinos de una zona vitícola sin
+            par.
           </p>
           <p>
             En Cuadro Benegas, San Rafael, Mendoza, rodeada de monte nativo y de
-            pequeñas parcelas de viñas y frutales, está <strong>Finca y Bodega LIMBO</strong>, en
-            un “Limbo”, al borde de un barranco que separa el oasis del
-            desierto. Esta difícil geografía y una laboriosa obstinación nos
-            lleva a producir vinos expresivos y de gran personalidad.
+            pequeñas parcelas de viñas y frutales, está{" "}
+            <strong>Finca y Bodega LIMBO</strong>, en un “Limbo”, al borde de un
+            barranco que separa el oasis del desierto. Esta difícil geografía y
+            una laboriosa obstinación nos lleva a producir vinos expresivos y de
+            gran personalidad.
           </p>
           <p>
             El emprendimiento comienza en el año 2001 cuando luego de un largo
@@ -35,9 +41,13 @@ const QuienesSomos = () => {
           <p>
             En el año 2007 elaboramos una pequeña cantidad de vino, desde
             entonces vamos aumentando la producción año a año hasta los actuales
-            9.000 litros. <strong>Nuestro objetivo es elaborar no más de 12.000 litros
-            del mejor vino que este suelo nos pueda dar</strong>, siempre utilizando
-            prácticas enológicas artesanales con precisión técnica.
+            9.000 litros.{" "}
+            <strong>
+              Nuestro objetivo es elaborar no más de 12.000 litros del mejor
+              vino que este suelo nos pueda dar
+            </strong>
+            , siempre utilizando prácticas enológicas artesanales con precisión
+            técnica.
           </p>
         </div>
         <div className="contenedor-img">
@@ -65,16 +75,18 @@ const QuienesSomos = () => {
             <div>
               <h2>LAS ETIQUETAS</h2>
               <p>
-                Cuando <strong>ARTE Y VINO SE HACEN UNO:</strong> nuestras raíces están en
-                nuestro diálogo con el arte, un enfoque que nos hace únicos.
+                Cuando <strong>ARTE Y VINO SE HACEN UNO:</strong> nuestras
+                raíces están en nuestro diálogo con el arte, un enfoque que nos
+                hace únicos.
               </p>
               <p>
                 Los vinos de Osvaldo revelan el paisaje y la cultura típica de
                 esta región. Nuestras etiquetas interpretan este paisaje y su
-                cultura, son fragmentos de obras del <strong>artista mendocino Cristian
-                Delhez.</strong> Incansable relator de historias dibujadas, Cristian fue
-                un artista plástico, grabador, dibujante y pintor que dejó una
-                huella imborrable en el patrimonio cultural mendocino.
+                cultura, son fragmentos de obras del{" "}
+                <strong>artista mendocino Cristian Delhez.</strong> Incansable
+                relator de historias dibujadas, Cristian fue un artista
+                plástico, grabador, dibujante y pintor que dejó una huella
+                imborrable en el patrimonio cultural mendocino.
               </p>
               <p>
                 Cristian Delhez nos compartió generosamente sus obras. Junto a
@@ -92,49 +104,82 @@ const QuienesSomos = () => {
             <div>
               <img src={malbecEtiqueta} alt="imgProyecto" />
             </div>
-            <h3>Malbec Reserva
+            <h3>
+              Malbec Reserva
               <br />
-            "Jardín japonés"</h3>
-            <p>Fragmento 2005.
+              "Jardín japonés"
+            </h3>
+            <p>
+              Fragmento 2005.
               <br />
-              Dibujo a rodillo y tinta de impresión.</p>
+              Dibujo a rodillo y tinta de impresión.
+            </p>
           </div>
           <div>
             <div>
               <img src={CabernetEtiqueta} alt="imgProyecto" />
             </div>
-            <h3>Cabernet Sauvignon Reserva
+            <h3>
+              Cabernet Sauvignon Reserva
               <br />
-            "Pájaro inconcluso"</h3>
-            <p>...Y cuando aparece un pájaro ya todo parece estar en su lugar...</p>
+              "Pájaro inconcluso"
+            </h3>
+            <p>
+              ...Y cuando aparece un pájaro ya todo parece estar en su lugar...
+            </p>
           </div>
           <div>
             <div>
               <img src={corteEtiqueta} alt="imgProyecto" />
             </div>
-            <h3>Corte Reserva
+            <h3>
+              Corte Reserva
               <br />
-            "Espanta espanta pájaros y pájaros"</h3>
-            <p>Fragmento 2017.
+              "Espanta espanta pájaros y pájaros"
+            </h3>
+            <p>
+              Fragmento 2017.
               <br />
-            Dibujo con plumín (hipodérmica) y acuarela.</p>
+              Dibujo con plumín (hipodérmica) y acuarela.
+            </p>
           </div>
           <div>
             <div>
               <img src={partidaEspecialEtiqueta} alt="imgProyecto" />
             </div>
-            <h3>Petit Verdot Reserva
+            <h3>
+              Petit Verdot Reserva
               <br />
-            Partida Especial
+              Partida Especial
             </h3>
-            <p>"Aparecen otros seres para charlar...
+            <p>
+              "Aparecen otros seres para charlar...
               <br />
-            ¿quién le dijo a quién?"</p>
+              ¿quién le dijo a quién?"
+            </p>
           </div>
         </div>
         <div className="etiquetasBotellas">
           <img src={etiquetasBotellas} alt="imgProyecto" />
           <p>Corte, Malbec y Cabernet Sauvignon 2021</p>
+        </div>
+        <div className="galeriaQuienesSomos">
+          <div>
+            <img src={s1} className="imagen-quienesSomos"/>
+            <p>Cuidamos el medio ambiente</p>
+          </div>
+          <div>
+            <img src={s2} className="imagen-quienesSomos"/>
+            <p>Nuestra uva Malbec</p>
+          </div>
+          <div>
+            <img src={s3} className="imagen-quienesSomos"/>
+            <p>Hileras de Cabernet Sauvignon</p>
+          </div>
+          <div>
+            <img src={s4} className="imagen-quienesSomos"/>
+            <p>Linea de vinos reserva</p>
+          </div>
         </div>
       </div>
     </div>

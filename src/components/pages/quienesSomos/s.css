@@ -25,7 +25,7 @@
 }
 
 .contenedor-img {
-  width: 40vw;
+  width: auto;
   min-height: max-content;
 }
 
@@ -83,6 +83,25 @@
   text-align: center;
 }
 
+.galeriaQuienesSomos{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 8%;
+}
+.imagen-quienesSomos {
+  flex: 1;
+  height: 100%;
+  width: auto;
+  max-width: 18vw;
+  margin: 5px;
+  border-radius: 8px;
+}
+
+.imagen-quienesSomos:hover {
+  transform: scale(1.05);
+}
+
+
 @media screen and (max-width: 768px) {
   .contenedor-img {
     display: none;
@@ -122,5 +141,8 @@
   }
   .etiquetasBotellas img{
     width: 80vw;
+  }
+  .galeriaQuienesSomos{
+    display: none;
   }
 }

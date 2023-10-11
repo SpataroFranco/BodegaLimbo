@@ -1,7 +1,7 @@
 import campoVirgen from "../../../assets/Campo.jpeg";
 import viñedo from "../../../assets/Viñedo.jpeg";
 import bodega from "../../../assets/bodega.jpeg";
-import botellas from "../../../assets/botellas.JPG";
+import botellas from "../../../assets/botellas.jpg";
 import nuestrosVinos from "../../../assets/nuestrosVinos.jpg";
 import reserva from "../../../assets/reservaB.jpg";
 import botella from "../../../assets/viñedo/botella.jpg";
@@ -13,9 +13,12 @@ import prensandoOrujos from "../../../assets/elaboracionVestidoEmbalaje/prensand
 import orujoPrensado from "../../../assets/elaboracionVestidoEmbalaje/orujoPrensado.jpeg";
 import lineaDeFraccionamiento from "../../../assets/elaboracionVestidoEmbalaje/lineadefraccionam.gif";
 import llenandoBotellas from "../../../assets/elaboracionVestidoEmbalaje/fraccionando.jpeg";
-import encapsulando from "../../../assets/elaboracionVestidoEmbalaje/osvalencapsulando.jpeg"
-import etiquetando from "../../../assets/elaboracionVestidoEmbalaje/mariaetiquetando.jpeg"
-import cajas from "../../../assets/elaboracionVestidoEmbalaje/cajas.jpeg"
+import encapsulando from "../../../assets/elaboracionVestidoEmbalaje/osvalencapsulando.jpeg";
+import etiquetando from "../../../assets/elaboracionVestidoEmbalaje/mariaetiquetando.jpeg";
+import cajas from "../../../assets/elaboracionVestidoEmbalaje/cajas.jpeg";
+import cosecha1 from "../../../assets/viñedo/cintia.jpg";
+import cosecha2 from "../../../assets/viñedo/nuestraCosecha.gif";
+import cosecha3 from "../../../assets/viñedo/cosechaCajones.jpeg";
 import "./s.css";
 
 const Viñedoybodega = () => {
@@ -87,6 +90,23 @@ const Viñedoybodega = () => {
               <p>Midiendo azúcar de las uvas</p>
             </div>
           </div>
+          <div>
+            <h2>LA COSECHA</h2>
+            <div className="embalaje">
+              <div>
+                <img src={cosecha1} alt="imgProyecto" className="imgViñedo" />
+                <p>Cosecha manual en cajones</p>
+              </div>
+              <div>
+                <img src={cosecha2} alt="imgProyecto" className="imgViñedo" />
+                <p>Cosecha manual</p>
+              </div>
+              <div>
+                <img src={cosecha3} alt="imgProyecto" className="imgViñedo" />
+                <p>Cosecha en cajas de Bonarda</p>
+              </div>
+            </div>
+          </div>
         </div>
         <div className="bodega">
           <h2>BODEGA</h2>
@@ -113,15 +133,27 @@ const Viñedoybodega = () => {
           </div>
           <div className="viñedo-gallery">
             <div>
-              <img src={prensandoOrujos} alt="imgProyecto" className="imgViñedo" />
+              <img
+                src={prensandoOrujos}
+                alt="imgProyecto"
+                className="imgViñedo"
+              />
               <p>Prensando los orujos</p>
             </div>
             <div>
-              <img src={orujoPrensado} alt="imgProyecto" className="imgViñedo" />
+              <img
+                src={orujoPrensado}
+                alt="imgProyecto"
+                className="imgViñedo"
+              />
               <p>Orujo prensado</p>
             </div>
             <div>
-              <img src={lineaDeFraccionamiento} alt="imgProyecto" className="imgViñedo" />
+              <img
+                src={lineaDeFraccionamiento}
+                alt="imgProyecto"
+                className="imgViñedo"
+              />
               <p>Nuestra línea de fraccionamiento</p>
             </div>
             <div>
@@ -171,19 +203,19 @@ const Viñedoybodega = () => {
           </div>
         </div>
         <div className="embalaje">
-              <div>
-                <img src={encapsulando} alt="imgProyecto"/>
-                <p>Osvaldo encapsulando</p>
-              </div>
-              <div>
-                <img src={etiquetando} alt="imgProyecto"/>
-                <p>María etiquetando</p>
-              </div>
-              <div>
-                <img src={cajas} alt="imgProyecto"/>
-                <p>Cajas de cartón</p>
-              </div>
-            </div>
+          <div>
+            <img src={encapsulando} alt="imgProyecto" />
+            <p>Osvaldo encapsulando</p>
+          </div>
+          <div>
+            <img src={etiquetando} alt="imgProyecto" />
+            <p>María etiquetando</p>
+          </div>
+          <div>
+            <img src={cajas} alt="imgProyecto" />
+            <p>Cajas de cartón</p>
+          </div>
+        </div>
       </div>
     </>
   );
