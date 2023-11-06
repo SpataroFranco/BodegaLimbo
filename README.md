@@ -14,4 +14,4 @@ Creado utilizando HTML, CSS, JavaScript y React Js.
 
 ## Link
 
-http://limbo.com.ar/
+https://bodegalimbo.com.ar
