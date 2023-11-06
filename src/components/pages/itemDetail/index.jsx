@@ -1,5 +1,5 @@
 import "./s.css";
-import { useState, useContext } from "react";
+import React, { useState, useContext } from "react";
 import { CartContext } from "../../../contexts/CartContext";
 import { Link } from "react-router-dom";
 import ItemQuantitySelector from "../itemQuantitySelector";
@@ -16,7 +16,7 @@ const ItemDetail = ({ product }) => {
   return (
     <div className="detail">
       <div className="detailImg">
-        <img src={process.env.PUBLIC_URL + product.img} alt={product.Titulo} />
+        <img src={process.env.PUBLIC_URL + product.imagen} alt={product.Titulo} />
       </div>
       <div className="detailText">
         <h1>{product.Titulo}</h1>

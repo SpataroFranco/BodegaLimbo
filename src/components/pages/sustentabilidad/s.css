@@ -90,20 +90,32 @@
   .contenedor-sostenibilidad h1{
     text-align: center;
     margin: 20px 0;
-    font-size: small;
+    font-size: 2em;
   }
   .img{
     flex-direction: column;
   }
   .lista{
-    font-size: xx-small;
+    font-size: 0.9em;
   }
   .introSust p {
     width: auto;
     margin: 0;
-    font-size: small;
+    font-size: 1.5em;
   }
   .item p{
-    font-size: xx-small;
+    font-size: 1.5em;
+    width: 120%;
+  }
+  .item img {
+    width: 100%;
+  }
+  .galeria {
+    width: max-content;
+    margin: 1em auto;
+    flex-direction: column;
+  }
+  .galeria img {
+    max-width: 100%;
   }
 }

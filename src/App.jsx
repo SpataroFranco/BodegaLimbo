@@ -1,3 +1,4 @@
+import React from "react";
 import "./app.css";
 import Layout from "./components/layout";
 import Router from "./components/routes";

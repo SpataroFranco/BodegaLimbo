@@ -1,3 +1,4 @@
+import React from "react";
 import logo1 from "../../../assets/Iconos-01.png";
 import logo2 from "../../../assets/Iconos-04.png";
 import logo3 from "../../../assets/Iconos-02.png";
@@ -13,7 +14,7 @@ const Sustentabilidad = () => {
   return (
     <div className="cont">
       <div className="contenedor-sostenibilidad">
-        <h1>SOSTENIBILIDAD</h1>
+        <h1>SUSTENTABILIDAD</h1>
         <div className="introSust">
           <p>
             Ser sostenible es generar valor económico, social, ambiental y

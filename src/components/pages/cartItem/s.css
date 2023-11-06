@@ -25,12 +25,23 @@
 @media screen and (max-width: 768px) {
     .trash{
         width: 10%;
+        padding-right: 1em;
     }
-    .card h2{
-        font-size: small;
+    .card h2, .card p {
+        font-size: 1.2em;
+    }
+    .card h2 {
+        width: 60%;
+        padding-left: 1em;
     }
     .card{
-        justify-content: space-between;
-        margin-bottom: 20px;
+        justify-content: left;
+        margin-bottom: 1em;
+    }
+    .cardImg {
+        display: none;
+    }
+    .card{
+        width: 100vw;
     }
 }

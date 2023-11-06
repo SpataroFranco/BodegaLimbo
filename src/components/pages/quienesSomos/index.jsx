@@ -1,12 +1,16 @@
+import React from "react";
+import { Link } from "react-router-dom";
 import osvaldoMaria from "../../../assets/Osvaldo-Maria.jpg";
 import etiquetas from "../../../assets/fondo-pajaro.png";
 import malbecEtiqueta from "../../../assets/malbecReservaEtiqueta.png";
 import CabernetEtiqueta from "../../../assets/cabernetEtiqueta.png";
 import corteEtiqueta from "../../../assets/corte2019reserva.jpg";
 import partidaEspecialEtiqueta from "../../../assets/partidaEspecialEtiqueta.png";
-import etiquetasBotellas from "../../../assets/etiquetasBotellas.png";
+import corte2021 from "../../../assets/etiqueta1.jpg";
+import malbec2021 from "../../../assets/etiqueta2.jpg";
+import cabernet2021 from "../../../assets/etiqueta3.jpg";
 import s1 from "../../../assets/osvaldoviniedo.jpeg";
-import s2 from "../../../assets/uvasMalbec.jpeg";
+import s2 from "../../../assets/uvas.jpeg";
 import s3 from "../../../assets/viñedocaber.jpeg";
 import s4 from "../../../assets/botellasFoto.jpeg";
 import "./s.css";
@@ -93,6 +97,9 @@ const QuienesSomos = () => {
                 su hijo Iván, seleccionamos algunos fragmentos de ellas para
                 identificar nuestros vinos.
               </p>
+              <p>
+                Te invitamos a conocer más obras del <Link to="https://www.instagram.com/crisdelhez/" target="_blank"><u>artista</u></Link>.
+              </p>
             </div>
           </div>
           <div>
@@ -160,25 +167,29 @@ const QuienesSomos = () => {
           </div>
         </div>
         <div className="etiquetasBotellas">
-          <img src={etiquetasBotellas} alt="imgProyecto" />
+          <div>
+            <img src={corte2021} alt="corte2021" />
+            <img src={malbec2021} alt="malbec2021" />
+            <img src={cabernet2021} alt="cabernet2021" />
+          </div>
           <p>Corte, Malbec y Cabernet Sauvignon 2021</p>
         </div>
         <div className="galeriaQuienesSomos">
           <div>
-            <img src={s1} className="imagen-quienesSomos"/>
+            <img src={s1} className="imagen-quienesSomos" alt="cuidamosElMedioAmbiente" />
             <p>Cuidamos el medio ambiente</p>
           </div>
           <div>
-            <img src={s2} className="imagen-quienesSomos"/>
+            <img src={s2} className="imagen-quienesSomos" alt="uvaMalbec" />
             <p>Nuestra uva Malbec</p>
           </div>
           <div>
-            <img src={s3} className="imagen-quienesSomos"/>
+            <img src={s3} className="imagen-quienesSomos" alt="hilerasDeCabernetSauvignon" />
             <p>Hileras de Cabernet Sauvignon</p>
           </div>
           <div>
-            <img src={s4} className="imagen-quienesSomos"/>
-            <p>Linea de vinos reserva</p>
+            <img src={s4} className="imagen-quienesSomos" alt="lineaDeVinosDeReserva" />
+            <p>Línea de vinos de reserva</p>
           </div>
         </div>
       </div>

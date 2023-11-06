@@ -5,10 +5,11 @@
     margin: 0 3em 3em 3em;
 }
 .detailImg{
-    width: 40%;
+    margin: 0 5em;
+    width: 20%;
 }
 .detailImg img{
-    width: 100%;
+    width: 80%;
 }
 .detailText{
     width: 60%;
@@ -25,6 +26,21 @@
 @media screen and (max-width: 768px) {
     .detail{
         margin: 0;
+        flex-direction: column;
+        margin-bottom: 2em;
+    }
+    .detailImg {
+        width: 100%;
+    }
+    .detailImg img {
+        width: 50%;
+        margin: 0 6em;
+    }
+    .detailText {
+        width: 80%;
+    }
+    .detailText p {
+        font-size: 1.2em;
     }
     .botones{
         width: 100%;
@@ -32,7 +48,7 @@
     }
     .boton{
         width: 50%;
-        margin: 0;
+        margin: auto;
     }
     .boton a{
         margin-bottom: 20px;

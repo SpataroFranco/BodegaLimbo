@@ -1,4 +1,4 @@
-import { useState, useContext } from "react";
+import React, { useState, useContext } from "react";
 import { CartContext } from "../../../contexts/CartContext";
 import { Link } from "react-router-dom";
 import ItemQuantitySelector from "../itemQuantitySelector";
@@ -15,7 +15,7 @@ const ItemDetailBotella = ({ item }) => {
   return (
     <div className="detail">
         <div className="detailImg">
-            <img src={process.env.PUBLIC_URL + item.img} alt={item.Titulo} />
+            <img src={process.env.PUBLIC_URL + item.imagen} alt={item.Titulo} />
         </div>
         <div className="detailText">
             <h1>{item.Titulo}</h1>

@@ -8,6 +8,7 @@
 }
 
 .contenido {
+  margin: 0 0 2em 6em;
   display: flex;
   flex-direction: column;
   width: 30vw;
@@ -18,7 +19,7 @@
 }
 
 .contenido p {
-  width: 90%;
+  width: 100%;
   justify-content: center;
   text-align: left;
   font-size: 1.4em;
@@ -30,8 +31,6 @@
 }
 
 .img-osvaldoMaria {
-  width: 100%;
-  height: 100%;
   border-radius: 12px;
 }
 
@@ -61,7 +60,7 @@
 }
 
 .etiquetas-text div {
-  width: 80%;
+  width: 90%;
   text-align: center;
 }
 
@@ -75,12 +74,23 @@
 }
 
 .etiquetasImg div {
-  margin: 0 10px; /* Ajusta el margen entre los elementos según tus preferencias */
+  margin: 0 10px;
 }
 
 .etiquetasBotellas {
   margin: 4rem 0;
   text-align: center;
+}
+
+.etiquetasBotellas div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.etiquetas div img {
+  margin: 0 3em;
 }
 
 .galeriaQuienesSomos{
@@ -90,8 +100,8 @@
 }
 .imagen-quienesSomos {
   flex: 1;
-  height: 100%;
-  width: auto;
+  height: 80%;
+  width: 100%;
   max-width: 18vw;
   margin: 5px;
   border-radius: 8px;
@@ -101,48 +111,51 @@
   transform: scale(1.05);
 }
 
-
 @media screen and (max-width: 768px) {
-  .contenedor-img {
-    display: none;
-  }
   .contenido {
     width: 90vw;
     font-size: xx-small;
     align-items: center;
+    margin: auto;
   }
-  h1 {
-    font-size: small;
+  .contenido h1, .etiquetas-text div h2 {
+    font-size: 3em;
+  }
+  .contenido p, .etiquetas-text div p, .etiquetasImg h3, .etiquetasImg p, .etiquetasBotellas p, .galeriaQuienesSomos p {
+    font-size: 2em;
+  }
+  .quienes-somos-top, .etiquetasImg {
+  flex-direction: column;
   }
   .quienes-somos-buttom{
     width: 90vw;
     font-size: xx-small;
     padding: 0;
+    margin: auto;
   }
-  .img-etiquetas{
+  .img-etiquetas {
     display: none;
   }
-  .etiquetasImg{
-    flex-direction: column;
-    margin: 0;
-  }
   .etiquetasImg div{
-    margin: 0;
-  }
-  .etiquetasImg div div img{
-    width: 40vw;
+    margin: 1em 0;
   }
   .etiquetas-text{
     align-items: center;
   }
-  .etiquetasBotellas{
-    margin: 10px 0;
-    width: 100vw;
+  .etiquetasBotellas, .etiquetasBotellas div, .contenedor-img img, .etiquetasImg div div img {
+    width: 100%;
   }
-  .etiquetasBotellas img{
-    width: 80vw;
+  .etiquetasBotellas div img {
+    margin: 1em auto;
   }
   .galeriaQuienesSomos{
-    display: none;
+    margin: 2em 0;
+    flex-direction: column;
+  }
+  .galeriaQuienesSomos div p {
+    text-align: center;
+  }
+  .imagen-quienesSomos {
+    max-width: 100%;
   }
 }

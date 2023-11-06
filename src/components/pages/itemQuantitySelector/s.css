@@ -45,5 +45,6 @@
 @media screen and (max-width: 768px) {
     .itemCountButton button{
         width: 100%;
+        font-size: 1em;
     }
 }

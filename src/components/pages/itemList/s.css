@@ -2,7 +2,7 @@
   display: flex;
   align-items: center;
   width: 100%;
-  margin: 1em 3em 3em 3em;
+  margin: 1em 3em 0 3em;
 }
 .data {
   width: 50%;
@@ -31,7 +31,7 @@
 .boton {
   width: 50%;
   padding-top: 1em;
-  margin: 1.5em auto;
+  margin: 0 auto 3em auto;
 }
 .boton button {
   font-family: "Trade Gothic LT Std Light";
@@ -47,10 +47,13 @@
     align-items: center;
   }
   .data h1 {
-    font-size: small;
+    margin-top: 2em;
+    font-size: 1.5em;
+    width: 90%;
+    text-align: center;
   }
   .data p {
-    font-size: xx-small;
+    font-size: 1.2em;
   }
   .list {
     flex-direction: column;
@@ -59,15 +62,21 @@
     width: 80vw;
   }
   .boton {
-    margin: 20px 0;
     padding: 0;
     width: 30vw;
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
+  }
+  .boton button {
+    font-size: 1em;
   }
   .vinoImg {
     width: 80vw;
+  }
+  .vinoImg img {
+    width: 40%;
   }
   .vinoImg img {
     padding: 0;
