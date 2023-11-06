@@ -2,7 +2,7 @@
   padding: 0 6%;
   background-image: url("../../../assets/fondo-sierras.png");
   background-size: contain;
-  background-position: center center; /* Centra la imagen horizontal y verticalmente */
+  background-position: center center;
 }
 
 .contenedor-sostenibilidad h1 {
@@ -116,6 +116,7 @@
     flex-direction: column;
   }
   .galeria img {
-    max-width: 100%;
+    max-width: 80%;
+    margin: 1em auto;
   }
 }
