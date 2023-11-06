@@ -151,7 +151,6 @@
     padding: 0;
     align-items: center;
   }
-
   .text-down h3{
     font-size: small;
     margin: 20px 0;
@@ -162,7 +161,7 @@
     width: 80%;
   }
   .gallery h1 {
-    font-size: 1.9em;
+    font-size: 1.5em;
   }
   .gallery .finca{
     display: flex;

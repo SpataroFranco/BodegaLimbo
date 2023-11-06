@@ -1,8 +1,9 @@
 import React, { useState } from "react";
+import { Link } from "react-router-dom";
 import "./s.css";
 import NavDropdown from "react-bootstrap/NavDropdown";
 
-const DropdownItem = () => {
+const DropdownItem = ({ toggleMenu }) => {
     const [clicked, setClicked] = useState(false);
     const toggle = () => {
       setClicked(!clicked);
@@ -10,14 +11,20 @@ const DropdownItem = () => {
     return (
         <NavDropdown className="items" title="Sobre Nosotros" onClick={toggle}>
             <div className={`dropdown ${clicked ? "dropdown" : "dropdownHidden"}`}>
-                <NavDropdown.Item className="dropdownItem" href="/quienes-somos">
-                    Quiénes Somos
+                <NavDropdown.Item className="dropdownItem" onClick={toggleMenu}>
+                    <Link to="/quienes-somos">
+                        Quiénes Somos
+                    </Link>
                 </NavDropdown.Item>
-                <NavDropdown.Item className="dropdownItem" href="/viñedo-y-bodega">
-                    Viñedo y Bodega
+                <NavDropdown.Item className="dropdownItem" onClick={toggleMenu}>
+                    <Link to="/viñedo-y-bodega">
+                        Viñedo y Bodega
+                    </Link>
                 </NavDropdown.Item>
-                <NavDropdown.Item className="dropdownItem" href="/sustentabilidad">
-                    Sustentabilidad
+                <NavDropdown.Item className="dropdownItem" onClick={toggleMenu}>
+                    <Link to="/sustentabilidad">
+                        Sustentabilidad
+                    </Link>
                 </NavDropdown.Item>
             </div>
         </NavDropdown>

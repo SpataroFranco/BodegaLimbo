@@ -29,7 +29,7 @@ const Navbar = () => {
       <div className={`secciones ${menuOpen ? "menu-open" : ""}`}>
         <NavLink to="/home" className="items" style={({ isActive }) => (isActive ? activeStyle : undefined)} onClick={toggleMenu}>Inicio</NavLink>
         <p>|</p>
-        <DropdownItem />
+        <DropdownItem toggleMenu={toggleMenu} />
         <p>|</p>
         <NavLink to="/enoturismo" className="items" style={({ isActive }) => (isActive ? activeStyle : undefined)} onClick={toggleMenu}>Enoturismo</NavLink>
         <p>|</p>
