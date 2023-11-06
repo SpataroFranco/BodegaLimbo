@@ -1,6 +1,6 @@
 import React from "react";
 import campoVirgen from "../../../assets/Campo.jpeg";
-import viñedo from "../../../assets/Viñedo.jpeg";
+import viñedo from "../../../assets/viniedo.jpeg";
 import bodega from "../../../assets/bodega.jpeg";
 import botellas from "../../../assets/botellas.JPG";
 import nuestrosVinos from "../../../assets/nuestrosVinos.jpg";

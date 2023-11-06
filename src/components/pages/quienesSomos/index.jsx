@@ -11,7 +11,7 @@ import malbec2021 from "../../../assets/etiqueta2.jpg";
 import cabernet2021 from "../../../assets/etiqueta3.jpg";
 import s1 from "../../../assets/osvaldoviniedo.jpeg";
 import s2 from "../../../assets/uvas.jpeg";
-import s3 from "../../../assets/viñedocaber.jpeg";
+import s3 from "../../../assets/viniedocaber.jpeg";
 import s4 from "../../../assets/botellasFoto.jpeg";
 import "./s.css";
 

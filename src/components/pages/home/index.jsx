@@ -26,7 +26,7 @@ const Home = () => {
     },
     {
       image:
-        "/carousel/otoño.jpg",
+        "/carousel/otonio.jpg",
       caption: "Otoño",
     },
     {

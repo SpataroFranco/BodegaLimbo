@@ -111,7 +111,7 @@
     width: 100%;
   }
   .galeria {
-    width: max-content;
+    width: 100%;
     margin: 1em auto;
     flex-direction: column;
   }

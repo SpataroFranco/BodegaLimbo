@@ -145,6 +145,9 @@
   .etiquetasBotellas, .etiquetasBotellas div, .contenedor-img img, .etiquetasImg div div img {
     width: 100%;
   }
+  .etiquetasBotellas div {
+    flex-direction: column;
+  }
   .etiquetasBotellas div img {
     margin: 1em auto;
   }
