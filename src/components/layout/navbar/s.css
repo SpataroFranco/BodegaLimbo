@@ -11,16 +11,35 @@
   font-size: 1.1em;
 }
 .secciones {
-  width: 50%;
+  width: max-content;
   display: flex;
   justify-content: center;
 }
-.secciones a {
-  margin: 2em;
+.items {
+  margin: 1.5em;
   width: max-content;
   background-color: white;
 }
-.secciones a:hover {
+.items:hover {
+  transform: scale(1.2, 1.2);
+}
+.dropdown {
+  display: flex;
+  flex-direction: column;
+  width: max-content;
+  position: sticky;
+}
+.dropdownHidden {
+  display: none;
+}
+.dropdownItem {
+  font-size: 0.9em;
+  padding: 0.5em;
+  background-color: white;
+  border-radius: 8px;
+  text-align: center;
+}
+.dropdownItem:hover {
   transform: scale(1.2, 1.2);
 }
 .secciones p {
@@ -47,6 +66,16 @@
 .redes img:hover {
   transform: scale(1.2, 1.2);
 }
+.menu-button {
+    background: none;
+    cursor: pointer;
+    padding: 10px;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    display: none;
+    margin-bottom: 20px;
+  }
 
 @media screen and (max-width: 1346px) {
   .menu-img{
@@ -61,28 +90,29 @@
   }
   .navbar.menu-open .logo{
     display:flex;
+    justify-content: center;
   }
- 
   .navbar.menu-open .secciones {
     display: flex;
     flex-direction: column;
-    font-size: small;
-    justify-content: space-between;
+    font-size: 1.2em;
     align-items:center;
+    padding: 0;
   }
-
+  .items {
+    margin: 0.5em 0;
+  }
   .navbar.menu-open .redes {
     display: flex;
-    margin: 12px 0;
+    margin: 1em 0;
+    margin-right: 4em;
   }
-
   .navbar .redes {
     display: none;
   }
   .navbar .secciones {
     display: none;
   }
-
   .navbar .menu-button {
     display: block;
     position: static;
@@ -92,16 +122,4 @@
     width: 100%;
     justify-content: left;
   }
-}
-
-/* Estilos para el botón de hamburguesa */
-.menu-button {
-  background: none;
-  cursor: pointer;
-  padding: 10px;
-  position: absolute;
-  right: 10px;
-  top: 10px;
-  display: none;
-  margin-bottom: 20px;
 }

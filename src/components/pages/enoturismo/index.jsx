@@ -1,4 +1,4 @@
-import { useState } from "react";
+import React, { useState } from "react";
 import enoturismo from "../../../BD/enoturismo.json";
 import "./s.css";
 
@@ -14,7 +14,7 @@ const Enoturismo = () => {
     <div>
       <div className="titles">
         <h1>Propuesta pensada para amantes del vino</h1>
-        <p>Bienvenidos a Limbo!</p>
+        <p>¡Bienvenidos a Limbo!</p>
       </div>
       <div>
         <div className="text-up">
@@ -37,7 +37,7 @@ const Enoturismo = () => {
         </div>
       </div>
       <div className="gallery">
-        <h1>LIMBO, nuestro lugar</h1>
+        <h1>En finca y bodega Limbo</h1>
         <div className="finca">
           {enoturismo.map((item) => (
             <div onClick={() => openImage(item.contenido)}>

@@ -9,7 +9,7 @@
       },
       {
         "titulo": "Nuestra galería en primavera",
-        "contenido": "/gallery/galeriaBodega.jpeg"
+        "contenido": "/gallery/galeriabodega.jpeg"
       },
       {
         "titulo": "Rosas en verano",
@@ -37,7 +37,7 @@
       },
       {
         "titulo": "Caminando entre las viñas",
-        "contenido": "/gallery/Turistasentreviñas.jpeg"
+        "contenido": "/gallery/turistas-entre-vinias.jpeg"
       },
       {
         "titulo": "Charla sobre el viñedo",
@@ -60,11 +60,15 @@
         "contenido": "/gallery/probandodesdetanques.jpeg"
       },
       {
-        "titulo": "Degustando vino reserva de barricas",
-        "contenido": "/gallery/degustandoVinoReserva.jpg"
+        "titulo": " ",
+        "contenido": "/gallery/degustando-vino.JPG"
       },
       {
         "titulo": "Degustando vino reserva de barricas",
         "contenido": "/gallery/turistas1.jpeg"
+      },
+      {
+        "titulo": " ",
+        "contenido": "/gallery/degustando-vino2.JPG"
       }
 ]

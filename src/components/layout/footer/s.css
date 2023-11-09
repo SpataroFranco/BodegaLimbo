@@ -21,14 +21,22 @@
   font-family: "Trade Gothic LT Std Light";
 }
 
-
-
 @media screen and (max-width: 1346px) {
   .footer{
     flex-direction: column;
+    justify-content: left;
   }
-
-  .redes{
-    display: none;
+  .footer div img {
+    width: 70%;
+  }
+  .footer div p {
+    font-size: 1.2em;
+  }
+  .redes {
+    margin-right: 3em;
+  }
+  .redes a img {
+    margin: 0 1em;
+    width: 80%;
   }
 }

@@ -7,7 +7,7 @@
        "PartidaLimitada": "Partida limitada de 1.298 botellas",
        "Alc": "Alc.15,1 % v/v",
        "Nota": "Sin clarificar ni filtrar. Puede presentar sedimentos naturales",
-       "img": "/vinos/corte300dpi.png"
+       "imagen": "/vinos/corte300dpi.png"
    },
    {
        "Titulo": "MALBEC 2021",
@@ -17,7 +17,7 @@
        "PartidaLimitada": "Partida limitada de 1.536 botellas",
        "Alc": "Alc.14,5 % v/v",
        "Nota": "Sin clarificar ni filtrar. Puede presentar sedimentos naturales",
-       "img": "/vinos/malbec300dpi.png"
+       "imagen": "/vinos/malbec300dpi.png"
    },
    {
        "Titulo": "CABERNET SAUVIGNON 2021",
@@ -27,6 +27,6 @@
        "PartidaLimitada": "Partida limitada de 1.690 botellas",
        "Alc": "Alc.15,7 % v/v",
        "Nota": "Sin clarificar ni filtrar. Puede presentar sedimentos naturales",
-       "img": "/vinos/cabernet-sauvignon300dpi.png"
+       "imagen": "/vinos/cabernet-sauvignon300dpi.png"
    }
 ]

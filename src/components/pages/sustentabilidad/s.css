@@ -2,7 +2,7 @@
   padding: 0 6%;
   background-image: url("../../../assets/fondo-sierras.png");
   background-size: contain;
-  background-position: center center; /* Centra la imagen horizontal y verticalmente */
+  background-position: center center;
 }
 
 .contenedor-sostenibilidad h1 {
@@ -90,20 +90,33 @@
   .contenedor-sostenibilidad h1{
     text-align: center;
     margin: 20px 0;
-    font-size: small;
+    font-size: 2em;
   }
   .img{
     flex-direction: column;
   }
   .lista{
-    font-size: xx-small;
+    font-size: 0.9em;
   }
   .introSust p {
     width: auto;
     margin: 0;
-    font-size: small;
+    font-size: 1.5em;
   }
   .item p{
-    font-size: xx-small;
+    font-size: 1.5em;
+    width: 120%;
+  }
+  .item img {
+    width: 100%;
+  }
+  .galeria {
+    width: 100%;
+    margin: 1em auto;
+    flex-direction: column;
+  }
+  .galeria img {
+    max-width: 80%;
+    margin: 1em auto;
   }
 }

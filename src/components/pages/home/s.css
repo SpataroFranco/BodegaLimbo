@@ -1,41 +1,7 @@
 .container-home {
   padding: 0 10vw;
+  margin: auto;
   margin-bottom: 6rem;
-}
-
-.contain {
-  display: flex;
-  flex-direction: column;
-  width: 100%;
-  justify-content: space-evenly;
-}
-
-.contain-l {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-}
-
-.contain-link a img {
-  width: 20vw;
-  border-radius: 8px;
-}
-
-.contain-link h3 {
-  font-size: 1.3em;
-}
-
-.home-top {
-  width: 20%;
-  color: white;
-  padding: 2% 5%;
-}
-
-.titulo {
-  margin-top: 12rem;
-  margin-bottom: 2rem;
-  padding-left: 12%;
-  color: white;
 }
 
 .home-bottom {
@@ -45,41 +11,51 @@
 }
 
 .nuestra-cosecha {
+  margin: 2em auto;
+  width: 110%;
   display: flex;
   justify-content: space-between;
-  text-align: center;
   flex-wrap: wrap;
 }
 
 .nuestra-cosecha div p {
   margin: 0;
+  text-align: center;
 }
 
-.contain-link a img:hover {
-  transform: scale(1.05);
+.botonHome {
+  margin: auto;
+}
+
+.botonHome button {
+  display: block;
+  font-family: "Trade Gothic LT Std Light";
+  background-color: black;
+  color: white;
+  border-radius: 8px;
+  width: 14rem;
+  height: 2rem;
 }
 
 @media (max-width: 768px) {
-  h1 {
-    font-size: smaller;
-  }
-  .contain-link h3 {
-    font-size: x-small;
-  }
-  p {
-    font-size: x-small;
-  }
-  .contain {
-    align-items: center;
-  }
-  .contain-l {
-    flex-direction: column;
+  .home-bottom div h1 {
+    font-size: 2em;
     text-align: center;
   }
-  .contain-link a img {
-    width: 40vw;
+  .nuestra-cosecha div {
+    width: 100%;
+    margin: 1em auto;
   }
-  .home-bottom div {
+  .nuestra-cosecha div p {
+    font-size: 1.3em;
     text-align: center;
+  }
+  .nuestra-cosecha div img {
+    width: 40%;
+    margin-left: 6em;
+  }
+  .botonHome button {
+    font-size: 1em;
+    margin: auto;
   }
 }

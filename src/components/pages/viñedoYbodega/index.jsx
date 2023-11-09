@@ -1,7 +1,8 @@
+import React from "react";
 import campoVirgen from "../../../assets/Campo.jpeg";
-import viñedo from "../../../assets/Viñedo.jpeg";
+import viñedo from "../../../assets/viniedo.jpeg";
 import bodega from "../../../assets/bodega.jpeg";
-import botellas from "../../../assets/botellas.jpg";
+import botellas from "../../../assets/botellas.JPG";
 import nuestrosVinos from "../../../assets/nuestrosVinos.jpg";
 import reserva from "../../../assets/reservaB.jpg";
 import botella from "../../../assets/viñedo/botella.jpg";
@@ -27,6 +28,7 @@ const Viñedoybodega = () => {
       <div className="container-vyb">
         <div>
           <h2>VIÑEDO</h2>
+        </div>
           <div className="portada-viñedo">
             <div>
               <img
@@ -107,7 +109,6 @@ const Viñedoybodega = () => {
               </div>
             </div>
           </div>
-        </div>
         <div className="bodega">
           <h2>BODEGA</h2>
           <div className="bodega-cont">

@@ -14,38 +14,24 @@
 
 @media screen and (max-width: 768px) {
   .cartTitle {
-    font-size: small;
-  }
-  .cardImg {
-    display: none;
-  }
-  .cardImg h2 {
-    width: 90%;
-    font-size: small;
+    font-size: 2em;
   }
   .buttonContainer{
     width: 100vw;
     margin: 0;
-    display: flex;
-    justify-content: space-between;
+    margin-bottom: 2em;
+    flex-direction: column;
   }
-
-  .buttonContainer div button{
-    width: 100%;
+  .buttonContainer .boton button{
+    font-size: 1em;
   }
-  .card{
-    width: 100vw;
-  }
-  .trash{
-    width: 100%rem;
-  }
-  .trash img{
-    width: 100%;
-  }
-
   .emptyCart{
     display: flex;
     flex-direction: column;
     align-items: center;
+  }
+  .emptyCart h2 {
+    font-size: 2em;
+    width: 70%;
   }
 }
