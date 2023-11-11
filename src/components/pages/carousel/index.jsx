@@ -20,7 +20,7 @@ function App(props) {
         <div>
           <Carousel
             data={data}
-            time={5000}
+            time={3000}
             width="100vw"
             height="80vh"
             captionStyle={captionStyle}

@@ -15,10 +15,12 @@
   background-size: contain;
   background-position: center center;
 }
+
 .intro p {
-  font-size: 1em;
+  font-size: 1.2em;
   font-family: "Trade Gothic LT Std Light";
 }
+
 .contenedorVinos h2 {
   font-size: 2rem;
   margin: 0;
@@ -37,9 +39,9 @@
     flex-direction: column;
     align-items: center;
   }
-  .intro p{
+  .intro p {
     width: 80vw;
-    font-size: 1.5em;
+    font-size: 1.2em;
   }
   .contenedorVinos {
     margin: 0;

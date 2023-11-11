@@ -17,8 +17,7 @@ const CssTextField = styled(TextField)({
     fontFamily: "Trade Gothic LT Std Light",
   },
   "& label.Mui-focused": {
-    color: "black",
-    fontFamily: "Trade Gothic LT Std",
+    opacity: "0.1",
   },
   "& .MuiOutlinedInput-root": {
     "& input": {
@@ -49,8 +48,7 @@ const CssTextFieldMensaje = styled(TextField)({
     fontFamily: "Trade Gothic LT Std Light",
   },
   "& label.Mui-focused": {
-    color: "black",
-    fontFamily: "Trade Gothic LT Std",
+    opacity: "0.1",
   },
   "& .MuiOutlinedInput-root": {
     "& input": {

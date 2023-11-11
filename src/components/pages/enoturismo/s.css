@@ -11,9 +11,8 @@
 
 .titles p{
   font-weight: bold;
-  font-size: 1.1em;
+  font-size: 2em;
 }
-
 
 .text-up {
   display: flex;
@@ -58,12 +57,12 @@
   flex-wrap: wrap;
 }
 
-.finca div{
-  margin-bottom: 4rem;
+.finca div {
+  margin-bottom: 3rem;
 }
 
-.finca p{
-  margin: 0 1.5vw;
+.finca p {
+  margin: 0.5em 1.5vw;
 }
 
 .cosecha {

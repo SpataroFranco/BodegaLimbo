@@ -21,6 +21,9 @@
     width: 2%;
     padding-left: 1em;
 }
+.trash:hover {
+    transform: scale(1.2, 1.2);
+}
 
 @media screen and (max-width: 768px) {
     .trash{

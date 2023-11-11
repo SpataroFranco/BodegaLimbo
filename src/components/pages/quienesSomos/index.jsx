@@ -1,9 +1,8 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import osvaldoMaria from "../../../assets/Osvaldo-Maria.jpg";
-import etiquetas from "../../../assets/fondo-pajaro.png";
-import malbecEtiqueta from "../../../assets/malbecReservaEtiqueta.png";
-import CabernetEtiqueta from "../../../assets/cabernetEtiqueta.png";
+import malbecEtiqueta from "../../../assets/malbecReservaEtiqueta.jpg";
+import CabernetEtiqueta from "../../../assets/cabernetEtiqueta.jpg";
 import corteEtiqueta from "../../../assets/corte2019reserva.jpg";
 import partidaEspecialEtiqueta from "../../../assets/partidaEspecialEtiqueta.png";
 import corte2021 from "../../../assets/etiqueta1.jpg";
@@ -76,6 +75,32 @@ const QuienesSomos = () => {
                 botellas.
               </p>
             </div>
+            <div className="galeriaQuienesSomos">
+              <div>
+                <div>
+                  <img src={s1} className="imagen-quienesSomos" alt="cuidamosElMedioAmbiente" />
+                </div>
+                <p>Cuidamos el medio ambiente</p>
+              </div>
+              <div>
+                <div>
+                  <img src={s2} className="imagen-quienesSomos" alt="uvaMalbec" />
+                </div>
+                <p>Nuestra uva Malbec</p>
+              </div>
+              <div>
+                <div>
+                  <img src={s3} className="imagen-quienesSomos" alt="hilerasDeCabernetSauvignon" />
+                </div>
+                <p>Hileras de Cabernet Sauvignon</p>
+              </div>
+              <div>
+                <div>
+                  <img src={s4} className="imagen-quienesSomos" alt="lineaDeVinosDeReserva" />
+                </div>
+                <p>Línea de vinos Reserva</p>
+              </div>
+            </div>
             <div>
               <h2>LAS ETIQUETAS</h2>
               <p>
@@ -101,10 +126,7 @@ const QuienesSomos = () => {
                 Te invitamos a conocer más obras del <Link to="https://www.instagram.com/crisdelhez/" target="_blank"><u>artista</u></Link>.
               </p>
             </div>
-          </div>
-          <div>
-            <img src={etiquetas} alt="imgProyecto" className="img-etiquetas" />
-          </div>
+        </div>
         </div>
         <div className="etiquetasImg">
           <div>
@@ -117,9 +139,9 @@ const QuienesSomos = () => {
               "Jardín japonés"
             </h3>
             <p>
-              Fragmento 2005.
+              Fragmento.
               <br />
-              Dibujo a rodillo y tinta de impresión.
+              Dibujo a rodillo y tinta de impresión. 2005.
             </p>
           </div>
           <div>
@@ -132,7 +154,9 @@ const QuienesSomos = () => {
               "Pájaro inconcluso"
             </h3>
             <p>
-              ...Y cuando aparece un pájaro ya todo parece estar en su lugar...
+              ....Y cuando aparece un pájaro ya todo parece estar en su lugar....
+              <br />
+              Fragmento.
             </p>
           </div>
           <div>
@@ -145,9 +169,9 @@ const QuienesSomos = () => {
               "Espanta espanta pájaros y pájaros"
             </h3>
             <p>
-              Fragmento 2017.
+              Fragmento.
               <br />
-              Dibujo con plumín (hipodérmica) y acuarela.
+              Dibujo con plumín (hipodérmica) y acuarela. 2017.
             </p>
           </div>
           <div>
@@ -160,9 +184,9 @@ const QuienesSomos = () => {
               Partida Especial
             </h3>
             <p>
-              "Aparecen otros seres para charlar...
+              "Aparecen otros seres para charlar... ¿quién le dijo a quién?"
               <br />
-              ¿quién le dijo a quién?"
+              Relatos dibujados. Fragmento.
             </p>
           </div>
         </div>
@@ -172,25 +196,7 @@ const QuienesSomos = () => {
             <img src={malbec2021} alt="malbec2021" />
             <img src={cabernet2021} alt="cabernet2021" />
           </div>
-          <p>Corte, Malbec y Cabernet Sauvignon 2021</p>
-        </div>
-        <div className="galeriaQuienesSomos">
-          <div>
-            <img src={s1} className="imagen-quienesSomos" alt="cuidamosElMedioAmbiente" />
-            <p>Cuidamos el medio ambiente</p>
-          </div>
-          <div>
-            <img src={s2} className="imagen-quienesSomos" alt="uvaMalbec" />
-            <p>Nuestra uva Malbec</p>
-          </div>
-          <div>
-            <img src={s3} className="imagen-quienesSomos" alt="hilerasDeCabernetSauvignon" />
-            <p>Hileras de Cabernet Sauvignon</p>
-          </div>
-          <div>
-            <img src={s4} className="imagen-quienesSomos" alt="lineaDeVinosDeReserva" />
-            <p>Línea de vinos de reserva</p>
-          </div>
+          <p>Varietales Malbec, Cabernet y Corte Malbec Cabernet. "Tránsito de Cuero y huesos", acuarela. Fragmento. 2018.</p>
         </div>
       </div>
     </div>

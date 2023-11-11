@@ -5,7 +5,8 @@ import petitVerdotReserva2018 from "../../../assets/petitVerdotReserva2018.png";
 import cabernetSauReserva2020 from "../../../assets/cabernetSauReserva2020.png";
 import malbecReserva2019 from "../../../assets/malbecReserva2019.png";
 import cabernetSauvignon2020 from "../../../assets/cabernetSauvignon2020.png";
-import cabernetSauvignon2020CORTE from "../../../assets/cabernetSauvignonCORTE2020.png";
+import corte2021 from "../../../assets/cabernetSauvignonCORTE2020.png";
+import malbec2021 from "../../../assets/malbec2021.png";
 import Carousel from "../carousel";
 import "./s.css";
 
@@ -68,7 +69,17 @@ const Home = () => {
           </div>
           <div className="nuestra-cosecha">
               <div>
-                <p>Blend Reserva</p>
+                <p>Malbec Reserva</p>
+                <p>2019</p>
+                <img src={malbecReserva2019} alt="malbecReserva2019" />
+              </div>
+              <div>
+                <p>Cabernet Sauvignon</p>
+                <p>Reserva 2020</p>
+                <img src={cabernetSauReserva2020} alt="cabernetSauReserva2020" />
+              </div>
+              <div>
+                <p>Corte Reserva</p>
                 <p>2019</p>
                 <img src={corteReserva2019} alt="corteReserva2019" />
               </div>
@@ -78,14 +89,9 @@ const Home = () => {
                 <img src={petitVerdotReserva2018} alt="petitVerdotReserva2018" />
               </div>
               <div>
-                <p>Cabernet Sauvignon</p>
-                <p>Reserva 2020</p>
-                <img src={cabernetSauReserva2020} alt="cabernetSauReserva2020" />
-              </div>
-              <div>
-                <p>Malbec Reserva</p>
-                <p>2019</p>
-                <img src={malbecReserva2019} alt="malbecReserva2019" />
+                <p>Malbec</p>
+                <p>2021</p>
+                <img src={malbec2021} alt="malbec2021" />
               </div>
               <div>
                 <p>Cabernet Sauvignon</p>
@@ -96,8 +102,8 @@ const Home = () => {
                 <p>Corte</p>
                 <p>2021</p>
                 <img
-                  src={cabernetSauvignon2020CORTE}
-                  alt="cabernetSauvignon2020CORTE"
+                  src={corte2021}
+                  alt="corte2021"
                 />
               </div>
           </div>

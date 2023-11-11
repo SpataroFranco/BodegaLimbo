@@ -1,6 +1,5 @@
 .contenedor-sostenibilidad {
   padding: 0 6%;
-  background-image: url("../../../assets/fondo-sierras.png");
   background-size: contain;
   background-position: center center;
 }
@@ -65,9 +64,14 @@
 }
 
 .galeria {
+  margin: 2em auto;
   display: flex;
   flex-wrap: auto;
   justify-content: center;
+}
+
+.galeria div p {
+  margin: 0.5em 0.4em;
 }
 
 .imagen-galeria {
@@ -112,11 +116,12 @@
   }
   .galeria {
     width: 100%;
-    margin: 1em auto;
     flex-direction: column;
   }
-  .galeria img {
-    max-width: 80%;
-    margin: 1em auto;
+  .galeria div {
+    margin: 0 auto;
+  }
+  .galeria div img {
+    max-width: 90%;
   }
 }

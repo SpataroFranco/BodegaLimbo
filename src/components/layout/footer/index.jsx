@@ -23,7 +23,7 @@ const Footer = () => {
             <span role="img">☎️</span>+54 9 2604 417126
           </Link>
           <br />
-          <Link to="https://mail.google.com/mail/u/0/#inbox?compose=CllgCJlHFJrLmQSMDhKrWXpqWjchhsqVKxzWlhBgpsCzJLHLCpfNqNqkNbPVxMZZZVqkCqkrZXB">
+          <Link to={`mailto:info@limbo.com.ar`}>
             <span role="img">📧</span> info@limbo.com.ar
           </Link>
           </p>

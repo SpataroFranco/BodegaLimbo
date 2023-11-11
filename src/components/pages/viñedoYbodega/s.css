@@ -7,6 +7,7 @@
 }
 
 .text p {
+  margin: 2em 0;
   font-size: 1.4em;
   text-align: justify;
 }
@@ -27,10 +28,12 @@
 
 .bodega-cont div img {
   height: 80vh;
+  width: 90%;
 }
 
 .bodega-img {
   display: flex;
+  justify-content: center;
 }
 
 .bodega-img div {
@@ -47,6 +50,7 @@
 
 .cava-img div img {
   width: 19vw;
+  height: 85%;
 }
 
 .viñedo-gallery {
@@ -72,17 +76,18 @@
   border-radius: 8px;
 }
 
-.embalaje{
+.embalaje {
   display: flex;
   justify-content: space-between;
 }
 
-.embalaje div{
+.embalaje div {
   padding-right: 12px;
 }
 
-.embalaje div img{
+.embalaje div img {
   width: 19vw;
+  height: 80%;
   border-radius: 8px;
 }
 
@@ -92,6 +97,9 @@
   }
   .text{
     font-size: xx-small;
+  }
+  .text p {
+    margin: 1em 0 2em 0;
   }
   .portada-viñedo{
     flex-direction: column;
@@ -109,11 +117,15 @@
   .viñedo-gallery div img{
     width: 80vw;
   }
-  .bodega-img{
+  .bodega-img {
     flex-direction: column;
   }
+  .bodega-img div p {
+    padding-bottom: 1em;
+  }
   .bodega-img div img {
-    height: 70%;
+    width: 110%;
+    height: 80%;
   }
   .cava-img{
     flex-direction: column;

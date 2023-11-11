@@ -2,6 +2,7 @@ import React from "react";
 import campoVirgen from "../../../assets/Campo.jpeg";
 import viñedo from "../../../assets/viniedo.jpeg";
 import bodega from "../../../assets/bodega.jpeg";
+import bodega2 from "../../../assets/bodega2.jpeg";
 import botellas from "../../../assets/botellas.JPG";
 import nuestrosVinos from "../../../assets/nuestrosVinos.jpg";
 import reserva from "../../../assets/reservaB.jpg";
@@ -172,7 +173,7 @@ const Viñedoybodega = () => {
           <div className="cava-cont">
             <div className="cava-img">
               <div>
-                <img src={bodega} alt="imgProyecto" className="imgProyecto" />
+                <img src={bodega2} alt="imgProyecto" className="imgProyecto" />
                 <p>Nuestra cava</p>
               </div>
               <div>

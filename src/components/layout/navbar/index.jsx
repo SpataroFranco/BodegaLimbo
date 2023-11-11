@@ -51,7 +51,7 @@ const Navbar = () => {
           <img src={logoTrip} alt="tripadvisor" />
         </Link>
         <Link to="/cart">
-          <CartWidget />
+          <CartWidget toggleMenu={toggleMenu} />
         </Link>
       </div>
       <button className="menu-button" onClick={toggleMenu}>

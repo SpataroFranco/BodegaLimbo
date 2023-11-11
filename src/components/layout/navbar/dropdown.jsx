@@ -9,7 +9,7 @@ const DropdownItem = ({ toggleMenu }) => {
       setClicked(!clicked);
     };
     return (
-        <NavDropdown className="items" title="Sobre Nosotros" onClick={toggle}>
+        <NavDropdown className="items" title="Sobre Nosotros" onMouseEnter={toggle} onMouseLeave={toggle} >
             <div className={`dropdown ${clicked ? "dropdown" : "dropdownHidden"}`}>
                 <NavDropdown.Item className="dropdownItem" onClick={toggleMenu}>
                     <Link to="/quienes-somos">

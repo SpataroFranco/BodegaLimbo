@@ -22,7 +22,6 @@
     display: flex;
 }
 
-
 @media screen and (max-width: 768px) {
     .detail{
         margin: 0;
