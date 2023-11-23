@@ -11,7 +11,7 @@ const DropdownItem = ({ toggleMenu }) => {
     return (
         <NavDropdown className="items" title="Sobre Nosotros" onMouseEnter={toggle} onMouseLeave={toggle} >
             <div className={`dropdown ${clicked ? "dropdown" : "dropdownHidden"}`}>
-                <NavDropdown.Item className="dropdownItem" onClick={toggleMenu}>
+                <NavDropdown.Item className="dropdownItem quienesSomos" onClick={toggleMenu}>
                     <Link to="/quienes-somos">
                         Quiénes Somos
                     </Link>
@@ -21,7 +21,7 @@ const DropdownItem = ({ toggleMenu }) => {
                         Viñedo y Bodega
                     </Link>
                 </NavDropdown.Item>
-                <NavDropdown.Item className="dropdownItem" onClick={toggleMenu}>
+                <NavDropdown.Item className="dropdownItem sustentabilidad" onClick={toggleMenu}>
                     <Link to="/sustentabilidad">
                         Sustentabilidad
                     </Link>

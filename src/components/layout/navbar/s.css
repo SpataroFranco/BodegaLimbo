@@ -11,7 +11,7 @@
   font-size: 1.1em;
 }
 .secciones {
-  width: max-content;
+  width: 50vw;
   display: flex;
   justify-content: center;
 }
@@ -23,42 +23,49 @@
 .items:hover {
   transform: scale(1.2, 1.2);
 }
+
 .dropdown {
   display: flex;
   flex-direction: column;
   width: max-content;
   position: sticky;
 }
+
 .dropdownHidden {
   display: none;
 }
 .dropdownItem {
   font-size: 0.9em;
   padding: 0.5em;
-  background-color: white;
-  border-radius: 8px;
+  background-color: whitesmoke;
   text-align: center;
 }
+
+.quienesSomos{
+  border-radius: 10px 10px 0 0;
+}
+.sustentabilidad{
+  border-radius: 0 0 10px 10px;
+}
 .dropdownItem:hover {
-  transform: scale(1.2, 1.2);
+  font-weight: bold;
 }
 .secciones p {
   display: flex;
   align-items: center;
 }
 .logo {
-  width: 40%;
+  width: 25vw;
   display: flex;
   justify-content: center;
+  align-items: center;
 }
 .logo img {
   width: 18rem;
 }
 .redes {
-  width: 25%;
+  width: 25vw;
   display: flex;
-  justify-content: center;
-  padding-right: 1em;
 }
 .redes img {
   padding-left: 1.2em;
@@ -106,7 +113,7 @@
   .navbar.menu-open .redes {
     display: flex;
     margin: 1em 0;
-    margin-right: 4em;
+    justify-content: center;
   }
   .navbar .redes {
     display: none;

@@ -6,7 +6,7 @@ const ItemList = ({ product }) => {
   return (
     <>
       <div className="list">
-        <div className="data">
+        <div className="data" id={product.id}>
           <h1 key={product.Titulo}>{product.Titulo}</h1>
           <p>VINO TINTO</p>
           <p className="descripcion">{product.Descripcion}</p>
