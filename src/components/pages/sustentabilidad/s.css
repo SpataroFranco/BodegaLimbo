@@ -4,20 +4,16 @@
   background-position: center center;
 }
 
-.contenedor-sostenibilidad h1 {
-  margin-left: 4rem;
-}
-
 .introSust {
-  justify-content: space-between;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .introSust p {
   width: 38vw;
-  margin: 2rem;
   font-size: 1.4em;
   font-family: "Trade Gothic LT Std Light";
-  margin-left: 4rem;
 }
 
 .img {
@@ -66,7 +62,6 @@
 .galeria {
   margin: 2em auto;
   display: flex;
-  flex-wrap: auto;
   justify-content: center;
 }
 
@@ -74,32 +69,36 @@
   margin: 0.5em 0.4em;
 }
 
-.imagen-galeria {
-  flex: 1;
-  height: auto;
-  width: auto;
-  max-width: 18vw;
-  margin: 5px;
+.galeria div {
+  padding-right: 48px;
+  padding-bottom: 2em;
+}
+
+.galeria div video{
+  width: 20vw;
+  height: 50vh; 
   border-radius: 8px;
 }
 
-.imagen-galeria:hover {
-  transform: scale(1.05);
+.galeria div img{
+  width: 20vw;
+  height: 50vh; 
+  border-radius: 8px;
 }
 
 @media screen and (max-width: 768px) {
-  .contenedor-sostenibilidad{
+  .contenedor-sostenibilidad {
     font-size: small;
   }
-  .contenedor-sostenibilidad h1{
+  .contenedor-sostenibilidad h1 {
     text-align: center;
     margin: 20px 0;
     font-size: 2em;
   }
-  .img{
+  .img {
     flex-direction: column;
   }
-  .lista{
+  .lista {
     font-size: 0.9em;
   }
   .introSust p {
@@ -107,7 +106,7 @@
     margin: 0;
     font-size: 1.5em;
   }
-  .item p{
+  .item p {
     font-size: 1.5em;
     width: 120%;
   }
@@ -122,6 +121,11 @@
     margin: 0 auto;
   }
   .galeria div img {
-    max-width: 90%;
+    width: 70vw;
+    height: 100%;
+  }
+  .galeria div video{
+    width: 70vw;
+    height: 100%;
   }
 }
