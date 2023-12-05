@@ -67,7 +67,7 @@
 .etiquetasImg div div img {
   align-items: flex-end;
   box-shadow: 5px 5px 5px grey;
-  
+  width: 16vw;
 }
 
 .etiquetasBotellas {
@@ -100,10 +100,11 @@
 
 .imagen-quienesSomos {
   flex: 1;
-  max-width: 80%;
+  max-width: 90%;
   margin: 5px;
   border-radius: 8px;
   width: 100vw;
+  min-height: 50vh;
 }
 
 .imagen-quienesSomos:hover {

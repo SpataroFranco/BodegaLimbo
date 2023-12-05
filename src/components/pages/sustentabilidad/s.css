@@ -86,6 +86,10 @@
   border-radius: 8px;
 }
 
+.imagen-galeria:hover{
+  transform: scale(1.05);
+}
+
 @media screen and (max-width: 768px) {
   .contenedor-sostenibilidad {
     font-size: small;

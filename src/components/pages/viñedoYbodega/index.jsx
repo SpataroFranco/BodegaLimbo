@@ -1,7 +1,6 @@
-import React from "react";
+import React, { useState } from "react";
 import campoVirgen from "../../../assets/Campo.jpeg";
-import viñedo from "../../../assets/viniedo.jpeg";
-import bodega from "../../../assets/bodega.jpeg";
+import viñedo from "../../../assets/viñedo/viñedoMalbec2004.jpg";
 import bodega2 from "../../../assets/bodega2.jpeg";
 import botellas from "../../../assets/botellas.jpg";
 import nuestrosVinos from "../../../assets/nuestrosVinos.jpg";
@@ -11,9 +10,9 @@ import poda from "../../../assets/viñedo/poda.jpg";
 import osvaldo from "../../../assets/parafermentacion.jpeg";
 import floracion from "../../../assets/viñedo/floracion.jpeg";
 import midiendoAzucar from "../../../assets/viñedo/midiendoAzucar.jpeg";
-import prensandoOrujos from "../../../assets/elaboracionVestidoEmbalaje/prensandoOrujo.gif";
+import prensandoOrujo from "../../../assets/elaboracionVestidoEmbalaje/prensandoOrujo.mp4";
 import orujoPrensado from "../../../assets/elaboracionVestidoEmbalaje/orujoPrensado.jpeg";
-import lineaDeFraccionamiento from "../../../assets/elaboracionVestidoEmbalaje/lineadefraccionam.gif";
+import lineaDeFraccionamiento from "../../../assets/elaboracionVestidoEmbalaje/lineadefraccionam.mp4";
 import llenandoBotellas from "../../../assets/elaboracionVestidoEmbalaje/fraccionando.jpeg";
 import encapsulando from "../../../assets/elaboracionVestidoEmbalaje/osvalencapsulando.jpeg";
 import etiquetando from "../../../assets/elaboracionVestidoEmbalaje/mariaetiquetando.jpeg";
@@ -29,12 +28,21 @@ import iniciandoPrimavera from "../../../assets/viñedo/iniciandoLaPrimavera.jpg
 import cargaDeRacimos from "../../../assets/elaboracionVestidoEmbalaje/MoliendoLIMBO.jpg";
 import seleccionRacimos from "../../../assets/elaboracionVestidoEmbalaje/seleccionRacimos.jpg";
 import despalilladora from "../../../assets/elaboracionVestidoEmbalaje/despalilladora.mp4";
+import racimosMalbec from "../../../assets/viñedo/racimosMalbec.mp4";
 import procesandoMalbec from "../../../assets/elaboracionVestidoEmbalaje/procesandoMalbec.mp4";
 import fermentacionTanques from "../../../assets/elaboracionVestidoEmbalaje/fermentacionTanque.mp4";
 import lineaFraccionamiento from "../../../assets/elaboracionVestidoEmbalaje/lineaFraccionamiento.jpeg";
 import "./s.css";
 
 const Viñedoybodega = () => {
+  const [selectedImage, setSelectedImage] = useState(null);
+  const openImage = (image) => {
+    setSelectedImage(image);
+  };
+  const closeImage = () => {
+    setSelectedImage(null);
+  };
+
   return (
     <>
       <div className="container-vyb">
@@ -43,16 +51,26 @@ const Viñedoybodega = () => {
         </div>
         <div className="portada-viñedo">
           <div>
-            <img src={campoVirgen} alt="imgProyecto" className="imgProyecto" />
+            <img
+              src={campoVirgen}
+              alt="imgProyecto"
+              className="imgProyecto"
+              onClick={() => openImage(campoVirgen)}
+            />
             <p>Barranco donde comienza el Cañón del Atuel</p>
           </div>
           <div>
-            <img src={viñedo} alt="imgProyecto" className="imgProyecto" />
+            <img
+              src={viñedo}
+              alt="imgProyecto"
+              className="imgProyecto"
+              onClick={() => openImage(viñedo)}
+            />
             <p>Viñedo del Malbec implantado en 2004</p>
           </div>
         </div>
-        <div className="text">
-          <p>
+        <div>
+          <p className="text">
             El limbo es un límite que une y separa el campo virgen del oasis
             cultivado. Allí, en esa línea geográfica a 800 msnm, están ubicados
             los viñedos y la bodega. Los sucesivos aluviones desde las sierras
@@ -65,6 +83,7 @@ const Viñedoybodega = () => {
                 src={sueloAluvional}
                 alt="imgProyecto"
                 className="imgProyecto"
+                onClick={() => openImage(sueloAluvional)}
               />
               <p>Suelo aluvional</p>
             </div>
@@ -73,11 +92,12 @@ const Viñedoybodega = () => {
                 src={sueloCalcareo}
                 alt="imgProyecto"
                 className="imgProyecto"
+                onClick={() => openImage(sueloCalcareo)}
               />
-              <p>Per l de nuestro suelo calcáreo</p>
+              <p>Perfil de nuestro suelo calcáreo</p>
             </div>
           </div>
-          <p>
+          <p className="text">
             En nuestro establecimiento contamos con 2 has de un viñedo de más de
             90 años compuesto mayormente por cepas de Malbec. Mezcladas en un
             porcentaje mucho menor, encontramos Tannat, Petit Verdot, Aspirant
@@ -85,13 +105,13 @@ const Viñedoybodega = () => {
             blancas. Este blend de viñedo produce un vino “Malbec” único y
             exquisito, sin duda la joya de nuestro establecimiento.
           </p>
-          <p>En el año 2004 implantamos 2,5 has de Malbec.</p>
-          <p>
+          <p className="text">En el año 2004 implantamos 2,5 has de Malbec.</p>
+          <p className="text">
             En el año 2006 implantamos 4 has de Cabernet Sauvignon, un viñedo de
             baja producción y alta calidad, variedad que está produciendo vinos
             notables en San Rafael.
           </p>
-          <p>
+          <p className="text">
             En 2015 agregamos 1 has de Bonarda. Luego de 7 cosechas en 2023,
             hacemos la primera elaboración de esta variedad con los mejores
             resultados.
@@ -99,7 +119,12 @@ const Viñedoybodega = () => {
         </div>
         <div className="viñedo-gallery">
           <div>
-            <img src={botella} alt="imgProyecto" className="imgViñedo" />
+            <img
+              src={botella}
+              alt="imgProyecto"
+              className="imgViñedo"
+              onClick={() => openImage(botella)}
+            />
             <p>Botella sobre FIAT 400</p>
           </div>
           <div>
@@ -110,11 +135,21 @@ const Viñedoybodega = () => {
             <p>Riego por surcos con agua del Rio Diamante</p>
           </div>
           <div>
-            <img src={poda} alt="imgProyecto" className="imgViñedo" />
+            <img
+              src={poda}
+              alt="imgProyecto"
+              className="imgViñedo"
+              onClick={() => openImage(poda)}
+            />
             <p>Poda de invierno</p>
           </div>
           <div>
-            <img src={cepasMalbec} alt="imgProyecto" className="imgViñedo" />
+            <img
+              src={cepasMalbec}
+              alt="imgProyecto"
+              className="imgViñedo"
+              onClick={() => openImage(cepasMalbec)}
+            />
             <p>Cepas de Malbec centenarias</p>
           </div>
         </div>
@@ -124,19 +159,33 @@ const Viñedoybodega = () => {
               src={iniciandoPrimavera}
               alt="imgProyecto"
               className="imgViñedo"
+              onClick={() => openImage(iniciandoPrimavera)}
             />
             <p>Iniciando la primavera</p>
           </div>
           <div>
-            <img src={floracion} alt="imgProyecto" className="imgViñedo" />
+            <img
+              src={floracion}
+              alt="imgProyecto"
+              className="imgViñedo"
+              onClick={() => openImage(floracion)}
+            />
             <p>Floración de la vid</p>
           </div>
           <div>
-            <img src={floracion} alt="imgProyecto" className="imgViñedo" />
-            <p>Racimos de Malbec (agregar foto)</p>
+            <video controls>
+              <source src={racimosMalbec} type="video/mp4" />
+              Tu navegador no soporta el elemento de video.
+            </video>
+            <p>Racimos de Malbec</p>
           </div>
           <div>
-            <img src={midiendoAzucar} alt="imgProyecto" className="imgViñedo" />
+            <img
+              src={midiendoAzucar}
+              alt="imgProyecto"
+              className="imgViñedo"
+              onClick={() => openImage(midiendoAzucar)}
+            />
             <p>Osvaldo controlando la madurez de la uva</p>
           </div>
         </div>
@@ -144,7 +193,12 @@ const Viñedoybodega = () => {
           <h2>VENDIMIA</h2>
           <div className="embalaje">
             <div>
-              <img src={cosecha1} alt="imgProyecto" className="imgViñedo" />
+              <img
+                src={cosecha1}
+                alt="imgProyecto"
+                className="imgViñedo"
+                onClick={() => openImage(cosecha1)}
+              />
               <p>Nuestra vecina en vendimia</p>
             </div>
             <div>
@@ -155,7 +209,12 @@ const Viñedoybodega = () => {
               <p>Cosecha manual</p>
             </div>
             <div>
-              <img src={cosecha3} alt="imgProyecto" className="imgViñedo" />
+              <img
+                src={cosecha3}
+                alt="imgProyecto"
+                className="imgViñedo"
+                onClick={() => openImage(cosecha3)}
+              />
               <p>Cajas con Bonarda</p>
             </div>
           </div>
@@ -168,6 +227,7 @@ const Viñedoybodega = () => {
                 src={cargaDeRacimos}
                 alt="imgProyecto"
                 className="imgViñedo"
+                onClick={() => openImage(cargaDeRacimos)}
               />
               <p>Carga de racimos en familia</p>
             </div>
@@ -176,6 +236,7 @@ const Viñedoybodega = () => {
                 src={seleccionRacimos}
                 alt="imgProyecto"
                 className="imgViñedo"
+                onClick={() => openImage(seleccionRacimos)}
               />
               <p>Seleccionando racimos</p>
             </div>
@@ -195,8 +256,8 @@ const Viñedoybodega = () => {
             </div>
           </div>
           <h2>BODEGA</h2>
-          <div className="text">
-            <p>
+          <div>
+            <p className="text">
               La fermentación de nuestros vinos se realiza con levaduras
               indígenas en tanques pequeños de 1.000 litros. Esto nos permite
               seguir el proceso de manera muy controlada, con remontajes
@@ -206,7 +267,12 @@ const Viñedoybodega = () => {
           </div>
           <div className="viñedo-gallery">
             <div>
-              <img src={osvaldo} alt="imgProyecto" />
+              <img
+                src={osvaldo}
+                alt="imgProyecto"
+                className="imgViñedo"
+                onClick={() => openImage(osvaldo)}
+              />
               <p>Rompiendo "El sombrero"</p>
             </div>
             <div>
@@ -217,11 +283,10 @@ const Viñedoybodega = () => {
               <p>Fermentación en tanques</p>
             </div>
             <div>
-              <img
-                src={prensandoOrujos}
-                alt="imgProyecto"
-                className="imgViñedo"
-              />
+              <video controls>
+                <source src={prensandoOrujo} type="video/mp4" />
+                Tu navegador no soporta el elemento de video.
+              </video>
               <p>Prensando los orujos</p>
             </div>
             <div>
@@ -229,12 +294,13 @@ const Viñedoybodega = () => {
                 src={orujoPrensado}
                 alt="imgProyecto"
                 className="imgViñedo"
+                onClick={() => openImage(orujoPrensado)}
               />
               <p>Orujo prensado</p>
             </div>
           </div>
-          <div className="text">
-            <p>
+          <div>
+            <p className="text">
               Finalizada la fermentación, procedemos al descube y a un suave
               prensado. Dejamos los vinos en reposo durante todo el invierno.
               Los vinos seleccionados para crianza en roble son puestos en
@@ -244,7 +310,12 @@ const Viñedoybodega = () => {
           </div>
           <div className="viñedo-gallery">
             <div>
-              <img src={botellas} alt="imgProyecto" className="imgProyecto" />
+              <img
+                src={botellas}
+                alt="imgProyecto"
+                className="imgProyecto"
+                onClick={() => openImage(botellas)}
+              />
               <p>Crianza en botella</p>
             </div>
             <div>
@@ -252,25 +323,35 @@ const Viñedoybodega = () => {
                 src={nuestrosVinos}
                 alt="imgProyecto"
                 className="imgProyecto"
+                onClick={() => openImage(nuestrosVinos)}
               />
               <p>Nuestros vinos criados en botella</p>
             </div>
             <div>
-              <img src={reserva} alt="imgProyecto" className="imgProyecto" />
+              <img
+                src={reserva}
+                alt="imgProyecto"
+                className="imgProyecto"
+                onClick={() => openImage(reserva)}
+              />
               <p>Nuestros vinos criados en barrica</p>
             </div>
             <div>
-              <img src={bodega2} alt="imgProyecto" className="imgProyecto" />
+              <img
+                src={bodega2}
+                alt="imgProyecto"
+                className="imgProyecto"
+                onClick={() => openImage(bodega2)}
+              />
               <p>Crianza en barricas de roble</p>
             </div>
           </div>
           <div className="embalaje">
             <div>
-              <img
-                src={lineaDeFraccionamiento}
-                alt="imgProyecto"
-                className="imgViñedo"
-              />
+              <video controls>
+                <source src={lineaDeFraccionamiento} type="video/mp4" />
+                Tu navegador no soporta el elemento de video.
+              </video>
               <p>Nuestra línea de fraccionamiento</p>
             </div>
             <div>
@@ -278,6 +359,7 @@ const Viñedoybodega = () => {
                 src={lineaFraccionamiento}
                 alt="imgProyecto"
                 className="imgViñedo"
+                onClick={() => openImage(lineaFraccionamiento)}
               />
               <p>Nuestra línea de fraccionamiento</p>
             </div>
@@ -286,25 +368,51 @@ const Viñedoybodega = () => {
                 src={llenandoBotellas}
                 alt="imgProyecto"
                 className="imgViñedo"
+                onClick={() => openImage(llenandoBotellas)}
               />
               <p>LLenando botellas</p>
             </div>
           </div>
           <div className="embalaje">
             <div>
-              <img src={encapsulando} alt="imgProyecto" />
+              <img
+                src={encapsulando}
+                alt="imgProyecto"
+                className="imgProyecto"
+                onClick={() => openImage(encapsulando)}
+              />
               <p>Osvaldo encapsulando</p>
             </div>
             <div>
-              <img src={etiquetando} alt="imgProyecto" />
+              <img
+                src={etiquetando}
+                alt="imgProyecto"
+                className="imgProyecto"
+                onClick={() => openImage(etiquetando)}
+              />
               <p>María etiquetando</p>
             </div>
             <div>
-              <img src={cajas} alt="imgProyecto" />
+              <img
+                src={cajas}
+                alt="imgProyecto"
+                className="imgProyecto"
+                onClick={() => openImage(cajas)}
+              />
               <p>Cajas de cartón reciclable</p>
             </div>
           </div>
         </div>
+        {selectedImage && (
+          <div className="modal">
+            <div className="modal-content">
+              <span className="close" onClick={closeImage}>
+                &times;
+              </span>
+              <img src={selectedImage} alt="imagenEnPantallaCompleta" />
+            </div>
+          </div>
+        )}
       </div>
     </>
   );

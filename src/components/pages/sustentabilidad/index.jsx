@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import logo1 from "../../../assets/Iconos-01.png";
 import logo2 from "../../../assets/Iconos-04.png";
 import logo3 from "../../../assets/Iconos-02.png";
@@ -9,6 +9,15 @@ import s5 from "../../../assets/Sostenibilidad-5.jpg";
 import "./s.css";
 
 const Sustentabilidad = () => {
+
+  const [selectedImage, setSelectedImage] = useState(null);
+  const openImage = (image) => {
+    setSelectedImage(image);
+  };
+  const closeImage = () => {
+    setSelectedImage(null);
+  };
+
   return (
     <div className="cont">
       <div className="contenedor-sostenibilidad">
@@ -106,7 +115,7 @@ const Sustentabilidad = () => {
       </div>
       <div className="galeria">
         <div>
-          <img src={s3} className="imagen-galeria"/>
+          <img src={s3} className="imagen-galeria" onClick={() => openImage(s3)}/>
           <p>Cubierta vegetal en invierno</p>
         </div>
         <div>
@@ -117,10 +126,20 @@ const Sustentabilidad = () => {
           <p>Biodiversidad del suelo</p>
         </div>
         <div className="imagen-galeria">
-          <img src={s5} />
+          <img src={s5} onClick={() => openImage(s5)}/>
           <p>Energía solar</p>
         </div>
       </div>
+      {selectedImage && (
+        <div className="modal">
+          <div className="modal-content">
+            <span className="close" onClick={closeImage}>
+              &times;
+            </span>
+            <img src={selectedImage} alt="imagenEnPantallaCompleta" />
+          </div>
+        </div>
+      )}
     </div>
   );
 };

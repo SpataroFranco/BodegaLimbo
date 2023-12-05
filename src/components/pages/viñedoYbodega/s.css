@@ -6,7 +6,7 @@
   font-size: 2em;
 }
 
-.text p {
+.text{
   margin: 2em 0;
   font-size: 1.4em;
   text-align: justify;
@@ -26,11 +26,12 @@
   border-radius: 8px;
 }
 
-/* .bodega-cont div img {
-  height: 80vh;
-  width: 90%;
-} */
-
+.imgProyecto:hover{
+  transform: scale(1.05);
+}
+.imgViñedo:hover{
+  transform: scale(1.05);
+}
 .bodega-img {
   display: flex;
   justify-content: center;
@@ -89,14 +90,14 @@
   justify-content: space-between;
 }
 
-.embalaje div {
-  padding-right: 12px;
-}
-
 .embalaje div img {
-  width: 19vw;
+  width: 22vw;
   height: 80%;
   border-radius: 8px;
+}
+
+.embalaje div video{
+  width: 22vw;
 }
 
 @media screen and (max-width: 768px) {
