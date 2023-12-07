@@ -1,30 +1,39 @@
-import React from "react";
+import React, { useState } from "react";
 import logo1 from "../../../assets/Iconos-01.png";
 import logo2 from "../../../assets/Iconos-04.png";
 import logo3 from "../../../assets/Iconos-02.png";
 import logo4 from "../../../assets/Iconos-03.png";
-import s1 from "../../../assets/Sostenibilidad-1.jpg";
-import s2 from "../../../assets/Sostenibilidad-2.jpg";
 import s3 from "../../../assets/Sostenibilidad-3.jpg";
-import s4 from "../../../assets/Sostenibilidad-4.jpg";
+import s4 from "../../../assets/sostenibilidad.mp4";
 import s5 from "../../../assets/Sostenibilidad-5.jpg";
 import "./s.css";
 
 const Sustentabilidad = () => {
+
+  const [selectedImage, setSelectedImage] = useState(null);
+  const openImage = (image) => {
+    setSelectedImage(image);
+  };
+  const closeImage = () => {
+    setSelectedImage(null);
+  };
+
   return (
     <div className="cont">
       <div className="contenedor-sostenibilidad">
-        <h1>SUSTENTABILIDAD</h1>
         <div className="introSust">
+          <h1>SUSTENTABILIDAD</h1>
           <p>
             Ser sostenible es generar valor económico, social, ambiental y
             ético-cultural. Esto genera impacto positivo en el medioambiente, el
             entorno, la gente y su comunidad, asegurando la viabilidad
             económica.
           </p>
-          <p><strong>
-            Nuestro “modo de hacer” desde Limbo refleja nuestra convicción y
-            compromiso por alcanzar un desarrollo sostenible hoy y a futuro.</strong>
+          <p>
+            <strong>
+              Nuestro “modo de hacer” desde Limbo refleja nuestra convicción y
+              compromiso por alcanzar un desarrollo sostenible hoy y a futuro.
+            </strong>
           </p>
         </div>
         <div className="img">
@@ -95,8 +104,8 @@ const Sustentabilidad = () => {
             más sostenible, resiliente y de calidad.
           </li>
           <li>
-            Cortamos el pasto pero no trabajamos el suelo para evitar la
-            erosión y el empobrecimiento del mismo.
+            Cortamos el pasto pero no trabajamos el suelo para evitar la erosión
+            y el empobrecimiento del mismo.
           </li>
           <li>
             Una parte del área de la finca se mantiene con plantas y bosque
@@ -106,26 +115,31 @@ const Sustentabilidad = () => {
       </div>
       <div className="galeria">
         <div>
-          <img src={s1} className="imagen-galeria" alt="imagen" />
-          <p>Vivero de Petit Verdot</p>
+          <img src={s3} className="imagen-galeria" onClick={() => openImage(s3)}/>
+          <p>Cubierta vegetal en invierno</p>
         </div>
         <div>
-          <img src={s2} className="imagen-galeria" alt="imagen" />
-          <p>Vivero de Malbec</p>
+          <video controls className="imagen-galeria">
+            <source src={s4} type="video/mp4" />
+            Tu navegador no soporta el elemento de video.
+          </video>
+          <p>Biodiversidad del suelo</p>
         </div>
-        <div>
-          <img src={s3} className="imagen-galeria" alt="imagen" />
-          <p>Racimo</p>
-        </div>
-        <div>
-          <img src={s4} className="imagen-galeria" alt="imagen" />
-          <p>Flores</p>
-        </div>
-        <div>
-          <img src={s5} className="imagen-galeria" alt="imagen" />
-          <p>Paneles</p>
+        <div className="imagen-galeria">
+          <img src={s5} onClick={() => openImage(s5)}/>
+          <p>Energía solar</p>
         </div>
       </div>
+      {selectedImage && (
+        <div className="modal">
+          <div className="modal-content">
+            <span className="close" onClick={closeImage}>
+              &times;
+            </span>
+            <img src={selectedImage} alt="imagenEnPantallaCompleta" />
+          </div>
+        </div>
+      )}
     </div>
   );
 };

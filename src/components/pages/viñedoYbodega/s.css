@@ -6,7 +6,7 @@
   font-size: 2em;
 }
 
-.text p {
+.text{
   margin: 2em 0;
   font-size: 1.4em;
   text-align: justify;
@@ -26,11 +26,12 @@
   border-radius: 8px;
 }
 
-.bodega-cont div img {
-  height: 80vh;
-  width: 90%;
+.imgProyecto:hover{
+  transform: scale(1.05);
 }
-
+.imgViñedo:hover{
+  transform: scale(1.05);
+}
 .bodega-img {
   display: flex;
   justify-content: center;
@@ -59,6 +60,19 @@
 
 .viñedo-gallery div {
   padding-right: 12px;
+  padding-bottom: 2em;
+}
+
+.viñedo-gallery div video {
+  width: 19vw;
+  height: 50vh; 
+  border-radius: 8px;
+}
+
+.embalaje div video {
+  width: 19vw;
+  height: 80%;
+  border-radius: 8px;
 }
 
 .imgViñedo {
@@ -71,24 +85,19 @@
   border-radius: 8px;
 }
 
-.viñedo-gallery div video {
-  width: 19vw;
-  border-radius: 8px;
-}
-
 .embalaje {
   display: flex;
   justify-content: space-between;
 }
 
-.embalaje div {
-  padding-right: 12px;
-}
-
 .embalaje div img {
-  width: 19vw;
+  width: 22vw;
   height: 80%;
   border-radius: 8px;
+}
+
+.embalaje div video{
+  width: 22vw;
 }
 
 @media screen and (max-width: 768px) {
@@ -138,5 +147,24 @@
   }
   .embalaje div img{
     width: 80vw;
+  }
+  .viñedo-gallery div video {
+    width: 80vw;
+    border-radius: 8px;
+  }
+  .embalaje div video {
+    width: 80vw;
+    height: 80%;
+    border-radius: 8px;
+  }
+
+  .modal-content {
+    max-width: 80%; /* Establece el ancho máximo del modal */
+    max-height: 70vh; /* Establece la altura máxima del modal como el 80% de la altura de la pantalla */
+  }
+
+  .img-modal {
+    width: 100%; /* La imagen ocupará el 100% del ancho del contenedor modal */
+    height: auto; /* Se ajusta automáticamente la altura para mantener la proporción original */
   }
 }

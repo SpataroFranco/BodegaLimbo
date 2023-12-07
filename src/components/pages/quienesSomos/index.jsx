@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import osvaldoMaria from "../../../assets/Osvaldo-Maria.jpg";
 import malbecEtiqueta from "../../../assets/malbecReservaEtiqueta.jpg";
@@ -8,13 +8,22 @@ import partidaEspecialEtiqueta from "../../../assets/partidaEspecialEtiqueta.png
 import corte2021 from "../../../assets/etiqueta1.jpg";
 import malbec2021 from "../../../assets/etiqueta2.jpg";
 import cabernet2021 from "../../../assets/etiqueta3.jpg";
-import s1 from "../../../assets/osvaldoviniedo.jpeg";
-import s2 from "../../../assets/uvas.jpeg";
-import s3 from "../../../assets/viniedocaber.jpeg";
+import s1 from "../../../assets/osvaldoviñedo.jpeg";
+import s2 from "../../../assets/uvasMalbec.jpeg";
+import s3 from "../../../assets/viniedoCaber.jpeg";
 import s4 from "../../../assets/botellasFoto.jpeg";
 import "./s.css";
 
 const QuienesSomos = () => {
+
+  const [selectedImage, setSelectedImage] = useState(null);
+  const openImage = (image) => {
+    setSelectedImage(image);
+  };
+  const closeImage = () => {
+    setSelectedImage(null);
+  };
+
   return (
     <div className="contenedor-quienes-somos">
       <div className="quienes-somos-top">
@@ -46,7 +55,7 @@ const QuienesSomos = () => {
             entonces vamos aumentando la producción año a año hasta los actuales
             9.000 litros.{" "}
             <strong>
-              Nuestro objetivo es elaborar no más de 12.000 litros del mejor
+              Nuestro objetivo es elaborar hasta 12.000 litros del mejor
               vino que este suelo nos pueda dar
             </strong>
             , siempre utilizando prácticas enológicas artesanales con precisión
@@ -65,7 +74,7 @@ const QuienesSomos = () => {
         <div className="etiquetas">
           <div className="etiquetas-text">
             <div>
-              <h2>FILOSOFÍA</h2>
+              <h1>FILOSOFÍA</h1>
               <p>
                 Buscamos expresar fielmente las características del terruño,
                 cultivando la tierra y produciendo vinos de calidad cuidando el
@@ -78,31 +87,31 @@ const QuienesSomos = () => {
             <div className="galeriaQuienesSomos">
               <div>
                 <div>
-                  <img src={s1} className="imagen-quienesSomos" alt="cuidamosElMedioAmbiente" />
+                  <img src={s1} className="imagen-quienesSomos" alt="cuidamosElMedioAmbiente " onClick={() => openImage(s1)} />
                 </div>
                 <p>Cuidamos el medio ambiente</p>
               </div>
               <div>
                 <div>
-                  <img src={s2} className="imagen-quienesSomos" alt="uvaMalbec" />
+                  <img src={s2} className="imagen-quienesSomos" alt="uvaMalbec" onClick={() => openImage(s2)}/>
                 </div>
                 <p>Nuestra uva Malbec</p>
               </div>
               <div>
                 <div>
-                  <img src={s3} className="imagen-quienesSomos" alt="hilerasDeCabernetSauvignon" />
+                  <img src={s3} className="imagen-quienesSomos" alt="hilerasDeCabernetSauvignon" onClick={() => openImage(s3)}/>
                 </div>
                 <p>Hileras de Cabernet Sauvignon</p>
               </div>
               <div>
                 <div>
-                  <img src={s4} className="imagen-quienesSomos" alt="lineaDeVinosDeReserva" />
+                  <img src={s4} className="imagen-quienesSomos" alt="lineaDeVinosDeReserva" onClick={() => openImage(s4)}/>
                 </div>
                 <p>Línea de vinos Reserva</p>
               </div>
             </div>
             <div>
-              <h2>LAS ETIQUETAS</h2>
+              <h1>LAS ETIQUETAS</h1>
               <p>
                 Cuando <strong>ARTE Y VINO SE HACEN UNO:</strong> nuestras
                 raíces están en nuestro diálogo con el arte, un enfoque que nos
@@ -199,6 +208,16 @@ const QuienesSomos = () => {
           <p>Varietales Malbec, Cabernet y Corte Malbec Cabernet. "Tránsito de Cuero y huesos", acuarela. Fragmento. 2018.</p>
         </div>
       </div>
+      {selectedImage && (
+        <div className="modal">
+          <div className="modal-content">
+            <span className="close" onClick={closeImage}>
+              &times;
+            </span>
+            <img src={selectedImage} alt="imagenEnPantallaCompleta" />
+          </div>
+        </div>
+      )}
     </div>
   );
 };

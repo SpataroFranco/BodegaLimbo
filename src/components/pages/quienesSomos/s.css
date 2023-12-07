@@ -1,21 +1,17 @@
 .contenedor-quienes-somos {
-  margin: 2em 2em 0 0;
+  margin: 2em 0 0 0;
 }
 
 .quienes-somos-top {
   display: flex;
   justify-content: space-evenly;
+  align-items: center;
 }
 
 .contenido {
-  margin: 0 0 0 6em;
   display: flex;
   flex-direction: column;
   width: 30vw;
-  background-image: url("../../../assets/fondo-espantapajaros.png");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: contain;
 }
 
 .contenido p {
@@ -32,10 +28,11 @@
 
 .img-osvaldoMaria {
   border-radius: 12px;
+  height: 80vh;
 }
 
 .quienes-somos-buttom {
-  padding: 0 9vw;
+  padding: 5vh 9vw;
 }
 
 .etiquetas-text {
@@ -70,6 +67,7 @@
 .etiquetasImg div div img {
   align-items: flex-end;
   box-shadow: 5px 5px 5px grey;
+  width: 16vw;
 }
 
 .etiquetasBotellas {
@@ -80,12 +78,13 @@
 .etiquetasBotellas div {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-evenly;
   align-items: center;
 }
 
 .etiquetasBotellas div img {
   box-shadow: 5px 5px 5px grey;
+  width: 12vw;
 }
 
 .galeriaQuienesSomos {
@@ -101,9 +100,11 @@
 
 .imagen-quienesSomos {
   flex: 1;
-  max-width: 80%;
+  max-width: 90%;
   margin: 5px;
   border-radius: 8px;
+  width: 100vw;
+  min-height: 50vh;
 }
 
 .imagen-quienesSomos:hover {
@@ -113,6 +114,9 @@
 @media screen and (max-width: 768px) {
   .contenedor-quienes-somos {
     padding-left: 1em;
+  }
+  .img-osvaldoMaria{
+    max-height: 70vh;
   }
   .contenido {
     width: 90vw;
