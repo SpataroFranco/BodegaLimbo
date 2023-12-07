@@ -38,6 +38,8 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    background-repeat: no-repeat;
+    background-position: bottom;
   }
   .intro p {
     width: 80vw;

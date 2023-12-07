@@ -17,7 +17,7 @@ const CssTextField = styled(TextField)({
     fontFamily: "Trade Gothic LT Std Light",
   },
   "& label.Mui-focused": {
-    opacity: "0.1",
+    opacity: "0.1"
   },
   "& .MuiOutlinedInput-root": {
     "& input": {
@@ -48,7 +48,7 @@ const CssTextFieldMensaje = styled(TextField)({
     fontFamily: "Trade Gothic LT Std Light",
   },
   "& label.Mui-focused": {
-    opacity: "0.1",
+    opacity: "0.1"
   },
   "& .MuiOutlinedInput-root": {
     "& input": {
@@ -99,8 +99,9 @@ const Form = () => {
     :
       <Formik initialValues={initialValues} onSubmit={handleSubmit}>
         {(formik) => (
-          <form onSubmit={handleSubmit} className="form">
+          <form className="form">
             <div>
+              <label htmlFor="nombre"></label>
               <CssTextField
                 fullWidth
                 name="nombre"
@@ -113,6 +114,7 @@ const Form = () => {
                 required />
             </div>
             <div>
+              <label htmlFor="email"></label>
               <CssTextField
                 fullWidth
                 name="email"
@@ -125,7 +127,8 @@ const Form = () => {
                 required />
             </div>
             <div>
-            <CssTextFieldMensaje
+              <label htmlFor="mensaje"></label>
+              <CssTextFieldMensaje
                 fullWidth
                 name="mensaje"
                 label="Mensaje"

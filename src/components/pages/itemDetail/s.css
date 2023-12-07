@@ -9,13 +9,14 @@
     width: 20%;
 }
 .detailImg img{
-    width: 80%;
+    width: 90%;
 }
 .detailText{
     width: 60%;
 }
 .detail p{
     font-family: "Trade Gothic LT Std Light";
+    width: 65%;
 }
 .botones{
     width: 70%;
@@ -32,14 +33,15 @@
         width: 100%;
     }
     .detailImg img {
-        width: 50%;
-        margin: 0 6em;
+        width: 70%;
+        margin: 0 3.5em;
     }
     .detailText {
-        width: 80%;
+        width: 90%;
     }
     .detailText p {
         font-size: 1.2em;
+        width: 100%;
     }
     .botones{
         width: 100%;

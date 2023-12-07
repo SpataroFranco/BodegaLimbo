@@ -19,6 +19,8 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  width: 80%;
+  margin-left: 8em;
 }
 
 .nuestra-cosecha div {
@@ -31,7 +33,7 @@
 }
 
 .nuestra-cosecha div img{
-  width:12vw;
+  width: 14vw;
 }
 
 .botonHome {
@@ -61,17 +63,19 @@ button:hover {
     font-size: 2em;
     text-align: center;
   }
-  .nuestra-cosecha div {
-    width: 100%;
-    margin: 1em auto;
+  .nuestra-cosecha {
+    margin: 0;
   }
-  .nuestra-cosecha div p {
+  .nuestra-cosecha a div {
+    margin: 1em 0 1em 3em;
+  }
+  .nuestra-cosecha a div p {
     font-size: 1.3em;
     text-align: center;
   }
-  .nuestra-cosecha div img {
-    width: 40%;
-    margin-left: 4.5em;
+  .nuestra-cosecha a div img {
+    width: 100%;
+    margin-left: 0.3em;
   }
   .botonHome button {
     font-size: 1em;

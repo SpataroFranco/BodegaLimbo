@@ -6,12 +6,23 @@
   align-items: center;
   margin: 0 2em;
 }
-.footer img {
+.footerLogo {
   margin-top: 1em;
   width: 30%;
 }
 .footer p {
+  margin: 0.5em 0 0.5em 0.5em;
+}
+.info a, .info div {
+  display: flex;
+  align-items: center;
   margin-left: 1em;
+}
+.info a img, .info div img {
+  width: 3%;
+}
+.footerLocation {
+  width: 1%;
 }
 .redes img {
   width: 2rem;
@@ -29,14 +40,18 @@
   .footer div img {
     width: 70%;
   }
-  .footer div p {
+  .info p {
     font-size: 1.2em;
+    margin-left: 1em;
+  }
+  .info a img, .info div img {
+    width: 1.5em;
   }
   .redes {
-    margin-right: 3em;
+    margin-right: 8em;
   }
   .redes a img {
-    margin: 0 1em;
-    width: 80%;
+    margin: 1em auto;
+    width: 2em;
   }
 }

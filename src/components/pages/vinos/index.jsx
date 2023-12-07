@@ -7,7 +7,10 @@ const Vinos = ({ products, items }) => {
   return (
       <div className="contenedor-vinos">
         <div className="intro">
-          <p>Nos concentramos en pequeñas producciones de vino de parcelas propias y únicas.</p>
+          <p>Nos concentramos en pequeñas producciones de vino de parcelas propias y únicas.
+            <br />
+            <br />
+          <b>Pedido mínimo:</b> caja por 6 botellas. Podés armar tu caja combinando las líneas de vinos que prefieras. Te la enviamos a domicilio.</p>
         </div>
         <div className="contenedorVinos">
           <h2>Vinos criados en barrica</h2>

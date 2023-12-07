@@ -6,12 +6,12 @@ import NavDropdown from "react-bootstrap/NavDropdown";
 const DropdownItem = ({ toggleMenu }) => {
     const [clicked, setClicked] = useState(false);
     const toggle = () => {
-      setClicked(!clicked);
+        setClicked(!clicked);
     };
     return (
         <NavDropdown className="items" title="Sobre Nosotros" onMouseEnter={toggle} onMouseLeave={toggle} >
             <div className={`dropdown ${clicked ? "dropdown" : "dropdownHidden"}`}>
-                <NavDropdown.Item className="dropdownItem quienesSomos" onClick={toggleMenu}>
+                <NavDropdown.Item className="dropdownItem" onClick={toggleMenu}>
                     <Link to="/quienes-somos">
                         Quiénes Somos
                     </Link>
@@ -21,7 +21,7 @@ const DropdownItem = ({ toggleMenu }) => {
                         Viñedo y Bodega
                     </Link>
                 </NavDropdown.Item>
-                <NavDropdown.Item className="dropdownItem sustentabilidad" onClick={toggleMenu}>
+                <NavDropdown.Item className="dropdownItem" onClick={toggleMenu}>
                     <Link to="/sustentabilidad">
                         Sustentabilidad
                     </Link>

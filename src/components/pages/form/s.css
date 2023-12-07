@@ -13,18 +13,17 @@
     border-radius: 10px;
 }
 
-
 @media screen and (max-width: 768px) {
     .sent {
         margin: 2em 0;
     }
-    .form{
+    .form {
         width: 100%;
         display: flex;
         flex-direction: column;
         align-items: center;
     }
-    .form div{
+    .form div {
         width: 90%;
         margin-bottom: 1em;
         text-align: center;

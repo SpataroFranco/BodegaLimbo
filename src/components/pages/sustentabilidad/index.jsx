@@ -106,23 +106,23 @@ const Sustentabilidad = () => {
       </div>
       <div className="galeria">
         <div>
-          <img src={s1} className="imagen-galeria" />
+          <img src={s1} className="imagen-galeria" alt="imagen" />
           <p>Vivero de Petit Verdot</p>
         </div>
         <div>
-          <img src={s2} className="imagen-galeria" />
+          <img src={s2} className="imagen-galeria" alt="imagen" />
           <p>Vivero de Malbec</p>
         </div>
         <div>
-          <img src={s3} className="imagen-galeria" />
+          <img src={s3} className="imagen-galeria" alt="imagen" />
           <p>Racimo</p>
         </div>
         <div>
-          <img src={s4} className="imagen-galeria" />
+          <img src={s4} className="imagen-galeria" alt="imagen" />
           <p>Flores</p>
         </div>
         <div>
-          <img src={s5} className="imagen-galeria" />
+          <img src={s5} className="imagen-galeria" alt="imagen" />
           <p>Paneles</p>
         </div>
       </div>
