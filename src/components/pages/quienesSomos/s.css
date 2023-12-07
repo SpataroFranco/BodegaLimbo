@@ -115,6 +115,9 @@
   .contenedor-quienes-somos {
     padding-left: 1em;
   }
+  .img-osvaldoMaria{
+    max-height: 70vh;
+  }
   .contenido {
     width: 90vw;
     font-size: xx-small;

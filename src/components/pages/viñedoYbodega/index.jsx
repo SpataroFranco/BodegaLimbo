@@ -409,7 +409,7 @@ const Viñedoybodega = () => {
               <span className="close" onClick={closeImage}>
                 &times;
               </span>
-              <img src={selectedImage} alt="imagenEnPantallaCompleta" />
+              <img src={selectedImage} alt="imagenEnPantallaCompleta" className="img-modal"/>
             </div>
           </div>
         )}

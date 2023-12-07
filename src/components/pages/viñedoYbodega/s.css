@@ -157,4 +157,14 @@
     height: 80%;
     border-radius: 8px;
   }
+
+  .modal-content {
+    max-width: 80%; /* Establece el ancho máximo del modal */
+    max-height: 70vh; /* Establece la altura máxima del modal como el 80% de la altura de la pantalla */
+  }
+
+  .img-modal {
+    width: 100%; /* La imagen ocupará el 100% del ancho del contenedor modal */
+    height: auto; /* Se ajusta automáticamente la altura para mantener la proporción original */
+  }
 }
