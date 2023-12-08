@@ -40,7 +40,7 @@ const Enoturismo = () => {
         <h1>En finca y bodega Limbo</h1>
         <div className="finca">
           {enoturismo.map((item) => (
-            <div onClick={() => openImage(item.contenido)}>
+            <div key={item.id} onClick={() => openImage(item.contenido)}>
               <img
                 src={item.contenido}
                 alt={item.titulo}

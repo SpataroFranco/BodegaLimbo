@@ -1,78 +1,8 @@
 import "./s.css";
 import React, { useState } from "react";
-import { Formik } from "formik";
-import TextField from "@material-ui/core/TextField";
-import { styled } from "@mui/styles";
+import Box from "@mui/material/Box";
+import TextField from "@mui/material/TextField";
 import emailjs from "@emailjs/browser";
-
-const initialValues = ({
-  nombre: "",
-  email: "",
-  mensaje: ""
-});
-
-const CssTextField = styled(TextField)({
-  "& label": {
-    color: "black",
-    fontFamily: "Trade Gothic LT Std Light",
-  },
-  "& label.Mui-focused": {
-    opacity: "0.1"
-  },
-  "& .MuiOutlinedInput-root": {
-    "& input": {
-      color: "black",
-      backgroundColor: "rgb(218, 218, 218)",
-      fontFamily: "Trade Gothic LT Std",
-      borderRadius: "10px",
-      opacity: "0.8",
-    },
-    "& input.Mui-focused": {
-      color: "black",
-    },
-    "& fieldset": {
-      borderRadius: "10px",
-    },
-    "&:hover fieldset": {
-      borderColor: "white",
-    },
-    "&.Mui-focused fieldset": {
-      borderColor: "white",
-    },
-  },
-});
-
-const CssTextFieldMensaje = styled(TextField)({
-  "& label": {
-    color: "black",
-    fontFamily: "Trade Gothic LT Std Light",
-  },
-  "& label.Mui-focused": {
-    opacity: "0.1"
-  },
-  "& .MuiOutlinedInput-root": {
-    "& input": {
-      color: "black",
-      backgroundColor: "rgb(218, 218, 218)",
-      fontFamily: "Trade Gothic LT Std",
-      borderRadius: "10px",
-      opacity: "0.8",
-      height: "10em",
-    },
-    "& input.Mui-focused": {
-      color: "black",
-    },
-    "& fieldset": {
-      borderRadius: "10px",
-    },
-    "&:hover fieldset": {
-      borderColor: "white",
-    },
-    "&.Mui-focused fieldset": {
-      borderColor: "white",
-    },
-  },
-});
 
 const Form = () => {
   const [clicked, setClicked] = useState(false);
@@ -97,53 +27,44 @@ const Form = () => {
         <p>¡Tu mensaje fue enviado con éxito!</p>
       </div>
     :
-      <Formik initialValues={initialValues} onSubmit={handleSubmit}>
-        {(formik) => (
-          <form className="form">
-            <div>
-              <label htmlFor="nombre"></label>
-              <CssTextField
-                fullWidth
-                name="nombre"
-                label="Nombre y apellido"
-                type="text"
-                value={formik.values.nombre}
-                onChange={formik.handleChange}
-                variant="outlined"
-                style={{ marginBottom: 30 }}
-                required />
-            </div>
-            <div>
-              <label htmlFor="email"></label>
-              <CssTextField
-                fullWidth
-                name="email"
-                label="Email"
-                type="email"
-                value={formik.values.email}
-                onChange={formik.handleChange}
-                variant="outlined"
-                style={{ marginBottom: 30 }}
-                required />
-            </div>
-            <div>
-              <label htmlFor="mensaje"></label>
-              <CssTextFieldMensaje
-                fullWidth
-                name="mensaje"
-                label="Mensaje"
-                type="text"
-                value={formik.values.mensaje}
-                onChange={formik.handleChange}
-                variant="outlined"
-                required />
-            </div>
-            <div className="boton">
-              <button type="submit">Enviar</button>
-            </div>
-          </form>
-        )}
-      </Formik>
+      <Box
+        component="form"
+        sx={{
+          "& .MuiTextField-root": {
+            m: 1,
+            width: "30ch",
+            backgroundColor: "rgb(218, 218, 218)",
+            fontFamily: "Trade Gothic LT Std",
+            opacity: "0.8"
+          }
+        }}
+        autoComplete="on"
+        className="form"
+        onSubmit={handleSubmit}>
+          <TextField
+            name="nombre"
+            label="Nombre y apellido"
+            type="text"
+            variant="outlined"
+            required />
+          <TextField
+            name="email"
+            label="Email"
+            type="email"
+            variant="outlined"
+            required />
+          <TextField
+            name="mensaje"
+            label="Mensaje"
+            type="text"
+            multiline
+            rows={4}
+            variant="outlined"
+            required />
+          <div className="boton">
+            <button type="submit">Enviar</button>
+          </div>
+      </Box>
     }
     </>
   );

@@ -1,5 +1,6 @@
 .contacto {
     display: flex;
+    align-items: center;
     background-image: url("../../../assets/fondo-contacto.png");
 }
 

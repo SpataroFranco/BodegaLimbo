@@ -1,15 +1,15 @@
 import React, { useState } from "react";
 import campoVirgen from "../../../assets/Campo.jpeg";
-import viñedo from "../../../assets/viñedo/viñedoMalbec2004.jpg";
+import viñedo from "../../../assets/viniedo/viniedoMalbec2004.jpg";
 import bodega2 from "../../../assets/bodega2.jpeg";
 import botellas from "../../../assets/botellas.JPG";
 import nuestrosVinos from "../../../assets/nuestrosVinos.jpg";
 import reserva from "../../../assets/reservaB.jpg";
-import botella from "../../../assets/viñedo/botella.jpg";
-import poda from "../../../assets/viñedo/poda.jpg";
+import botella from "../../../assets/viniedo/botella.jpg";
+import poda from "../../../assets/viniedo/poda.jpg";
 import osvaldo from "../../../assets/parafermentacion.jpeg";
-import floracion from "../../../assets/viñedo/floracion.jpeg";
-import midiendoAzucar from "../../../assets/viñedo/midiendoAzucar.jpeg";
+import floracion from "../../../assets/viniedo/floracion.jpeg";
+import midiendoAzucar from "../../../assets/viniedo/midiendoAzucar.jpeg";
 import prensandoOrujo from "../../../assets/elaboracionVestidoEmbalaje/prensandoOrujo.mp4";
 import orujoPrensado from "../../../assets/elaboracionVestidoEmbalaje/orujoPrensado.jpeg";
 import lineaDeFraccionamiento from "../../../assets/elaboracionVestidoEmbalaje/lineadefraccionam.mp4";
@@ -17,18 +17,18 @@ import llenandoBotellas from "../../../assets/elaboracionVestidoEmbalaje/fraccio
 import encapsulando from "../../../assets/elaboracionVestidoEmbalaje/osvalencapsulando.jpeg";
 import etiquetando from "../../../assets/elaboracionVestidoEmbalaje/mariaetiquetando.jpeg";
 import cajas from "../../../assets/elaboracionVestidoEmbalaje/cajas.jpeg";
-import cosecha1 from "../../../assets/viñedo/cintia.jpg";
-import cosechaManual from "../../../assets/viñedo/nuestraCosecha.mp4";
-import cosecha3 from "../../../assets/viñedo/cosechaCajones.jpeg";
-import sueloAluvional from "../../../assets/viñedo/sueloAluvional.jpeg";
-import sueloCalcareo from "../../../assets/viñedo/sueloCalcareo.jpeg";
-import videoRiego from "../../../assets/viñedo/andreRegando.mp4";
-import cepasMalbec from "../../../assets/viñedo/cepas.jpeg";
-import iniciandoPrimavera from "../../../assets/viñedo/iniciandoLaPrimavera.jpg";
+import cosecha1 from "../../../assets/viniedo/cintia.jpg";
+import cosechaManual from "../../../assets/viniedo/nuestraCosecha.mp4";
+import cosecha3 from "../../../assets/viniedo/cosechaCajones.jpeg";
+import sueloAluvional from "../../../assets/viniedo/sueloAluvional.jpeg";
+import sueloCalcareo from "../../../assets/viniedo/sueloCalcareo.jpeg";
+import videoRiego from "../../../assets/viniedo/andreRegando.mp4";
+import cepasMalbec from "../../../assets/viniedo/cepas.jpeg";
+import iniciandoPrimavera from "../../../assets/viniedo/iniciandoLaPrimavera.jpg";
 import cargaDeRacimos from "../../../assets/elaboracionVestidoEmbalaje/MoliendoLIMBO.jpg";
 import seleccionRacimos from "../../../assets/elaboracionVestidoEmbalaje/seleccionRacimos.jpg";
 import despalilladora from "../../../assets/elaboracionVestidoEmbalaje/despalilladora.mp4";
-import racimosMalbec from "../../../assets/viñedo/racimosMalbec.mp4";
+import racimosMalbec from "../../../assets/viniedo/racimosMalbec.mp4";
 import procesandoMalbec from "../../../assets/elaboracionVestidoEmbalaje/procesandoMalbec.mp4";
 import fermentacionTanques from "../../../assets/elaboracionVestidoEmbalaje/fermentacionTanque.mp4";
 import lineaFraccionamiento from "../../../assets/elaboracionVestidoEmbalaje/lineaFraccionamiento.jpeg";
@@ -42,7 +42,6 @@ const Viñedoybodega = () => {
   const closeImage = () => {
     setSelectedImage(null);
   };
-
   return (
     <>
       <div className="container-vyb">
@@ -104,19 +103,21 @@ const Viñedoybodega = () => {
             Bouschet y otras variedades no identificadas, entre ellas algunas
             blancas. Este blend de viñedo produce un vino “Malbec” único y
             exquisito, sin duda la joya de nuestro establecimiento.
-          </p>
-          <p className="text">En el año 2004 implantamos 2,5 has de Malbec.</p>
-          <p className="text">
+          <br />
+          <br />
+            En el año 2004 implantamos 2,5 has de Malbec.
+          <br />
+          <br />
             En el año 2006 implantamos 4 has de Cabernet Sauvignon, un viñedo de
             baja producción y alta calidad, variedad que está produciendo vinos
             notables en San Rafael.
-          </p>
-          <p className="text">
+          <br />
+          <br />
             En 2015 agregamos 1 has de Bonarda. Luego de 7 cosechas en 2023,
             hacemos la primera elaboración de esta variedad con los mejores
             resultados.
           </p>
-        </div>
+        </div>  
         <div className="viñedo-gallery">
           <div>
             <img
@@ -132,7 +133,7 @@ const Viñedoybodega = () => {
               <source src={videoRiego} type="video/mp4" />
               Tu navegador no soporta el elemento de video.
             </video>
-            <p>Riego por surcos con agua del Rio Diamante</p>
+            <p>Riego por surcos con agua del Río Diamante</p>
           </div>
           <div>
             <img

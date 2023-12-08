@@ -84,7 +84,7 @@
 
 .etiquetasBotellas div img {
   box-shadow: 5px 5px 5px grey;
-  width: 12vw;
+  width: 16vw;
 }
 
 .galeriaQuienesSomos {
@@ -115,6 +115,10 @@
   .contenedor-quienes-somos {
     padding-left: 1em;
   }
+  .contenedor-img {
+    width: 90%;
+    margin: 1em auto 1em 1em;
+  }
   .img-osvaldoMaria{
     max-height: 70vh;
   }
@@ -129,9 +133,6 @@
   }
   .contenido p, .etiquetas-text div p, .etiquetasImg h3, .etiquetasImg p, .etiquetasBotellas p, .galeriaQuienesSomos p {
     font-size: 2em;
-  }
-  .contenedor-img {
-    margin-left: 1em;
   }
   .quienes-somos-top, .etiquetasImg {
   flex-direction: column;
@@ -159,14 +160,14 @@
   }
   .etiquetasBotellas div img {
     margin: 1em auto;
+    width: 90%;
   }
   .galeriaQuienesSomos{
     margin: 2em 0;
     flex-direction: column;
   }
   .galeriaQuienesSomos div {
-    margin: auto;
-    width: 80%;
+    width: 98%;
   }
   .galeriaQuienesSomos div p {
     text-align: center;

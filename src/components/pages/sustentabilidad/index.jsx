@@ -68,7 +68,7 @@ const Sustentabilidad = () => {
         </div>
       </div>
       <div>
-        <ul class="lista">
+        <ul className="lista">
           <li>
             Somos un equipo de 5 personas que trabajamos diariamente con
             espíritu colaborativo.
@@ -115,7 +115,7 @@ const Sustentabilidad = () => {
       </div>
       <div className="galeria">
         <div>
-          <img src={s3} className="imagen-galeria" onClick={() => openImage(s3)}/>
+          <img src={s3} className="imagen-galeria" alt="cubiertaVegetalEnInvierno" onClick={() => openImage(s3)}/>
           <p>Cubierta vegetal en invierno</p>
         </div>
         <div>
@@ -126,7 +126,7 @@ const Sustentabilidad = () => {
           <p>Biodiversidad del suelo</p>
         </div>
         <div className="imagen-galeria">
-          <img src={s5} onClick={() => openImage(s5)}/>
+          <img src={s5} alt="energiaSolar" onClick={() => openImage(s5)}/>
           <p>Energía solar</p>
         </div>
       </div>
