@@ -31,6 +31,7 @@ const ItemDetail = ({ product }) => {
         <p>{product.PartidaLimitada}</p>
         <p>{product.Alc}</p>
         <p>{product.Nota}</p>
+        <p><b>Pedido mínimo:</b> caja por 6 botellas. Podés armar tu caja combinando las líneas de vinos que prefieras. Te la enviamos a domicilio.</p>
         {quantity === undefined && <ItemQuantitySelector key={"agregarAlCarrito"} initial={1} onAdd={onAdd} />}
         {quantity >= 1 && <div className="botones">
           <div className="boton">

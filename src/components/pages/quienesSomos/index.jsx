@@ -8,9 +8,9 @@ import partidaEspecialEtiqueta from "../../../assets/partidaEspecialEtiqueta.png
 import corte2021 from "../../../assets/etiqueta1.jpg";
 import malbec2021 from "../../../assets/etiqueta2.jpg";
 import cabernet2021 from "../../../assets/etiqueta3.jpg";
-import s1 from "../../../assets/osvaldoviñedo.jpeg";
+import s1 from "../../../assets/osvaldovinedo.jpeg";
 import s2 from "../../../assets/uvasMalbec.jpeg";
-import s3 from "../../../assets/viniedoCaber.jpeg";
+import s3 from "../../../assets/viniedocaber.jpeg";
 import s4 from "../../../assets/botellasFoto.jpeg";
 import "./s.css";
 
@@ -22,7 +22,6 @@ const QuienesSomos = () => {
   const closeImage = () => {
     setSelectedImage(null);
   };
-
   return (
     <div className="contenedor-quienes-somos">
       <div className="quienes-somos-top">

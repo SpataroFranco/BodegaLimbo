@@ -14,11 +14,11 @@
   text-align: justify;
 }
 
-.portada-viñedo {
+.portada-viñedo, .cava-img, .viñedo-gallery {
   display: flex;
 }
 
-.portada-viñedo div {
+.portada-viñedo div, .bodega-img div {
   margin-right: 12px;
 }
 
@@ -28,23 +28,20 @@
   object-fit: cover;
 }
 
+<<<<<<< HEAD
 .imgProyecto:hover {
   transform: scale(1.05);
 }
 .imgViñedo:hover {
+=======
+.imgProyecto:hover, .imgViñedo:hover {
+>>>>>>> aab5a18f0acd05f86781167a104b191f93ed49a5
   transform: scale(1.05);
 }
+
 .bodega-img {
   display: flex;
   justify-content: center;
-}
-
-.bodega-img div {
-  margin-right: 12px;
-}
-
-.cava-img {
-  display: flex;
 }
 
 .cava-img div {
@@ -54,10 +51,6 @@
 .cava-img div img {
   width: 19vw;
   height: 85%;
-}
-
-.viñedo-gallery {
-  display: flex;
 }
 
 .viñedo-gallery div {
@@ -71,11 +64,17 @@
   border-radius: 8px;
 }
 
+<<<<<<< HEAD
 .embalaje div video {
   width: 19vw;
   height: 80%;
   border-radius: 8px;
 
+=======
+.imgViñedo {
+  width: 100%;
+  height: 50vh;
+>>>>>>> aab5a18f0acd05f86781167a104b191f93ed49a5
 }
 
 .viñedo-gallery div img {
@@ -101,7 +100,13 @@
 }
 
 .embalaje div video {
+<<<<<<< HEAD
   width: 22vw;
+=======
+  width: 19vw;
+  height: 80%;
+  border-radius: 8px;
+>>>>>>> aab5a18f0acd05f86781167a104b191f93ed49a5
 }
 
 .modal-content video{
@@ -109,6 +114,7 @@
   
 }
 @media screen and (max-width: 768px) {
+<<<<<<< HEAD
   .container-vyb div h2,
   .text p {
     font-size: 2em;
@@ -127,11 +133,28 @@
     margin: 0;
   }
   .imgProyecto {
+=======
+  .container-vyb div h2 {
+    font-size: 2em;
+  }
+  .portada-viñedo{
+    flex-direction: column;
+    align-items: center;
+  }
+  .portada-viñedo div, .viñedo-gallery div, .embalaje div, .text {
+    margin: 1em auto;
+  }
+  .text, .portada-viñedo div p, .viñedo-gallery div p, .embalaje div p {
+    font-size: 1.2em;
+  }
+  .imgProyecto, .viñedo-gallery div img, .cava-img div img, .embalaje div img {
+>>>>>>> aab5a18f0acd05f86781167a104b191f93ed49a5
     width: 80vw;
     width: 100%;
     height: 50vh;
     object-fit: cover;
   }
+<<<<<<< HEAD
   .viñedo-gallery {
     flex-direction: column;
   }
@@ -140,6 +163,13 @@
   }
   .bodega-img {
     flex-direction: column;
+=======
+  .viñedo-gallery, .bodega-img, .cava-img, .embalaje {
+    flex-direction: column;
+  }
+  .viñedo-gallery div {
+    padding: 0;
+>>>>>>> aab5a18f0acd05f86781167a104b191f93ed49a5
   }
   .bodega-img div p {
     padding-bottom: 1em;
@@ -148,6 +178,7 @@
     width: 110%;
     height: 80%;
   }
+<<<<<<< HEAD
   .cava-img {
     flex-direction: column;
   }
@@ -161,22 +192,21 @@
     width: 80vw;
   }
   .viñedo-gallery div video {
+=======
+  .viñedo-gallery div video, .embalaje div video {
+>>>>>>> aab5a18f0acd05f86781167a104b191f93ed49a5
     width: 80vw;
     border-radius: 8px;
   }
   .embalaje div video {
-    width: 80vw;
     height: 80%;
-    border-radius: 8px;
   }
-
   .modal-content {
-    max-width: 80%; /* Establece el ancho máximo del modal */
-    max-height: 70vh; /* Establece la altura máxima del modal como el 80% de la altura de la pantalla */
+    max-width: 80%;
+    max-height: 70vh;
   }
-
   .img-modal {
-    width: 100%; /* La imagen ocupará el 100% del ancho del contenedor modal */
-    height: auto; /* Se ajusta automáticamente la altura para mantener la proporción original */
+    width: 100%;
+    height: auto;
   }
 }

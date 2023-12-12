@@ -4,7 +4,7 @@ import corteReserva2019 from "../../../assets/corteReserva2019.png";
 import petitVerdotReserva2018 from "../../../assets/petitVerdotReserva2018.png";
 import cabernetSauReserva2020 from "../../../assets/cabernetSauvignonRes2020.png";
 import malbecReserva2019 from "../../../assets/malbecRes2019.png";
-import cabernetSauvignon2020 from "../../../assets/CabernetSauvignon2020.png";
+import cabernetSauvignon2020 from "../../../assets/cabernetSauvignon2020.png";
 import corte2021 from "../../../assets/cabernetSauCorte2020.png";
 import malbec2020 from "../../../assets/malbec2020.png";
 import Carousel from "../carousel";
@@ -73,10 +73,7 @@ const Home = () => {
               <div>
                 <p>Cabernet Sauvignon</p>
                 <p>Reserva 2020</p>
-                <img
-                  src={cabernetSauReserva2020}
-                  alt="cabernetSauReserva2020"
-                />
+                <img src={cabernetSauReserva2020} alt="cabernetSauReserva2020" />
               </div>
             </Link>
             <Link to="/vinos/CORTE%20RESERVA%202019">
@@ -90,23 +87,20 @@ const Home = () => {
               <div>
                 <p>Petit Verdot</p>
                 <p>Reserva 2018</p>
-                <img
-                  src={petitVerdotReserva2018}
-                  alt="petitVerdotReserva2018"
-                />
+                <img src={petitVerdotReserva2018} alt="petitVerdotReserva2018" />
               </div>
             </Link>
             <Link to="/vinos/MALBEC%202021">
               <div>
                 <p>Malbec</p>
-                <p>2020</p>
+                <p>2021</p>
                 <img src={malbec2020} alt="malbec2020" />
               </div>
             </Link>
             <Link to="/vinos/CABERNET%20SAUVIGNON%202021">
               <div>
                 <p>Cabernet Sauvignon</p>
-                <p>2020</p>
+                <p>2021</p>
                 <img src={cabernetSauvignon2020} alt="corteReserva2019" />
               </div>
             </Link>
