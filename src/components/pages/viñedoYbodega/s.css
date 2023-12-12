@@ -2,11 +2,13 @@
   padding: 2vh 10vw 10vh 10vw;
 }
 
-.container-vyb h2, .bodega h2, .cava h2 {
+.container-vyb h2,
+.bodega h2,
+.cava h2 {
   font-size: 2em;
 }
 
-.text{
+.text {
   margin: 2em 0;
   font-size: 1.4em;
   text-align: justify;
@@ -21,15 +23,15 @@
 }
 
 .imgProyecto {
-  width: 39vw;
-  height: 40vh;
-  border-radius: 8px;
+  width: 100%;
+  height: 50vh;
+  object-fit: cover;
 }
 
-.imgProyecto:hover{
+.imgProyecto:hover {
   transform: scale(1.05);
 }
-.imgViñedo:hover{
+.imgViñedo:hover {
   transform: scale(1.05);
 }
 .bodega-img {
@@ -65,7 +67,7 @@
 
 .viñedo-gallery div video {
   width: 19vw;
-  height: 50vh; 
+  height: 50vh;
   border-radius: 8px;
 }
 
@@ -73,16 +75,18 @@
   width: 19vw;
   height: 80%;
   border-radius: 8px;
-}
 
-.imgViñedo {
-  width: 100%;
-  height: 50vh;
 }
 
 .viñedo-gallery div img {
   width: 19vw;
   border-radius: 8px;
+}
+
+.imgViñedo {
+  width: 100%;
+  height: 50vh;
+  object-fit: cover;
 }
 
 .embalaje {
@@ -96,34 +100,42 @@
   border-radius: 8px;
 }
 
-.embalaje div video{
+.embalaje div video {
   width: 22vw;
 }
 
+.modal-content video{
+  height: 91vh;
+  
+}
 @media screen and (max-width: 768px) {
-  .container-vyb div h2, .text p {
+  .container-vyb div h2,
+  .text p {
     font-size: 2em;
   }
-  .text{
+  .text {
     font-size: xx-small;
   }
   .text p {
     margin: 1em 0 2em 0;
   }
-  .portada-viñedo{
+  .portada-viñedo {
     flex-direction: column;
     align-items: center;
   }
-  .portada-viñedo div{
+  .portada-viñedo div {
     margin: 0;
   }
-  .imgProyecto{
+  .imgProyecto {
     width: 80vw;
+    width: 100%;
+    height: 50vh;
+    object-fit: cover;
   }
-  .viñedo-gallery{
+  .viñedo-gallery {
     flex-direction: column;
   }
-  .viñedo-gallery div img{
+  .viñedo-gallery div img {
     width: 80vw;
   }
   .bodega-img {
@@ -136,16 +148,16 @@
     width: 110%;
     height: 80%;
   }
-  .cava-img{
+  .cava-img {
     flex-direction: column;
   }
-  .cava-img div img{
+  .cava-img div img {
     width: 80vw;
   }
-  .embalaje{
+  .embalaje {
     flex-direction: column;
   }
-  .embalaje div img{
+  .embalaje div img {
     width: 80vw;
   }
   .viñedo-gallery div video {

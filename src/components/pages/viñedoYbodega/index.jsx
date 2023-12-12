@@ -7,7 +7,7 @@ import nuestrosVinos from "../../../assets/nuestrosVinos.jpg";
 import reserva from "../../../assets/reservaB.jpg";
 import botella from "../../../assets/viñedo/botella.jpg";
 import poda from "../../../assets/viñedo/poda.jpg";
-import osvaldo from "../../../assets/parafermentacion.jpeg";
+import osvaldo from "../../../assets/parafermentacionO.jpeg";
 import floracion from "../../../assets/viñedo/floracion.jpeg";
 import midiendoAzucar from "../../../assets/viñedo/midiendoAzucar.jpeg";
 import prensandoOrujo from "../../../assets/elaboracionVestidoEmbalaje/prensandoOrujo.mp4";
@@ -17,7 +17,7 @@ import llenandoBotellas from "../../../assets/elaboracionVestidoEmbalaje/fraccio
 import encapsulando from "../../../assets/elaboracionVestidoEmbalaje/osvalencapsulando.jpeg";
 import etiquetando from "../../../assets/elaboracionVestidoEmbalaje/mariaetiquetando.jpeg";
 import cajas from "../../../assets/elaboracionVestidoEmbalaje/cajas.jpeg";
-import cosecha1 from "../../../assets/viñedo/cintia.jpg";
+import cosecha1 from "../../../assets/viñedo/cintiaOri.jpg";
 import cosechaManual from "../../../assets/viñedo/nuestraCosecha.mp4";
 import cosecha3 from "../../../assets/viñedo/cosechaCajones.jpeg";
 import sueloAluvional from "../../../assets/viñedo/sueloAluvional.jpeg";
@@ -25,24 +25,33 @@ import sueloCalcareo from "../../../assets/viñedo/sueloCalcareo.jpeg";
 import videoRiego from "../../../assets/viñedo/andreRegando.mp4";
 import cepasMalbec from "../../../assets/viñedo/cepas.jpeg";
 import iniciandoPrimavera from "../../../assets/viñedo/iniciandoLaPrimavera.jpg";
-import cargaDeRacimos from "../../../assets/elaboracionVestidoEmbalaje/MoliendoLIMBO.jpg";
-import seleccionRacimos from "../../../assets/elaboracionVestidoEmbalaje/seleccionRacimos.jpg";
+import cargaDeRacimos from "../../../assets/elaboracionVestidoEmbalaje/moliendo.jpg";
+import seleccionRacimos from "../../../assets/elaboracionVestidoEmbalaje/seleccionRacimos.jpeg";
 import despalilladora from "../../../assets/elaboracionVestidoEmbalaje/despalilladora.mp4";
 import racimosMalbec from "../../../assets/viñedo/racimosMalbec.mp4";
 import procesandoMalbec from "../../../assets/elaboracionVestidoEmbalaje/procesandoMalbec.mp4";
-import fermentacionTanques from "../../../assets/elaboracionVestidoEmbalaje/fermentacionTanque.mp4";
+import fermentacionTanques from "../../../assets/elaboracionVestidoEmbalaje/fermentacionTanqueRot.mp4";
 import lineaFraccionamiento from "../../../assets/elaboracionVestidoEmbalaje/lineaFraccionamiento.jpeg";
 import "./s.css";
 
 const Viñedoybodega = () => {
   const [selectedImage, setSelectedImage] = useState(null);
+  const [selectedVideo, setSelectedVideo] = useState(null);
+
   const openImage = (image) => {
     setSelectedImage(image);
+    setSelectedVideo(null);
   };
-  const closeImage = () => {
+
+  const openVideo = (video) => {
+    setSelectedVideo(video);
     setSelectedImage(null);
   };
 
+  const closeImageOrVideo = (e) => {
+      setSelectedImage(null);
+      setSelectedVideo(null);
+  };
   return (
     <>
       <div className="container-vyb">
@@ -128,7 +137,7 @@ const Viñedoybodega = () => {
             <p>Botella sobre FIAT 400</p>
           </div>
           <div>
-            <video controls>
+            <video controls onClick={() => openVideo(videoRiego)}>
               <source src={videoRiego} type="video/mp4" />
               Tu navegador no soporta el elemento de video.
             </video>
@@ -173,7 +182,7 @@ const Viñedoybodega = () => {
             <p>Floración de la vid</p>
           </div>
           <div>
-            <video controls>
+            <video controls onClick={() => openVideo(racimosMalbec)}>
               <source src={racimosMalbec} type="video/mp4" />
               Tu navegador no soporta el elemento de video.
             </video>
@@ -202,7 +211,7 @@ const Viñedoybodega = () => {
               <p>Nuestra vecina en vendimia</p>
             </div>
             <div>
-              <video controls>
+              <video controls onClick={() => openVideo(cosechaManual)}>
                 <source src={cosechaManual} type="video/mp4" />
                 Tu navegador no soporta el elemento de video.
               </video>
@@ -241,14 +250,14 @@ const Viñedoybodega = () => {
               <p>Seleccionando racimos</p>
             </div>
             <div>
-              <video controls>
+              <video controls onClick={() => openVideo(despalilladora)}>
                 <source src={despalilladora} type="video/mp4" />
                 Tu navegador no soporta el elemento de video.
               </video>
               <p>Andrés en la despalilladora</p>
             </div>
             <div>
-              <video controls>
+              <video controls onClick={() => openVideo(procesandoMalbec)}>
                 <source src={procesandoMalbec} type="video/mp4" />
                 Tu navegador no soporta el elemento de video.
               </video>
@@ -276,14 +285,14 @@ const Viñedoybodega = () => {
               <p>Rompiendo "El sombrero"</p>
             </div>
             <div>
-              <video controls>
+              <video controls onClick={() => openVideo(fermentacionTanques)}>
                 <source src={fermentacionTanques} type="video/mp4" />
                 Tu navegador no soporta el elemento de video.
               </video>
               <p>Fermentación en tanques</p>
             </div>
             <div>
-              <video controls>
+              <video controls onClick={() => openVideo(prensandoOrujo)}>
                 <source src={prensandoOrujo} type="video/mp4" />
                 Tu navegador no soporta el elemento de video.
               </video>
@@ -348,7 +357,7 @@ const Viñedoybodega = () => {
           </div>
           <div className="embalaje">
             <div>
-              <video controls>
+              <video controls onClick={() => openVideo(lineaDeFraccionamiento)}>
                 <source src={lineaDeFraccionamiento} type="video/mp4" />
                 Tu navegador no soporta el elemento de video.
               </video>
@@ -403,16 +412,25 @@ const Viñedoybodega = () => {
             </div>
           </div>
         </div>
-        {selectedImage && (
-          <div className="modal">
-            <div className="modal-content">
-              <span className="close" onClick={closeImage}>
-                &times;
-              </span>
-              <img src={selectedImage} alt="imagenEnPantallaCompleta" className="img-modal"/>
-            </div>
+        {(selectedImage || selectedVideo) && (
+        <div className="modal" onClick={closeImageOrVideo}>
+          <div className="modal-content">
+            <span className="close" onClick={closeImageOrVideo}>
+              &times;
+            </span>
+            {selectedImage && (
+              <img src={selectedImage} alt="imagenEnPantallaCompleta" className="img-modal" />
+            )}
+            {selectedVideo && (
+              <video controls className="img-modal " onClick={closeImageOrVideo}>
+                <source src={selectedVideo} type="video/mp4" />
+                Tu navegador no soporta el elemento de video.
+              </video>
+            )}
           </div>
-        )}
+        </div>
+      )}
+
       </div>
     </>
   );

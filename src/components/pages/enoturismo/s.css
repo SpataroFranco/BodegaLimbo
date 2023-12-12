@@ -81,6 +81,7 @@
 .f {
   width: 25vw;
   height: 60vh;
+  object-fit: cover;
   display: flex;
   justify-content: center;
   margin: 0 1.5vw;

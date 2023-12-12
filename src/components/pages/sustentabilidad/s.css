@@ -7,7 +7,7 @@
 .introSust {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  padding: 0 6%;
 }
 
 .introSust p {
@@ -89,6 +89,16 @@
 .imagen-galeria:hover{
   transform: scale(1.05);
 }
+
+.video-galeria:hover{
+  transform: scale(1.05);
+}
+
+.imagen-galeria{
+  object-fit: cover;
+}
+
+
 
 @media screen and (max-width: 768px) {
   .contenedor-sostenibilidad {

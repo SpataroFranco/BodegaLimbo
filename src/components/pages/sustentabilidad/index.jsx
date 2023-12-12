@@ -11,11 +11,21 @@ import "./s.css";
 const Sustentabilidad = () => {
 
   const [selectedImage, setSelectedImage] = useState(null);
+  const [selectedVideo, setSelectedVideo] = useState(null);
+
   const openImage = (image) => {
     setSelectedImage(image);
+    setSelectedVideo(null);
   };
-  const closeImage = () => {
+
+  const openVideo = (video) => {
+    setSelectedVideo(video);
     setSelectedImage(null);
+  };
+
+  const closeImageOrVideo = (e) => {
+      setSelectedImage(null);
+      setSelectedVideo(null);
   };
 
   return (
@@ -119,7 +129,7 @@ const Sustentabilidad = () => {
           <p>Cubierta vegetal en invierno</p>
         </div>
         <div>
-          <video controls className="imagen-galeria">
+          <video controls className="video-galeria" onClick={() => openVideo(s4)}>
             <source src={s4} type="video/mp4" />
             Tu navegador no soporta el elemento de video.
           </video>
@@ -130,13 +140,21 @@ const Sustentabilidad = () => {
           <p>Energía solar</p>
         </div>
       </div>
-      {selectedImage && (
-        <div className="modal">
+      {(selectedImage || selectedVideo) && (
+        <div className="modal" onClick={closeImageOrVideo}>
           <div className="modal-content">
-            <span className="close" onClick={closeImage}>
+            <span className="close" onClick={closeImageOrVideo}>
               &times;
             </span>
-            <img src={selectedImage} alt="imagenEnPantallaCompleta" />
+            {selectedImage && (
+              <img src={selectedImage} alt="imagenEnPantallaCompleta" className="img-modal" />
+            )}
+            {selectedVideo && (
+              <video controls className="img-modal " onClick={closeImageOrVideo}>
+                <source src={selectedVideo} type="video/mp4" />
+                Tu navegador no soporta el elemento de video.
+              </video>
+            )}
           </div>
         </div>
       )}

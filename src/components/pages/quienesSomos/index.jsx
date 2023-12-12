@@ -15,7 +15,6 @@ import s4 from "../../../assets/botellasFoto.jpeg";
 import "./s.css";
 
 const QuienesSomos = () => {
-
   const [selectedImage, setSelectedImage] = useState(null);
   const openImage = (image) => {
     setSelectedImage(image);
@@ -55,8 +54,8 @@ const QuienesSomos = () => {
             entonces vamos aumentando la producción año a año hasta los actuales
             9.000 litros.{" "}
             <strong>
-              Nuestro objetivo es elaborar hasta 12.000 litros del mejor
-              vino que este suelo nos pueda dar
+              Nuestro objetivo es elaborar hasta 12.000 litros del mejor vino
+              que este suelo nos pueda dar
             </strong>
             , siempre utilizando prácticas enológicas artesanales con precisión
             técnica.
@@ -87,25 +86,45 @@ const QuienesSomos = () => {
             <div className="galeriaQuienesSomos">
               <div>
                 <div>
-                  <img src={s1} className="imagen-quienesSomos" alt="cuidamosElMedioAmbiente " onClick={() => openImage(s1)} />
+                  <img
+                    src={s1}
+                    className="imagen-quienesSomos"
+                    alt="cuidamosElMedioAmbiente "
+                    onClick={() => openImage(s1)}
+                  />
                 </div>
                 <p>Cuidamos el medio ambiente</p>
               </div>
               <div>
                 <div>
-                  <img src={s2} className="imagen-quienesSomos" alt="uvaMalbec" onClick={() => openImage(s2)}/>
+                  <img
+                    src={s2}
+                    className="imagen-quienesSomos"
+                    alt="uvaMalbec"
+                    onClick={() => openImage(s2)}
+                  />
                 </div>
                 <p>Nuestra uva Malbec</p>
               </div>
               <div>
                 <div>
-                  <img src={s3} className="imagen-quienesSomos" alt="hilerasDeCabernetSauvignon" onClick={() => openImage(s3)}/>
+                  <img
+                    src={s3}
+                    className="imagen-quienesSomos"
+                    alt="hilerasDeCabernetSauvignon"
+                    onClick={() => openImage(s3)}
+                  />
                 </div>
                 <p>Hileras de Cabernet Sauvignon</p>
               </div>
               <div>
                 <div>
-                  <img src={s4} className="imagen-quienesSomos" alt="lineaDeVinosDeReserva" onClick={() => openImage(s4)}/>
+                  <img
+                    src={s4}
+                    className="imagen-quienesSomos"
+                    alt="lineaDeVinosDeReserva"
+                    onClick={() => openImage(s4)}
+                  />
                 </div>
                 <p>Línea de vinos Reserva</p>
               </div>
@@ -132,10 +151,17 @@ const QuienesSomos = () => {
                 identificar nuestros vinos.
               </p>
               <p>
-                Te invitamos a conocer más obras del <Link to="https://www.instagram.com/crisdelhez/" target="_blank"><u>artista</u></Link>.
+                Te invitamos a conocer más obras del{" "}
+                <Link
+                  to="https://www.instagram.com/crisdelhez/"
+                  target="_blank"
+                >
+                  <u>artista</u>
+                </Link>
+                .
               </p>
             </div>
-        </div>
+          </div>
         </div>
         <div className="etiquetasImg">
           <div>
@@ -163,9 +189,10 @@ const QuienesSomos = () => {
               "Pájaro inconcluso"
             </h3>
             <p>
-              ....Y cuando aparece un pájaro ya todo parece estar en su lugar....
-              <br />
               Fragmento.
+              <br />
+              ....Y cuando aparece un pájaro ya todo parece estar en su
+              lugar....
             </p>
           </div>
           <div>
@@ -193,9 +220,11 @@ const QuienesSomos = () => {
               Partida Especial
             </h3>
             <p>
+              Fragmento.
+              <br />
               "Aparecen otros seres para charlar... ¿quién le dijo a quién?"
               <br />
-              Relatos dibujados. Fragmento.
+              Relatos dibujados.
             </p>
           </div>
         </div>
@@ -205,7 +234,10 @@ const QuienesSomos = () => {
             <img src={malbec2021} alt="malbec2021" />
             <img src={cabernet2021} alt="cabernet2021" />
           </div>
-          <p>Varietales Malbec, Cabernet y Corte Malbec Cabernet. "Tránsito de Cuero y huesos", acuarela. Fragmento. 2018.</p>
+          <p>
+            Varietales Malbec, Cabernet y Corte Malbec Cabernet. Fragmento,
+            "Tránsito de Cuero y huesos", acuarela. 2018.
+          </p>
         </div>
       </div>
       {selectedImage && (
