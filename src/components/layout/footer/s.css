@@ -13,12 +13,15 @@
 .footer p {
   margin: 0.5em 0 0.5em 0.5em;
 }
-.info a, .info div {
+.limbo {
+  padding-left: 0.6em;
+}
+.info a {
   display: flex;
   align-items: center;
   margin-left: 1em;
 }
-.info a img, .info div img {
+.info a img {
   width: 3%;
 }
 .footerLocation {
@@ -44,7 +47,10 @@
     font-size: 1.2em;
     margin-left: 1em;
   }
-  .info a img, .info div img {
+  .limbo {
+    padding-left: 0;
+  }
+  .info a img {
     width: 1.5em;
   }
   .redes {

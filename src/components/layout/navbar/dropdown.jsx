@@ -13,17 +13,10 @@ const DropdownItem = ({ toggleMenu }) => {
             setClicked(!clicked);
         };
     };
-    const isDesktop = () => {
-        return window.innerWidth > 768;
-    };
-    const onMouse = () => {
-        if (isDesktop()) {
-            setClicked(!clicked);
-        };
-    };
     return (
-        <NavDropdown className="items" title="Sobre Nosotros"  onClick={toggle} onMouseEnter={onMouse} onMouseLeave={onMouse}>
-            <div className={`dropdown ${clicked ? "dropdown" : "dropdownHidden"}`}>
+        <div className="sobreNosotros" onClick={toggle}>
+            <span>Sobre Nosotros</span>
+            <div className={`dropdown ${clicked ? "active" : ""}`}>
                 <NavDropdown.Item className="dropdownItem" onClick={toggleMenu}>
                     <Link to="/quienes-somos">
                         Quiénes Somos
@@ -40,7 +33,7 @@ const DropdownItem = ({ toggleMenu }) => {
                     </Link>
                 </NavDropdown.Item>
             </div>
-        </NavDropdown>
+        </div>
     );
 };
 

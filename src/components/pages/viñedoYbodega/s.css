@@ -2,9 +2,7 @@
   padding: 2vh 10vw 10vh 10vw;
 }
 
-.container-vyb h2,
-.bodega h2,
-.cava h2 {
+.container-vyb h2, .bodega h2, .cava h2 {
   font-size: 2em;
 }
 
@@ -28,14 +26,7 @@
   object-fit: cover;
 }
 
-<<<<<<< HEAD
-.imgProyecto:hover {
-  transform: scale(1.05);
-}
-.imgViñedo:hover {
-=======
 .imgProyecto:hover, .imgViñedo:hover {
->>>>>>> aab5a18f0acd05f86781167a104b191f93ed49a5
   transform: scale(1.05);
 }
 
@@ -64,17 +55,10 @@
   border-radius: 8px;
 }
 
-<<<<<<< HEAD
 .embalaje div video {
   width: 19vw;
   height: 80%;
   border-radius: 8px;
-
-=======
-.imgViñedo {
-  width: 100%;
-  height: 50vh;
->>>>>>> aab5a18f0acd05f86781167a104b191f93ed49a5
 }
 
 .viñedo-gallery div img {
@@ -93,30 +77,18 @@
   justify-content: space-between;
 }
 
-.embalaje div img {
+.embalaje div img, .embalaje div video {
   width: 22vw;
   height: 80%;
   border-radius: 8px;
-}
-
-.embalaje div video {
-<<<<<<< HEAD
-  width: 22vw;
-=======
-  width: 19vw;
-  height: 80%;
-  border-radius: 8px;
->>>>>>> aab5a18f0acd05f86781167a104b191f93ed49a5
 }
 
 .modal-content video{
   height: 91vh;
-  
 }
+
 @media screen and (max-width: 768px) {
-<<<<<<< HEAD
-  .container-vyb div h2,
-  .text p {
+  .container-vyb div h2, .text p {
     font-size: 2em;
   }
   .text {
@@ -132,15 +104,6 @@
   .portada-viñedo div {
     margin: 0;
   }
-  .imgProyecto {
-=======
-  .container-vyb div h2 {
-    font-size: 2em;
-  }
-  .portada-viñedo{
-    flex-direction: column;
-    align-items: center;
-  }
   .portada-viñedo div, .viñedo-gallery div, .embalaje div, .text {
     margin: 1em auto;
   }
@@ -148,28 +111,15 @@
     font-size: 1.2em;
   }
   .imgProyecto, .viñedo-gallery div img, .cava-img div img, .embalaje div img {
->>>>>>> aab5a18f0acd05f86781167a104b191f93ed49a5
     width: 80vw;
-    width: 100%;
     height: 50vh;
     object-fit: cover;
   }
-<<<<<<< HEAD
-  .viñedo-gallery {
-    flex-direction: column;
-  }
-  .viñedo-gallery div img {
-    width: 80vw;
-  }
-  .bodega-img {
-    flex-direction: column;
-=======
   .viñedo-gallery, .bodega-img, .cava-img, .embalaje {
     flex-direction: column;
   }
   .viñedo-gallery div {
     padding: 0;
->>>>>>> aab5a18f0acd05f86781167a104b191f93ed49a5
   }
   .bodega-img div p {
     padding-bottom: 1em;
@@ -178,23 +128,7 @@
     width: 110%;
     height: 80%;
   }
-<<<<<<< HEAD
-  .cava-img {
-    flex-direction: column;
-  }
-  .cava-img div img {
-    width: 80vw;
-  }
-  .embalaje {
-    flex-direction: column;
-  }
-  .embalaje div img {
-    width: 80vw;
-  }
-  .viñedo-gallery div video {
-=======
   .viñedo-gallery div video, .embalaje div video {
->>>>>>> aab5a18f0acd05f86781167a104b191f93ed49a5
     width: 80vw;
     border-radius: 8px;
   }

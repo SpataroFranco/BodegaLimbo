@@ -15,21 +15,21 @@
   display: flex;
   justify-content: center;
 }
-.items {
+.items, .sobreNosotros {
   margin: 1.5em;
   width: max-content;
   background-color: white;
 }
-.items:hover {
+.items:hover, .sobreNosotros:hover {
   transform: scale(1.2, 1.2);
 }
-.dropdown {
+.sobreNosotros:hover .dropdown, .dropdown.active {
   display: flex;
   flex-direction: column;
   width: max-content;
-  position: sticky;
+  position: absolute;
 }
-.dropdownHidden {
+.dropdown {
   display: none;
 }
 .dropdownItem {
@@ -99,7 +99,7 @@
     align-items:center;
     padding: 0;
   }
-  .items {
+  .items, .sobreNosotros {
     margin: 0.5em 0;
   }
   .navbar.menu-open .redes {

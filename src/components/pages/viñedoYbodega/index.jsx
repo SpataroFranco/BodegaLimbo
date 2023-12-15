@@ -5,19 +5,11 @@ import bodega2 from "../../../assets/bodega2.jpeg";
 import botellas from "../../../assets/botellas.JPG";
 import nuestrosVinos from "../../../assets/nuestrosVinos.jpg";
 import reserva from "../../../assets/reservaB.jpg";
-<<<<<<< HEAD
-import botella from "../../../assets/viñedo/botella.jpg";
-import poda from "../../../assets/viñedo/poda.jpg";
-import osvaldo from "../../../assets/parafermentacionO.jpeg";
-import floracion from "../../../assets/viñedo/floracion.jpeg";
-import midiendoAzucar from "../../../assets/viñedo/midiendoAzucar.jpeg";
-=======
 import botella from "../../../assets/viniedo/botella.jpg";
 import poda from "../../../assets/viniedo/poda.jpg";
-import osvaldo from "../../../assets/parafermentacion.jpeg";
+import osvaldo from "../../../assets/parafermentacionO.jpeg";
 import floracion from "../../../assets/viniedo/floracion.jpeg";
 import midiendoAzucar from "../../../assets/viniedo/midiendoAzucar.jpeg";
->>>>>>> aab5a18f0acd05f86781167a104b191f93ed49a5
 import prensandoOrujo from "../../../assets/elaboracionVestidoEmbalaje/prensandoOrujo.mp4";
 import orujoPrensado from "../../../assets/elaboracionVestidoEmbalaje/orujoPrensado.jpeg";
 import lineaDeFraccionamiento from "../../../assets/elaboracionVestidoEmbalaje/lineadefraccionam.mp4";
@@ -25,19 +17,7 @@ import llenandoBotellas from "../../../assets/elaboracionVestidoEmbalaje/fraccio
 import encapsulando from "../../../assets/elaboracionVestidoEmbalaje/osvalencapsulando.jpeg";
 import etiquetando from "../../../assets/elaboracionVestidoEmbalaje/mariaetiquetando.jpeg";
 import cajas from "../../../assets/elaboracionVestidoEmbalaje/cajas.jpeg";
-<<<<<<< HEAD
-import cosecha1 from "../../../assets/viñedo/cintiaOri.jpg";
-import cosechaManual from "../../../assets/viñedo/nuestraCosecha.mp4";
-import cosecha3 from "../../../assets/viñedo/cosechaCajones.jpeg";
-import sueloAluvional from "../../../assets/viñedo/sueloAluvional.jpeg";
-import sueloCalcareo from "../../../assets/viñedo/sueloCalcareo.jpeg";
-import videoRiego from "../../../assets/viñedo/andreRegando.mp4";
-import cepasMalbec from "../../../assets/viñedo/cepas.jpeg";
-import iniciandoPrimavera from "../../../assets/viñedo/iniciandoLaPrimavera.jpg";
-import cargaDeRacimos from "../../../assets/elaboracionVestidoEmbalaje/moliendo.jpg";
-import seleccionRacimos from "../../../assets/elaboracionVestidoEmbalaje/seleccionRacimos.jpeg";
-=======
-import cosecha1 from "../../../assets/viniedo/cintia.jpg";
+import cosecha1 from "../../../assets/viniedo/cintiaOri.jpg";
 import cosechaManual from "../../../assets/viniedo/nuestraCosecha.mp4";
 import cosecha3 from "../../../assets/viniedo/cosechaCajones.jpeg";
 import sueloAluvional from "../../../assets/viniedo/sueloAluvional.jpeg";
@@ -45,9 +25,8 @@ import sueloCalcareo from "../../../assets/viniedo/sueloCalcareo.jpeg";
 import videoRiego from "../../../assets/viniedo/andreRegando.mp4";
 import cepasMalbec from "../../../assets/viniedo/cepas.jpeg";
 import iniciandoPrimavera from "../../../assets/viniedo/iniciandoLaPrimavera.jpg";
-import cargaDeRacimos from "../../../assets/elaboracionVestidoEmbalaje/MoliendoLIMBO.jpg";
-import seleccionRacimos from "../../../assets/elaboracionVestidoEmbalaje/seleccionRacimos.jpg";
->>>>>>> aab5a18f0acd05f86781167a104b191f93ed49a5
+import seleccionRacimos from "../../../assets/elaboracionVestidoEmbalaje/seleccionRacimos.jpeg";
+import cargaDeRacimos from "../../../assets/elaboracionVestidoEmbalaje/moliendo.jpg";
 import despalilladora from "../../../assets/elaboracionVestidoEmbalaje/despalilladora.mp4";
 import racimosMalbec from "../../../assets/viniedo/racimosMalbec.mp4";
 import procesandoMalbec from "../../../assets/elaboracionVestidoEmbalaje/procesandoMalbec.mp4";
@@ -58,24 +37,18 @@ import "./s.css";
 const Viñedoybodega = () => {
   const [selectedImage, setSelectedImage] = useState(null);
   const [selectedVideo, setSelectedVideo] = useState(null);
-
   const openImage = (image) => {
     setSelectedImage(image);
     setSelectedVideo(null);
   };
-
   const openVideo = (video) => {
     setSelectedVideo(video);
     setSelectedImage(null);
   };
-<<<<<<< HEAD
-
   const closeImageOrVideo = (e) => {
-      setSelectedImage(null);
-      setSelectedVideo(null);
+    setSelectedImage(null);
+    setSelectedVideo(null);
   };
-=======
->>>>>>> aab5a18f0acd05f86781167a104b191f93ed49a5
   return (
     <>
       <div className="container-vyb">
@@ -456,7 +429,6 @@ const Viñedoybodega = () => {
           </div>
         </div>
       )}
-
       </div>
     </>
   );
