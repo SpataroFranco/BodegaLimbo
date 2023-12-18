@@ -9,25 +9,20 @@ import s5 from "../../../assets/Sostenibilidad-5.jpg";
 import "./s.css";
 
 const Sustentabilidad = () => {
-
   const [selectedImage, setSelectedImage] = useState(null);
   const [selectedVideo, setSelectedVideo] = useState(null);
-
   const openImage = (image) => {
     setSelectedImage(image);
     setSelectedVideo(null);
   };
-
   const openVideo = (video) => {
     setSelectedVideo(video);
     setSelectedImage(null);
   };
-
   const closeImageOrVideo = (e) => {
       setSelectedImage(null);
       setSelectedVideo(null);
   };
-
   return (
     <div className="cont">
       <div className="contenedor-sostenibilidad">

@@ -3,7 +3,7 @@ import campoVirgen from "../../../assets/Campo.jpeg";
 import viñedo from "../../../assets/viniedo/viniedoMalbec2004.jpg";
 import bodega2 from "../../../assets/bodega2.jpeg";
 import botellas from "../../../assets/botellas.JPG";
-import nuestrosVinos from "../../../assets/nuestrosVinos.jpg";
+import nuestrosVinos from "../../../assets/nuestrosVinos2.jpg";
 import reserva from "../../../assets/reservaB.jpg";
 import botella from "../../../assets/viniedo/botella.jpg";
 import poda from "../../../assets/viniedo/poda.jpg";

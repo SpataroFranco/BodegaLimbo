@@ -16,7 +16,7 @@ const DropdownItem = ({ toggleMenu }) => {
     return (
         <div className="sobreNosotros" onClick={toggle}>
             <span>Sobre Nosotros</span>
-            <div className={`dropdown ${clicked ? "active" : ""}`}>
+            <div className={`dropdown ${clicked ? "active" : "dropdown"}`}>
                 <NavDropdown.Item className="dropdownItem" onClick={toggleMenu}>
                     <Link to="/quienes-somos">
                         Quiénes Somos
