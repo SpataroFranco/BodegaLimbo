@@ -1,9 +1,9 @@
 import React, { useState } from "react";
 import campoVirgen from "../../../assets/Campo.jpeg";
 import viñedo from "../../../assets/viniedo/viniedoMalbec2004.jpg";
-import bodega2 from "../../../assets/bodega2.jpeg";
-import botellas from "../../../assets/botellas.JPG";
-import nuestrosVinos from "../../../assets/nuestrosVinos2.jpg";
+import bodega2 from "../../../assets/crianzaBarricas.jpeg";
+import botellas from "../../../assets/crianzaBotella.JPG";
+import nuestrosVinos from "../../../assets/vinosCriadosBotella.jpg";
 import reserva from "../../../assets/reservaB.jpg";
 import botella from "../../../assets/viniedo/botella.jpg";
 import poda from "../../../assets/viniedo/poda.jpg";
