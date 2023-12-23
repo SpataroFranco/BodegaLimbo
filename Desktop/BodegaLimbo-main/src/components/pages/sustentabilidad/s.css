@@ -1,15 +1,19 @@
 .contenedor-sostenibilidad {
   padding: 0 6%;
+  background-size: contain;
+  background-position: center center;
 }
 
-.intro {
+.introSust {
   display: flex;
-  justify-content: space-between;
+  flex-direction: column;
+  padding: 0 6%;
 }
 
-.intro p {
-  width: 50%;
-  margin: 2% 0;
+.introSust p {
+  width: 100%;
+  font-size: 1.4em;
+  font-family: "Trade Gothic LT Std Light";
 }
 
 .img {
@@ -19,27 +23,117 @@
   margin: 2rem;
 }
 
-.img img {
-  border-right: 3px solid black;
-}
-
 .item {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  padding: 2rem;
+}
+
+.item img {
+  width: 10vw;
+}
+
+.item p {
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.4em;
 }
 
 .lista {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 3rem;
-    padding: 0;
-    margin: 0;
-    width: 80%;
-    margin: 0 auto;
+  padding: 0;
+  margin: 0;
+  width: 80%;
+  margin: 0 auto;
 }
 
-.cont{
-    margin: 4rem 0;
+.lista li {
+  padding: 12px 0;
+  font-size: 1.4em;
+  font-family: "Trade Gothic LT Std Light";
+  text-align: left;
+}
+
+.cont {
+  margin: 4rem 0;
+}
+
+.galeria {
+  margin: 2em auto;
+  display: flex;
+  justify-content: center;
+}
+
+.galeria div p {
+  margin: 0.5em 0.4em;
+}
+
+.galeria div {
+  padding-right: 48px;
+  padding-bottom: 2em;
+}
+
+.galeria div video{
+  width: 20vw;
+  height: 50vh; 
+  border-radius: 8px;
+}
+
+.galeria div img{
+  width: 20vw;
+  height: 50vh; 
+  border-radius: 8px;
+}
+
+.imagen-galeria:hover{
+  transform: scale(1.05);
+}
+
+.video-galeria:hover{
+  transform: scale(1.05);
+}
+
+.imagen-galeria{
+  object-fit: cover;
+}
+
+
+
+@media screen and (max-width: 768px) {
+  .contenedor-sostenibilidad h1 {
+    text-align: center;
+    margin: 20px 0;
+    font-size: 2em;
+  }
+  .img {
+    flex-direction: column;
+  }
+  .introSust p {
+    width: auto;
+    margin: 0;
+    text-align: justify;
+  }
+  .introSust p, .item p, .lista li, .galeria div p {
+    font-size: 1.2em;
+  }
+  .item img {
+    width: 100%;
+  }
+  .galeria {
+    width: 100%;
+    flex-direction: column;
+  }
+  .galeria div {
+    margin: 1em auto;
+    padding: 0;
+  }
+  .galeria div img {
+    width: 80vw;
+    height: 100%;
+  }
+  .galeria div video {
+    width: 70vw;
+    height: 100%;
+  }
 }

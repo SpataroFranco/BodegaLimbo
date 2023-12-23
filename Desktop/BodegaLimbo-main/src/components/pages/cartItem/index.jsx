@@ -1,5 +1,5 @@
 import "./s.css";
-import { useContext } from "react";
+import React, { useContext } from "react";
 import { CartContext } from "../../../contexts/CartContext";
 import trash from "../../../assets/trash.svg";
 

@@ -1,0 +1,92 @@
+[
+    {
+        "id": 1,
+        "titulo": "Ingreso a la finca",
+        "contenido": "/gallery/ingresoFinca.jpeg"
+      },
+      {
+        "id": 2,
+        "titulo": "Nuestra galería en verano",
+        "contenido": "/gallery/galeria.jpg"
+      },
+      {
+        "id": 3,
+        "titulo": "Nuestra galería en primavera",
+        "contenido": "/gallery/galeriabodega.jpeg"
+      },
+      {
+        "id": 4,
+        "titulo": "Rosas en verano",
+        "contenido": "/gallery/frenteConRosas.jpg"
+      },
+      {
+        "id": 5,
+        "titulo": "Prensa de 1900",
+        "contenido": "/gallery/prensa1900.jpeg"
+      },
+      {
+        "id": 6,
+        "titulo": "El barranco",
+        "contenido": "/gallery/elBarranco.jpeg"
+      },
+      {
+        "id": 7,
+        "titulo": "Vista desde el campo hacia las fincas",
+        "contenido": "/gallery/vistadesdeelcampo.jpeg"
+      },
+      {
+        "id": 8,
+        "titulo": "Contemplando las montañas",
+        "contenido": "/gallery/contemplandoLasMontanias.jpeg"
+      },
+      {
+        "id": 9,
+        "titulo": "Charla con Osvaldo",
+        "contenido": "/gallery/charlaConOsvaldo.jpeg"
+      },
+      {
+        "id": 10,
+        "titulo": "Caminando entre las viñas",
+        "contenido": "/gallery/turistas-entre-vinias.jpeg"
+      },
+      {
+        "id": 11,
+        "titulo": "Charla sobre el viñedo",
+        "contenido": "/gallery/charlaViniedo.jpeg"
+      },
+      {
+        "id": 12,
+        "titulo": "Después de la lluvia",
+        "contenido": "/gallery/despuesDeLaLluvia.jpeg"
+      },
+      {
+        "id": 13,
+        "titulo": "Probando uva Moscatel del parral de la galería",
+        "contenido": "/gallery/probandoUva.jpeg"
+      },
+      {
+        "id": 14,
+        "titulo": "Remontando",
+        "contenido": "/gallery/remontando.jpg"
+      },
+      {
+        "id": 15,
+        "titulo": "Degustando vino joven desde el tanque",
+        "contenido": "/gallery/probandodesdetanques.jpeg"
+      },
+      {
+        "id": 16,
+        "titulo": " ",
+        "contenido": "/gallery/desgustando-vinoO.JPG"
+      },
+      {
+        "id": 17,
+        "titulo": "Degustando vino reserva de barricas",
+        "contenido": "/gallery/turistas1O.jpeg"
+      },
+      {
+        "id": 18,
+        "titulo": " ",
+        "contenido": "/gallery/degustando-vino2.JPG"
+      }
+]

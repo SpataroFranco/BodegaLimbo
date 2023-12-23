@@ -5,18 +5,53 @@
     margin: 0 3em 3em 3em;
 }
 .detailImg{
-    width: 40%;
+    margin: 0 5em;
+    width: 20%;
 }
 .detailImg img{
-    width: 100%;
+    width: 90%;
 }
 .detailText{
     width: 60%;
 }
 .detail p{
     font-family: "Trade Gothic LT Std Light";
+    width: 65%;
 }
 .botones{
     width: 70%;
     display: flex;
+}
+
+@media screen and (max-width: 768px) {
+    .detail{
+        margin: 0;
+        flex-direction: column;
+        margin-bottom: 2em;
+    }
+    .detailImg {
+        width: 100%;
+    }
+    .detailImg img {
+        width: 70%;
+        margin: 0 3.5em;
+    }
+    .detailText {
+        width: 90%;
+    }
+    .detailText p {
+        font-size: 1.2em;
+        width: 100%;
+    }
+    .botones{
+        width: 100%;
+        flex-direction: column;
+    }
+    .boton{
+        width: 50%;
+        margin: auto;
+    }
+    .boton a{
+        margin-bottom: 20px;
+    }
 }

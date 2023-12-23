@@ -1,7 +1,11 @@
 .form {
     width: 40%;
-    padding: 2em 4em;
+    padding: 2em;
     font-family: "Trade Gothic LT Std Light";
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
 }
 .sent {
     width: max-content;
@@ -11,4 +15,18 @@
     background-color: rgb(218, 218, 218);
     opacity: 0.8;
     border-radius: 10px;
+}
+
+@media screen and (max-width: 768px) {
+    .sent {
+        margin: 2em 0;
+    }
+    .form {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0;
+        margin: 2em 0;
+    }
 }

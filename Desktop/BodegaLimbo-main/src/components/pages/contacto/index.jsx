@@ -1,3 +1,4 @@
+import React from "react";
 import "./s.css";
 import Form from "../form";
 import Location from "../location";
