@@ -1,0 +1,65 @@
+.contenedorVinos {
+  width: 100%;
+  margin: 3em;
+  margin-top: 5em;
+}
+
+.contenedorVinos h2 {
+  text-align: center;
+}
+
+.intro {
+  width: 100%;
+  padding: 3em;
+  background-image: url("../../../assets/fondo-sierras.png");
+  background-size: contain;
+  background-position: center center;
+}
+
+.intro p {
+  font-size: 1.2em;
+  font-family: "Trade Gothic LT Std Light";
+}
+
+.contenedorVinos h2 {
+  font-size: 2rem;
+  margin: 0;
+}
+
+@media screen and (max-width: 768px) {
+  .contenedor-vinos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .intro {
+    padding: 0;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-position: bottom;
+  }
+  .intro p {
+    width: 80vw;
+    font-size: 1.2em;
+  }
+  .contenedorVinos {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .contenedorVinos h2 {
+    width: 80vw;
+    margin: 20px 0;
+    font-size: 1.5em;
+  }
+  .list {
+    margin: 0;
+  }
+  .data {
+    width: 100vw;
+  }
+}

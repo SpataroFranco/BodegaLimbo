@@ -1,0 +1,125 @@
+.navbar {
+  background-color: white;
+  margin: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  font-family: "Trade Gothic LT Std Light";
+  font-size: 1.1em;
+}
+.secciones {
+  width: max-content;
+  display: flex;
+  justify-content: center;
+}
+.items, .sobreNosotros {
+  margin: 1.5em;
+  width: max-content;
+  background-color: white;
+}
+.items:hover, .sobreNosotros:hover {
+  transform: scale(1.2, 1.2);
+}
+.sobreNosotros:hover .dropdown, .dropdown.active {
+  display: flex;
+  flex-direction: column;
+  width: max-content;
+  position: absolute;
+}
+.dropdown {
+  display: none;
+}
+.dropdownItem {
+  font-size: 0.9em;
+  padding: 0.5em;
+  background-color: white;
+  box-shadow: 5px 5px 5px grey;
+  text-align: center;
+}
+.dropdownItem:hover {
+  font-weight: bold;
+}
+.secciones p {
+  display: flex;
+  align-items: center;
+}
+.logo {
+  width: 25vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.logo img {
+  width: 18rem;
+}
+.redes {
+  width: 25vw;
+  display: flex;
+}
+.redes img {
+  padding-left: 1em;
+  width: 2rem;
+}
+.redes img:hover {
+  transform: scale(1.2, 1.2);
+}
+.menu-button {
+    background: none;
+    cursor: pointer;
+    padding: 10px;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    display: none;
+    margin-bottom: 20px;
+  }
+
+@media screen and (max-width: 1346px) {
+  .menu-img{
+    width: 6vw;
+  }
+  .secciones p{
+    display: none;
+  }
+  .navbar.menu-open{
+    display: flex;
+    flex-direction: column;
+  }
+  .navbar.menu-open .logo{
+    display:flex;
+    justify-content: center;
+  }
+  .navbar.menu-open .secciones {
+    display: flex;
+    flex-direction: column;
+    font-size: 1.2em;
+    align-items:center;
+    padding: 0;
+  }
+  .items, .sobreNosotros {
+    margin: 0.5em 0;
+  }
+  .navbar.menu-open .redes {
+    display: flex;
+    margin: 1em 0;
+    justify-content: center;
+  }
+  .navbar .redes {
+    display: none;
+  }
+  .navbar .secciones {
+    display: none;
+  }
+  .navbar .menu-button {
+    display: block;
+    position: static;
+    border: none;
+  }
+  .logo{
+    width: 100%;
+    justify-content: left;
+  }
+}

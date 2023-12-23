@@ -1,0 +1,25 @@
+.checkout{
+    font-family: "Trade Gothic LT Std Light";
+    margin: 3em;
+}
+.checkout .boton{
+    margin: 0;
+}
+
+@media screen and (max-width: 768px) {
+    .checkout{
+        margin: 1.5em;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .checkout h3 {
+        font-size: 2em;
+    }
+    .checkout div div p {
+        font-size: 1.2em;
+    }
+    .boton button {
+        margin-top: 1em;
+    }
+}

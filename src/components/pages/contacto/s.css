@@ -1,0 +1,14 @@
+.contacto {
+    display: flex;
+    align-items: center;
+    background-image: url("../../../assets/fondo-contacto.png");
+}
+
+@media screen and (max-width: 768px) {
+    .contacto {
+        margin: 20px 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
