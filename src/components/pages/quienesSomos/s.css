@@ -154,8 +154,12 @@
   .etiquetas-text{
     align-items: center;
   }
-  .etiquetasBotellas, .etiquetasBotellas div, .contenedor-img img, .etiquetasImg div div img {
+  .etiquetasBotellas, .etiquetasBotellas div, .contenedor-img img {
     width: 100%;
+  }
+  .etiquetasImg div div img {
+    width: 90%;
+    height: 100%;
   }
   .etiquetasBotellas div {
     flex-direction: column;
@@ -163,6 +167,7 @@
   .etiquetasBotellas div img {
     margin: 1em auto;
     width: 90%;
+    height: 100%;
   }
   .galeriaQuienesSomos{
     margin: 2em 0;
