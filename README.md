@@ -1,14 +1,14 @@
-## LIMBO | Finca & Bodega
+## Limbo | Finca & Bodega
 
-UX/UI Designers: Marianela Sartor y Samuel Cárdenas
+UX/UI Designer: Marianela Sartor
 
-Frontend Developers: Franco Spataro y Christian Corona
+Full Stack Developers: Franco Spataro y Christian Corona
 
 ## Acerca del proyecto
 
 Clientes: María Cantera y Osvaldo Asens
 
-Sitio web de la Finca y Bodega Limbo, con catálogo de vinos y tienda online.
+Sitio web de Finca y Bodega Limbo, con catálogo de vinos y tienda online.
 
 Creado utilizando HTML, CSS, JavaScript y React Js. 
 
