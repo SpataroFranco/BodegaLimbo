@@ -8,7 +8,7 @@ const Form = () => {
   const [clicked, setClicked] = useState(false);
   const sendEmail = () => {
     emailjs.init("XKf7V2J_ZwcECDBKV");
-    emailjs.sendForm("service_fy5or3h", "template_a3302rn", ".form")
+    emailjs.sendForm("service_l5nnk8u", "template_a3302rn", ".form")
       .then((result) => {
         console.log("SUCCESS!", result.text);
         setClicked(true);
